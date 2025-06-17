@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
-
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const testimonials = [
   {
@@ -55,72 +55,60 @@ const testimonials = [
   },
 ];
 
-const carouselOptions = {
-  loop: true,
-  margin: 10,
-  nav: true,
-  dots: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    600: {
-      items: 2,
-    },
-    1000: {
-      items: 3,
-    },
-  },
-};
-
 export default function Testimonial() {
   return (
-    <>
-      {/* ======= Testimonials Section ======= */}
-      <section id="testimonial" className="services">
-        <div className="container" data-aos="fade-up">
-          <div className="section-header aos" data-aos="fade-up">
-            <div className="section-sub-head feature-head text-center">
-              <h2>Testimonial</h2>
-              <p>
-                Our students are working with companies. This partnership
-                provides them with a unique opportunity to apply their skills in
-                a real-world context, fostering both their academic and personal
-                growth.
-              </p>
-            </div>
+    <section id="testimonial" className="services">
+      <div className="container">
+        <div className="section-header aos">
+          <div className="section-sub-head feature-head text-center">
+            <h2>Testimonial</h2>
+            <p>
+              Our students are working with companies. This partnership provides
+              them with a unique opportunity to apply their skills in a
+              real-world context, fostering both their academic and personal
+              growth.
+            </p>
+          </div>
 
-            <OwlCarousel className="owl-theme" {...carouselOptions}>
-              {testimonials.map((testimonial, index) => (
-                <div className="item" key={index}>
-                  <div className="card-view">
-                    <div className="row">
-                      <div className="" style={{ width: 100, height: 100 }}>
-                        <img src={testimonial.image} alt={testimonial.name} />
-                      </div>
-                      <div className="col-6">
-                        <h4 style={{ paddingTop: 10 }}>{testimonial.name}</h4>
-                        <p>{testimonial.role}</p>
-                      </div>
-                      <div className="" style={{ width: 70, height: 70 }}>
-                        <img src={testimonial.companyLogo} alt="Company Logo" />
-                      </div>
+          <Swiper
+            modules={[Navigation, Pagination]}
+            navigation
+            pagination={{ clickable: true }}
+            spaceBetween={20}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              600: { slidesPerView: 2 },
+              1000: { slidesPerView: 3 },
+            }}
+          >
+            {testimonials.map((testimonial, index) => (
+              <SwiperSlide key={index}>
+                <div className="card-view">
+                  <div className="row align-items-center">
+                    <div style={{ width: 100, height: 100 }}>
+                      <img src={testimonial.image} alt={testimonial.name} />
                     </div>
-                    <div className="row">
-                      <p>
-                        <i className="fas fa-quote-left pe-2" />
-                        {testimonial.quote}
-                        <i className="fas fa-quote-right pe-2" />
-                      </p>
+                    <div className="col-6">
+                      <h4 style={{ paddingTop: 10 }}>{testimonial.name}</h4>
+                      <p>{testimonial.role}</p>
+                    </div>
+                    <div style={{ width: 70, height: 70 }}>
+                      <img src={testimonial.companyLogo} alt="Company Logo" />
                     </div>
                   </div>
+                  <div className="row">
+                    <p>
+                      <i className="fas fa-quote-left pe-2" />
+                      {testimonial.quote}
+                      <i className="fas fa-quote-right pe-2" />
+                    </p>
+                  </div>
                 </div>
-              ))}
-            </OwlCarousel>
-          </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
-      </section>
-      {/* End Testimonials Section */}
-    </>
+      </div>
+    </section>
   );
 }

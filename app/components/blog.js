@@ -1,9 +1,44 @@
+"use client";
+
+import BlogCard from "./blog/BlogCard";
+
+const blogPosts = [
+  {
+    image: "assets/img/icons/AI-Gen.jpeg",
+    title: "Artificial Intelligence",
+    description:
+      "AI blogs that publish cutting-edge research, tutorials, and news on machine learning, deep learning, NLP, and more.",
+    link: "#",
+  },
+  {
+    image: "assets/img/icons/bigData.png",
+    title: "Big Data Blogs",
+    description:
+      "The article lists renowned big data blogs widely read by industry experts and clients. Learn about data lakes and more.",
+    link: "#",
+  },
+  {
+    image: "assets/img/icons/aws-azure-google-1.webp",
+    title: "Cloud Blogs",
+    description:
+      "Explore AWS blogs to learn about Amazon Web Services like Lambda, Amplify, DynamoDB, RDS, and more.",
+    link: "#",
+  },
+  {
+    image: "assets/img/icons/dev(fsd).png",
+    title: "DevOps Blogs",
+    description:
+      "The best DevOps engineers are constantly learning. Here are the top 12 blogs to help you level up your DevOps skills.",
+    link: "#",
+  },
+];
+
 export default function Blog() {
   return (
     <>
       {/* ======= blog Section ======= */}
       <section id="blog" className="services">
-        <div className="container" data-aos="fade-up">
+        <div className="container">
           <div className="section-title">
             <h2 className=" ">Blog's</h2>
             <p className="just-align">
@@ -121,110 +156,9 @@ export default function Blog() {
       </section>
       <section className="blogs-card">
         <div className="row">
-          {/* Card 1 */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div className="card h-100 shadow-sm p-3">
-              <img
-                src="assets/img/icons/AI-Gen.jpeg"
-                className="card-img-top"
-                alt="Artificial Intelligence"
-              />
-              <div className="card-body d-flex flex-column">
-                <h5 className="card-title text-center">
-                  <b>
-                    <a href="#" className="text-decoration-none">
-                      Artificial Intelligence
-                    </a>
-                  </b>
-                </h5>
-                <p className="card-text text-center">
-                  AI blogs that publish cutting-edge research, tutorials, and
-                  news on machine learning, deep learning, NLP, and more.
-                </p>
-                <a href="#" className="btn btn-primary mt-auto">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Card 2 */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div className="card h-100 shadow-sm p-3">
-              <img
-                src="assets/img/icons/bigData.png"
-                className="card-img-top"
-                alt="Big Data Blogs"
-              />
-              <div className="card-body d-flex flex-column">
-                <h5 className="card-title text-center">
-                  <b>
-                    <a href="#" className="text-decoration-none">
-                      Big Data Blogs
-                    </a>
-                  </b>
-                </h5>
-                <p className="card-text text-center">
-                  The article lists renowned big data blogs widely read by
-                  industry experts and clients. Learn about data lakes and more.
-                </p>
-                <a href="#" className="btn btn-primary mt-auto">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Card 3 */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div className="card h-100 shadow-sm p-3">
-              <img
-                src="assets/img/icons/aws-azure-google-1.webp"
-                className="card-img-top"
-                alt="Cloud Blogs"
-              />
-              <div className="card-body d-flex flex-column">
-                <h5 className="card-title text-center">
-                  <b>
-                    <a href="#" className="text-decoration-none">
-                      Cloud Blogs
-                    </a>
-                  </b>
-                </h5>
-                <p className="card-text text-center">
-                  Explore AWS blogs to learn about Amazon Web Services like
-                  Lambda, Amplify, DynamoDB, RDS, and more.
-                </p>
-                <a href="#" className="btn btn-primary mt-auto">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Card 4 */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div className="card h-100 shadow-sm p-3">
-              <img
-                src="assets/img/icons/dev(fsd).png"
-                className="card-img-top"
-                alt="DevOps Blogs"
-              />
-              <div className="card-body d-flex flex-column">
-                <h5 className="card-title text-center">
-                  <b>
-                    <a href="#" className="text-decoration-none">
-                      DevOps Blogs
-                    </a>
-                  </b>
-                </h5>
-                <p className="card-text text-center">
-                  The best DevOps engineers are constantly learning. Here are
-                  the top 12 DevOps blogs.
-                </p>
-                <a href="#" className="btn btn-primary mt-auto">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
+          {blogPosts.map((post, index) => (
+            <BlogCard key={index} {...post} />
+          ))}
         </div>
         <a
           href="https://mujahed85.github.io/Blogs/"

@@ -2,7 +2,7 @@ export default function Services() {
   return (
     <>
       <section id="services" className="services">
-        <div className="container" data-aos="fade-up">
+        <div className="container">
           <div className="section-title">
             <h2 className=" ">Services</h2>
             <p className="just-align">

@@ -51,7 +51,7 @@ export default function Contact() {
     <>
       {/* ======= Contact Section ======= */}
       <section id="contact" className="contact">
-        <div className="container" data-aos="fade-up">
+        <div className="container">
           <div className="section-title">
             <h2 className=" ">Contact</h2>
           </div>
