@@ -163,8 +163,9 @@ export default function Blog() {
         <a
           href="https://mujahed85.github.io/Blogs/"
           className="btn btn-primary mt-auto"
+          aria-label="Read other blogs written by Mujahed Hussaini"
         >
-          Read More
+          Read other blogs written by Mujahed Hussaini
         </a>
       </section>
       {/* End blog Section */}
