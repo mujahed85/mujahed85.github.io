@@ -2,7 +2,6 @@
 import { Open_Sans, Raleway, Poppins } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import Preloader from "./components/Preloader";
 
 // Vendor & Gallery Styles (move all CSS imports here)
 import "../public/assets/vendor/bootstrap/css/bootstrap.min.css";
@@ -71,7 +70,6 @@ export default function RootLayout({ children }) {
       <body>
         <link rel="stylesheet" href="/assets/gallery-assets/css/style.css" />
 
-        <Preloader />
         {children}
         {/* Global Scripts */}
 

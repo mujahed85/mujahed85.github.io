@@ -1,28 +1,33 @@
 "use client";
-import React, { useEffect, useState } from "react";
 
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import Preloader from "./components/Preloader";
 import Header from "./components/header";
 import Hero from "./components/hero";
-import About from "./components/about";
-import Skills from "./components/skills";
-import Resume from "./components/resume";
-import Skill from "./components/skill";
-import Gallery from "./components/gallery";
-import Testimonial from "./components/testimonial";
-import Blog from "./components/blog";
-import Services from "./components/services";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
+
+// Lazy-loaded components
+import dynamic from "next/dynamic";
+
+const About = dynamic(() => import("./components/about"));
+const Skills = dynamic(() => import("./components/skills"));
+const Resume = dynamic(() => import("./components/resume"));
+const Skill = dynamic(() => import("./components/skill"));
+const Gallery = dynamic(() => import("./components/gallery"));
+const Testimonial = dynamic(() => import("./components/testimonial"));
+const Blog = dynamic(() => import("./components/blog"));
+const Services = dynamic(() => import("./components/services"));
+const Contact = dynamic(() => import("./components/contact"));
+const Footer = dynamic(() => import("./components/footer"));
 
 const sectionIds = [
   "hero",
   "about",
   "skills",
   "resume",
-  "Skill", // fixed to lowercase
+  "Skill",
   "gallery",
   "blog",
   "services",
@@ -31,8 +36,17 @@ const sectionIds = [
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("");
+  const [isInitialLoaded, setIsInitialLoaded] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   useEffect(() => {
+    AOS.init({ duration: 100, once: false });
+  }, []);
+
+  // Load observer for section nav highlighting
+  useEffect(() => {
+    if (!isInitialLoaded) return;
+
     const observerOptions = {
       root: null,
       rootMargin: "0px",
@@ -45,65 +59,68 @@ export default function Home() {
         const navLink = document.querySelector(`.nav-menu a[href="#${id}"]`);
 
         if (entry.isIntersecting) {
-          // Update active section state
           setActiveSection(id || "");
-
-          // Optionally handle the active class directly here as well
           document.querySelectorAll(".nav-menu a").forEach((link) => {
             link.classList.remove("active");
           });
-
-          if (navLink) {
-            navLink.classList.add("active");
-          }
+          if (navLink) navLink.classList.add("active");
         }
       });
     }, observerOptions);
 
-    // Observe all section elements
     sectionIds.forEach((id) => {
       const section = document.getElementById(id);
       if (section) observer.observe(section);
     });
 
     return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    AOS.init({
-      duration: 100,
-      once: false,
-    });
-  }, []);
-  const [isNavOpen, setIsNavOpen] = useState(false);
+  }, [isInitialLoaded]);
 
   const handleToggle = () => {
     document.body.classList.toggle("mobile-nav-active");
     setIsNavOpen(!isNavOpen);
-    console.log("Toggle clicked"); // You can put `debugger;` here
   };
+
+  // Wait until Header and Hero have mounted
+  useEffect(() => {
+    // Simulate load delay (you could do a real check here)
+    const timer = setTimeout(() => {
+      setIsInitialLoaded(true);
+    }, 1000); // You can tweak the timeout
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
+      {!isInitialLoaded && <Preloader />}
+
       <i
         className={`bi mobile-nav-toggle d-lg-none ${
           isNavOpen ? "bi-x" : "bi-list"
         }`}
         onClick={handleToggle}
       ></i>
+
       <Header activeSection={activeSection} />
       <Hero />
-      <main id="main">
-        <About />
-        <Skills />
-        <Resume />
-        <Skill />
-        <Gallery />
-        <Testimonial />
-        <Blog />
-        <Services />
-        <Contact />
-      </main>
-      <Footer />
+
+      {isInitialLoaded && (
+        <>
+          <main id="main">
+            <About />
+            <Skills />
+            <Resume />
+            <Skill />
+            <Gallery />
+            <Testimonial />
+            <Blog />
+            <Services />
+            <Contact />
+          </main>
+          <Footer />
+        </>
+      )}
     </>
   );
 }
