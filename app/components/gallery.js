@@ -36,12 +36,12 @@ export default function Gallery() {
       height: 600,
       alt: "Event Image - Mujahed Hussaini",
     },
-    {
-      src: "assets/img/Mujahed/SelectedImages/Gallery/IMG_20200228_160535.jpg",
-      width: 800,
-      height: 600,
-      alt: "Nature Scene - Mujahed Hussaini",
-    },
+    // {
+    //   src: "assets/img/Mujahed/SelectedImages/Gallery/IMG_20200228_160535.jpg",
+    //   width: 800,
+    //   height: 600,
+    //   alt: "Nature Scene - Mujahed Hussaini",
+    // },
     {
       src: "assets/img/Mujahed/SelectedImages/Gallery/IMG_20200309_164930.jpg",
       width: 800,
@@ -89,17 +89,22 @@ export default function Gallery() {
             >
               {photos.map((photo, i) => (
                 <SwiperSlide key={i}>
-                  <a
-                    className="gallery-item-link" // Add a class for styling
+                  <button
+                    className="gallery-item-link"
                     onClick={() => setIndex(i)}
-                    style={{ cursor: "pointer" }}
+                    style={{
+                      cursor: "pointer",
+                      padding: 0,
+                      border: "none",
+                      background: "none",
+                    }}
                   >
                     <img
                       src={photo.src}
                       alt={photo.alt}
-                      style={{ width: "100%", height: "auto" }} // Basic styling
+                      style={{ width: "100%", height: "auto" }}
                     />
-                  </a>
+                  </button>
                 </SwiperSlide>
               ))}
             </Swiper>
