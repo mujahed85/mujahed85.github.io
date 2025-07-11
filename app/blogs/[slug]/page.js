@@ -4,8 +4,6 @@ import blogsData from '@/app/data/blogs.json'; // Importing the blogs data
 
 // This function tells Next.js which slugs to statically generate at build time.
 export async function generateStaticParams() {
-  // Return an array of objects, where each object has a `slug` property
-  // that corresponds to a blog post.
   return blogsData.map((post) => ({
     slug: post.slug,
   }));
@@ -30,8 +28,6 @@ export async function generateMetadata({ params }) {
 
 
 export default function BlogPostPage({ params }) {
-  // The `params` object contains the dynamic route parameters.
-  // In our case, it will be { slug: 'my-first-post' }
   const { slug } = params;
 
   // Find the specific blog post from our data based on the slug.
@@ -43,13 +39,13 @@ export default function BlogPostPage({ params }) {
   }
 
   return (
-    <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
-      <a href="/blogs" style={{ color: '#0070f3' }}>← Back to Blogs</a>
-      <h1 style={{ marginTop: '1.5rem' }}>{post.title}</h1>
-      <p style={{ fontStyle: 'italic', color: '#555' }}>
+    <div className="blog-container">
+      <a href="/blogs" className="back-link">← Back to Blogs</a>
+      <h1 className="blog-title">{post.title}</h1>
+      <p className="blog-meta">
         By {post.author} on {post.date}
       </p>
-      <div style={{ marginTop: '2rem', lineHeight: '1.6' }}>
+      <div className="blog-content">
         <p>{post.content}</p>
       </div>
     </div>

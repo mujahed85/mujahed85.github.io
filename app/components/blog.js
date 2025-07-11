@@ -8,28 +8,28 @@ const blogPosts = [
     title: "Artificial Intelligence",
     description:
       "AI blogs that publish cutting-edge research, tutorials, and news on machine learning, deep learning, NLP, and more.",
-    link: "#",
+    link: "http://localhost:3000/blogs/Big-data",
   },
   {
     image: "assets/img/icons/bigData.png",
     title: "Big Data Blogs",
     description:
       "The article lists renowned big data blogs widely read by industry experts and clients. Learn about data lakes and more.",
-    link: "#",
+    link: "/blogs/Big-data",
   },
   {
     image: "assets/img/icons/aws-azure-google-1.webp",
     title: "Cloud Blogs",
     description:
       "Explore AWS blogs to learn about Amazon Web Services like Lambda, Amplify, DynamoDB, RDS, and more.",
-    link: "#",
+    link: "blogs/learning-cloud-computing",
   },
   {
     image: "assets/img/icons/dev(fsd).png",
     title: "DevOps Blogs",
     description:
       "The best DevOps engineers are constantly learning. Here are the top 12 blogs to help you level up your DevOps skills.",
-    link: "#",
+    link: "blogs/devops",
   },
 ];
 
