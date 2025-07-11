@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "My First Post",
+    "slug": "my-first-post",
+    "author": "John Doe",
+    "date": "2023-10-26",
+    "content": "This is the content of my very first blog post. Welcome to my new blog! We will be discussing various topics related to web development."
+  },
+  {
+    "id": 2,
+    "title": "Learning Next.js App Router",
+    "slug": "learning-nextjs-app-router",
+    "author": "Jane Smith",
+    "date": "2023-10-27",
+    "content": "The Next.js App Router is a powerful new feature. It introduces server components, layouts, and a new way of thinking about routing. This post will explore the basics."
+  },
+  {
+    "id": 3,
+    "title": "Styling in Next.js",
+    "slug": "styling-in-nextjs",
+    "author": "John Doe",
+    "date": "2023-10-28",
+    "content": "There are many ways to style a Next.js application, from CSS Modules to Tailwind CSS and styled-components. Let's take a look at the pros and cons of each approach."
+  }
+]
