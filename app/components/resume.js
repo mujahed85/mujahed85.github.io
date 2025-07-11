@@ -71,6 +71,7 @@ export default function Resume() {
                     "mced.png",
                     "sfk-logo.png",
                   ],
+                  ["goldman.png","johnhancock.png","wellsfargo.png","pimco.png"], 
                 ].map((row, idx) => (
                   <li key={`industrial-${idx}`}>
                     {row.map((file, i) => (
@@ -102,38 +103,44 @@ export default function Resume() {
             <div className="resume-item">
               <ul className="disc">
                 {[
-                  ["healthcare-pharmaceuticals-1646306545[1].png"],
-                  ["Cognizant.png", "Capgemini.png", "ITC.png", "Incedo.png"],
                   [
-                    "johnDeere.avif",
-                    "ltiM.png",
+                    "healthcare-pharmaceuticals-1646306545[1].png",
+                    "BMW.png",
+                    "IBM.png",
+                    "nuvepro.png",
+                  ],
+                  [
+                    "Cloudadda.png",
+                    "pepkor.png",
+                    "Cognizant.png",
+                    "Capgemini.png",
+                  ],
+                  ["ITC.png", "Incedo.png", "johnDeere.avif", "ltiM.png"],
+                  [
                     "Nokia-Logo.wine.png",
                     "nse.png",
-                  ],
-                  [
                     "shell.png",
                     "tataPower.jpg",
+                  ],
+                  [
                     "Vodafone_Logo.png",
                     "ZenSar.jpg",
-                  ],
-                  [
                     "EdgeVerve_Infosys_Logo.jpg",
                     "disney.png",
+                  ],
+                  [
                     "Telstra_logo.webp",
                     "GreatLearning.png",
-                  ],
-                  [
                     "edureka.png",
                     "cgi.jpg",
-                    "VTEST-LOGO-PNG.png",
-                    "Nobleprog_0.png",
                   ],
                   [
+                    "VTEST-LOGO-PNG.png",
+                    "Nobleprog_0.png",
                     "rexor-logo.jpeg",
                     "sonicbolt.png",
-                    "cyforislogo-.png",
-                    "PDO.png",
                   ],
+                  ["cyforislogo-.png", "PDO.png"],
                 ].map((row, idx) => (
                   <li key={`corporate-${idx}`}>
                     {row.map((file, i) => (
