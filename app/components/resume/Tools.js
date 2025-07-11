@@ -28,14 +28,27 @@ const Tools = () => {
         </ul>
       </div>
       <div className="resume-item">
-        <h4>Big-Data</h4>
+        <h4>Big Data</h4>
         <ul>
-          <li>Big Data &amp; Data Lake(Hadoop, Spark &amp; Databricks)</li>
-          <li>AI &amp; Data Science(ML,DL, NN, NLU, NLP, TensorFlow, OpenCV)</li>
-          <li>Hadoop (Apache-MapReduce, HDFS, Cloudera)</li>
-          <li>Spark (Core, PySpark, SQL Spark, Scala Spark)</li>
-          <li>Databricks (Architecture E2, Runtime, Delta Lake house &amp; Engine, MLFlow)</li>
-          <li>Other BigData Eco Sys (Apache Kafka, HBase, Hive, Cassandra)</li>
+          <li>Big Data & Data Lake (Hadoop, Spark, Databricks, Delta Lake, Lakehouse Architecture)</li>
+          <li>Hadoop Ecosystem (HDFS, Apache MapReduce, YARN, Hive, Pig, HBase, Oozie, Zookeeper, Cloudera, Hortonworks)</li>
+          <li>Spark Ecosystem (Core, PySpark, Spark SQL, Structured Streaming, MLlib, GraphX, Scala Spark)</li>
+          <li>Databricks (Architecture, Runtime, Delta Lakehouse, MLflow, AutoML, Unity Catalog)</li>
+          <li>Streaming & Messaging (Apache Kafka, Apache Flink, Apache Pulsar, AWS Kinesis, Google Pub/Sub)</li>
+          <li>Big Data Storage & Query Engines (Cassandra, Presto/Trino, Apache Druid, Apache Impala, Elasticsearch, ClickHouse)</li>
+          <li>Data Pipeline & Workflow Orchestration (Apache Airflow, Apache NiFi, Luigi, Prefect, StreamSets)</li>
+          <li>DataOps & Automation (ETL/ELT Automation, Data Versioning, Data Lineage, Data Quality Tools, Great Expectations)</li>
+          <li>Cloud Big Data Services
+            <ul>
+              <li>AWS (EMR, Glue, Redshift, Athena, Lake Formation)</li>
+              <li>Azure (HDInsight, Synapse Analytics, Data Factory, Data Lake Storage)</li>
+              <li>GCP (Dataproc, BigQuery, Dataflow, Pub/Sub, Looker)</li>
+            </ul>
+          </li>
+          <li>Data Visualization & BI Tools (Tableau, Power BI, Looker, Grafana, Superset)</li>
+          <li>Security & Governance (Data Encryption, IAM, GDPR Compliance, Apache Ranger, Apache Atlas)</li>
+          <li>Containers & Orchestration (Docker, Kubernetes, Helm Charts for Big Data Workloads)</li>
+          <li>Performance Tuning & Optimization (Partitioning, Caching, Query Optimization, Cost-Based Optimizer)</li>
         </ul>
       </div>
     </>
