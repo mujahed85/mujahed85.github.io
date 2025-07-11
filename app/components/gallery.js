@@ -36,12 +36,60 @@ export default function Gallery() {
       height: 600,
       alt: "Event Image - Mujahed Hussaini",
     },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/IMG_20200228_160535.jpg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "Nature Scene - Mujahed Hussaini",
-    // },
+    {
+      src: "assets/gallery-assets/img/1.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 1",
+    },
+    {
+      src: "assets/gallery-assets/img/2.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 2",
+    },
+    {
+      src: "assets/gallery-assets/img/3.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 3",
+    },
+    {
+      src: "assets/gallery-assets/img/4.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 4",
+    },
+    {
+      src: "assets/gallery-assets/img/5.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 5",
+    },
+    {
+      src: "assets/gallery-assets/img/6.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 6",
+    },
+    {
+      src: "assets/gallery-assets/img/7.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 7",
+    },
+    {
+      src: "assets/gallery-assets/img/8.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 8",
+    },
+    {
+      src: "assets/gallery-assets/img/9.jpeg",
+      width: 800,
+      height: 600,
+      alt: "online 9",
+    },
     {
       src: "assets/img/Mujahed/SelectedImages/Gallery/IMG_20200309_164930.jpg",
       width: 800,
@@ -74,8 +122,9 @@ export default function Gallery() {
       <section id="gallery" className="hero__section">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2 className="">Photo Gallery</h2>
+            <h2>Photo Gallery</h2>
           </div>
+
           <div className="hero-slider">
             <Swiper
               modules={[Navigation, Pagination, Autoplay]}
@@ -85,7 +134,7 @@ export default function Gallery() {
               pagination={{ clickable: true }}
               autoplay={{ delay: 3000, disableOnInteraction: false }}
               loop={true}
-              className="mySwiper" // You can style this class
+              className="mySwiper"
             >
               {photos.map((photo, i) => (
                 <SwiperSlide key={i}>
@@ -97,22 +146,36 @@ export default function Gallery() {
                       padding: 0,
                       border: "none",
                       background: "none",
+                      display: "block",
+                      width: "100%",
                     }}
                   >
-                    <img
-                      src={photo.src}
-                      alt={photo.alt}
-                      style={{ width: "100%", height: "auto" }}
-                    />
+                    <div
+                      style={{
+                        width: "100%",
+                        height: "500px", // ✅ set uniform height
+                        overflow: "hidden",
+                      }}
+                    >
+                      <img
+                        src={photo.src}
+                        alt={photo.alt}
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover", // ✅ ensures same visual size
+                          display: "block",
+                        }}
+                      />
+                    </div>
                   </button>
                 </SwiperSlide>
               ))}
             </Swiper>
           </div>
+
+          {/* Optional hidden text slider */}
           <div style={{ display: "none" }} className="hero-text-slider">
-            {/* The text slider part is hidden, but if you want to integrate it
-                with the Swiper, you can use Swiper's "thumbs" or
-                "controller" modules to link two Swiper instances. */}
             <div className="text-item">
               <h2>Nature</h2>
               <p>Photography</p>
@@ -145,6 +208,7 @@ export default function Gallery() {
         </div>
       </section>
 
+      {/* Lightbox */}
       <Lightbox
         slides={slides}
         open={index >= 0}
