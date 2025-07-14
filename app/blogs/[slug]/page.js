@@ -1,53 +1,69 @@
-// app/blogs/[slug]/page.js
 import { notFound } from 'next/navigation';
-import blogsData from '@/app/data/blogs.json'; // Importing the blogs data  
+import blogsData from '@/app/data/blogs.json';
+import { format } from 'date-fns';
 
-// This function tells Next.js which slugs to statically generate at build time.
+// Generate static paths at build time
 export async function generateStaticParams() {
+  if (!Array.isArray(blogsData)) return [];
+
   return blogsData.map((post) => ({
     slug: post.slug,
   }));
 }
 
-// This function generates metadata (like the page title) for each blog post.
+// Generate page metadata for SEO
 export async function generateMetadata({ params }) {
-  const { slug } = params;
-  const post = blogsData.find((p) => p.slug === slug);
+  const post = blogsData.find((p) => p.slug === params.slug);
 
   if (!post) {
-    return {
-      title: 'Post Not Found'
-    };
+    return { title: 'Post Not Found' };
   }
 
   return {
     title: post.title,
-    description: `Read the blog post titled "${post.title}" by ${post.author}.`
+    description: `Read "${post.title}" by ${post.author}.`,
   };
 }
 
-
+// Blog post page component
 export default function BlogPostPage({ params }) {
   const { slug } = params;
-
-  // Find the specific blog post from our data based on the slug.
   const post = blogsData.find((p) => p.slug === slug);
 
-  // If no post is found for the given slug, show the 404 page.
   if (!post) {
     notFound();
   }
 
   return (
-    <div className="blog-container">
-      <a href="/blogs" className="back-link">← Back to Blogs</a>
-      <h1 className="blog-title">{post.title}</h1>
-      <p className="blog-meta">
-        By {post.author} on {post.date}
-      </p>
-      <div className="blog-content">
-        <p>{post.content}</p>
-      </div>
+    <div className="container my-5">
+      <a href="/blogs" className="btn btn-link mb-3">&larr; Back to Blogs</a>
+
+      <article>
+        <header className="mb-4">
+          <h1 className="display-5 fw-bold">{post.title}</h1>
+          <p className="text-muted mb-1">
+            By <strong>{post.author}</strong> on{' '}
+            <time dateTime={post.date}>
+              {format(new Date(post.date), 'MMMM dd, yyyy')}
+            </time>
+          </p>
+          <p className="text-secondary small fst-italic">{post.readingTime}</p>
+          <div className="mt-2">
+            {post.tags?.map((tag) => (
+              <span key={tag} className="badge bg-secondary me-2">
+                #{tag}
+              </span>
+            ))}
+          </div>
+        </header>
+
+        <section
+          className="blog-content"
+          dangerouslySetInnerHTML={{
+            __html: post.content.replace(/\n/g, '<br/>'),
+          }}
+        />
+      </article>
     </div>
   );
 }
