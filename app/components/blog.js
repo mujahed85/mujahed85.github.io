@@ -8,14 +8,14 @@ const blogPosts = [
     title: "Artificial Intelligence",
     description:
       "AI blogs that publish cutting-edge research, tutorials, and news on machine learning, deep learning, NLP, and more.",
-    link: "/blogs/Big-data",
+    link: "blogs/big-artificial-intelligence",
   },
   {
     image: "assets/img/icons/bigData.png",
     title: "Big Data Blogs",
     description:
       "The article lists renowned big data blogs widely read by industry experts and clients. Learn about data lakes and more.",
-    link: "/blogs/Big-data",
+    link: "blogs/Big-data",
   },
   {
     image: "assets/img/icons/aws-azure-google-1.webp",
@@ -161,7 +161,7 @@ export default function Blog() {
           ))}
         </div>
         <a
-          href="https://mujahed85.github.io/blogs/"
+          href="/blogs"
           className="btn btn-primary mt-auto"
           aria-label="Read other blogs written by Mujahed Hussaini"
         >
