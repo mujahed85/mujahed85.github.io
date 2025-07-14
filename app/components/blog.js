@@ -8,7 +8,7 @@ const blogPosts = [
     title: "Artificial Intelligence",
     description:
       "AI blogs that publish cutting-edge research, tutorials, and news on machine learning, deep learning, NLP, and more.",
-    link: "http://localhost:3000/blogs/Big-data",
+    link: "/blogs/Big-data",
   },
   {
     image: "assets/img/icons/bigData.png",
@@ -161,7 +161,7 @@ export default function Blog() {
           ))}
         </div>
         <a
-          href="https://mujahed85.github.io/Blogs/"
+          href="https://mujahed85.github.io/blogs/"
           className="btn btn-primary mt-auto"
           aria-label="Read other blogs written by Mujahed Hussaini"
         >
