@@ -160,13 +160,6 @@ export default function Blog() {
             <BlogCard key={index} {...post} />
           ))}
         </div>
-        <a
-          href="/blogs"
-          className="btn btn-primary mt-auto"
-          aria-label="Read other blogs written by Mujahed Hussaini"
-        >
-          Read other blogs written by Mujahed Hussaini
-        </a>
       </section>
       {/* End blog Section */}
     </>
