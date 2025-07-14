@@ -17,7 +17,7 @@ const testimonials = [
     name: "Hasnain G",
     role: "Software Engineer At TCS",
     image: "assets/img/user/husnain-g-removebg-preview.png",
-    companyLogo: "assets/img/client-logo/shell.png",
+    companyLogo: "assets/img/client-logo/TCS.png",
     quote:
       "The DevOps Training here is incredibly thorough and helped me gain practical skills quickly. The teaching staff is excellent, and the real-time projects were very beneficial.",
   },
