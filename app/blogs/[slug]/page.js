@@ -1,8 +1,8 @@
 import { notFound } from 'next/navigation';
 import blogsData from '@/app/data/blogs.json';
 import { format } from 'date-fns';
+import BlogContent from './BlogContent';
 
-// Generate static paths at build time
 export async function generateStaticParams() {
   if (!Array.isArray(blogsData)) return [];
 
@@ -11,7 +11,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// Generate page metadata for SEO
 export async function generateMetadata({ params }) {
   const post = blogsData.find((p) => p.slug === params.slug);
 
@@ -25,7 +24,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// Blog post page component
 export default function BlogPostPage({ params }) {
   const { slug } = params;
   const post = blogsData.find((p) => p.slug === slug);
@@ -57,12 +55,8 @@ export default function BlogPostPage({ params }) {
           </div>
         </header>
 
-        <section
-          className="blog-content"
-          dangerouslySetInnerHTML={{
-            __html: post.content.replace(/\n/g, '<br/>'),
-          }}
-        />
+        {/* Client Component for rendering Markdown */}
+        <BlogContent content={post.content} />
       </article>
     </div>
   );
