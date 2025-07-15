@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "DevOps – Bridging Development & Operations for Agile Success",
+    "slug": "devops",
+    "author": "Mujahid Hussaini",
+    "date": "2025-07-11",
+    "tags": ["DevOps", "CI/CD", "Automation", "Cloud"],
+    "readingTime": "8 min read",
+    "image": "assets/img/icons/dev(fsd).png",
+    "description": "Discover how DevOps aligns teams to streamline delivery, automate workflows, and improve collaboration for agile success."
+  },
+  {
+    "id": 2,
+    "title": "Learning Cloud Computing",
+    "slug": "learning-cloud-computing",
+    "author": "Mujahid Hussaini",
+    "date": "2023-10-27",
+    "image": "assets/img/icons/aws-azure-google-1.webp",
+    "description": "Learn the basics of cloud computing, including models, services, and how to use them efficiently in modern development."
+  },
+  {
+    "id": 3,
+    "title": "Big-data",
+    "slug": "Big-data",
+    "author": "Mujahid Hussaini",
+    "date": "2023-10-28",
+    "image": "assets/img/icons/bigData.png",
+    "tags": ["Big Data", "Data Lakes", "Analytics", "Machine Learning"],
+    "readingTime": "12 min read",
+    "description": "Understand what Big Data is, the tools it uses, and how it’s applied across industries for deep insights and predictions."
+  },
+  {
+    "id": 4,
+    "title": "Artificial Intelligence – From Smart Algorithms to World-Changing Innovation",
+    "slug": "big-artificial-intelligence",
+    "author": "Mujahid Hussaini",
+    "date": "2025-07-14",
+    "tags": ["AI", "Machine Learning", "Deep Learning", "Generative AI"],
+    "readingTime": "10 min read",
+    "image": "assets/img/icons/AI-Gen.jpeg",
+    "description": "Explore AI technologies, real-world applications, and ethical implications shaping the future of intelligent automation."
+  }
+]
