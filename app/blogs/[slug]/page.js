@@ -1,62 +1,63 @@
 import { notFound } from 'next/navigation';
-import blogsData from '@/app/data/blogs.json';
 import { format } from 'date-fns';
 import BlogContent from './BlogContent';
+import path from 'path';
+import fs from 'fs';
 
 export async function generateStaticParams() {
-  if (!Array.isArray(blogsData)) return [];
-
-  return blogsData.map((post) => ({
-    slug: post.slug,
-  }));
+  // List all .md files in posts/ and return their slugs
+  const postsDir = path.join(process.cwd(), 'posts');
+  let slugs = [];
+  try {
+    slugs = fs.readdirSync(postsDir)
+      .filter((file) => file.endsWith('.md'))
+      .map((file) => ({ slug: file.replace(/\.md$/, '') }));
+  } catch (e) {}
+  return slugs;
 }
 
 export async function generateMetadata({ params }) {
-  const post = blogsData.find((p) => p.slug === params.slug);
-
-  if (!post) {
+  const { slug } = params;
+  // Try to read the first line as title, fallback to slug
+  const mdPath = path.join(process.cwd(), 'posts', `${slug}.md`);
+  try {
+    const file = fs.readFileSync(mdPath, 'utf8');
+    const firstLine = file.split('\n')[0];
+    const title = firstLine.replace(/^#+\s*/, '') || slug;
+    return {
+      title,
+      description: `Read "${title}"`,
+    };
+  } catch {
     return { title: 'Post Not Found' };
   }
-
-  return {
-    title: post.title,
-    description: `Read "${post.title}" by ${post.author}.`,
-  };
 }
 
-export default function BlogPostPage({ params }) {
-  const { slug } = params;
-  const post = blogsData.find((p) => p.slug === slug);
+async function getMarkdownContent(slug) {
+  const mdPath = path.join(process.cwd(), 'posts', `${slug}.md`);
+  try {
+    const file = fs.readFileSync(mdPath, 'utf8');
+    return file;
+  } catch (e) {
+    return null;
+  }
+}
 
-  if (!post) {
+export default async function BlogPostPage({ params }) {
+  const { slug } = params;
+  const markdownContent = await getMarkdownContent(slug);
+  if (!markdownContent) {
     notFound();
   }
-
+  const githubEditUrl = `https://github.com/mujahed85/m80/edit/master/posts/${slug}.md`;
   return (
     <div className="container my-5">
       <a href="/blogs" className="btn btn-link mb-3">&larr; Back to Blogs</a>
-
+      <a href={githubEditUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mb-3 ms-2">
+        Edit on GitHub
+      </a>
       <article>
-        <header className="mb-4">
-          <h1 className="display-5 fw-bold">{post.title}</h1>
-          <p className="text-muted mb-1">
-            By <strong>{post.author}</strong> on{' '}
-            <time dateTime={post.date}>
-              {format(new Date(post.date), 'MMMM dd, yyyy')}
-            </time>
-          </p>
-          <p className="text-secondary small fst-italic">{post.readingTime}</p>
-          <div className="mt-2">
-            {post.tags?.map((tag) => (
-              <span key={tag} className="badge bg-secondary me-2">
-                #{tag}
-              </span>
-            ))}
-          </div>
-        </header>
-
-        {/* Client Component for rendering Markdown */}
-        <BlogContent content={post.content} />
+        <BlogContent content={markdownContent} />
       </article>
     </div>
   );
