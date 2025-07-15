@@ -2,7 +2,7 @@
 
 import BlogCard from "../components/blog/BlogCard";
 
-import blogsData from '@/app/data/blogs.json';
+import blogsData from '@/posts/data/blogs.json';
 
 export default function BlogListPage() {
   return (
@@ -21,6 +21,8 @@ export default function BlogListPage() {
           />
         ))}
       </div>
+
+
     </div>
   );
 }
