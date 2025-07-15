@@ -49,7 +49,7 @@ export default async function BlogPostPage({ params }) {
   if (!markdownContent) {
     notFound();
   }
-  const githubEditUrl = `https://github.com/mujahed85/m80/edit/master/posts/${slug}.md`;
+  const githubEditUrl = `https://github.com/mujahed85/mujahed85.github.io//edit/master/posts/${slug}.md`;
   return (
     <div className="container my-5">
       <a href="/blogs" className="btn btn-link mb-3">&larr; Back to Blogs</a>
