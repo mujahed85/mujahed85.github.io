@@ -16,6 +16,7 @@
     "slug": "learning-cloud-computing",
     "author": "Mujahid Hussaini",
     "date": "2023-10-27",
+    "tags": ["Cloud Computing", "AWS", "Azure", "Google Cloud"],
     "image": "assets/img/icons/aws-azure-google-1.webp",
     "description": "Learn the basics of cloud computing, including models, services, and how to use them efficiently in modern development."
   },
