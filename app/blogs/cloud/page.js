@@ -12,6 +12,7 @@ export default function CloudBlogListPage() {
 
   return (
     <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
+      <a href="/blogs" className="btn btn-secondary mb-3">&larr; All Blog Categories</a>
       <h1 className="mb-3">Cloud Blogs</h1>
       <p>Here are the latest posts about Cloud Computing.</p>
       <div className="row mt-4">

@@ -12,6 +12,7 @@ export default function BigDataBlogListPage() {
 
   return (
     <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
+      <a href="/blogs" className="btn btn-secondary mb-3">&larr; All Blog Categories</a>
       <h1 className="mb-3">Big Data Blogs</h1>
       <p>Here are the latest posts about Big Data and Analytics.</p>
       <div className="row mt-4">
