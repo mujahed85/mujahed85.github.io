@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
-import { format } from 'date-fns';
-import BlogContent from './BlogContent';
+import BlogContent from '../[slug]/BlogContent';
 import path from 'path';
 import fs from 'fs';
 
@@ -12,14 +11,16 @@ export async function generateStaticParams() {
     slugs = fs.readdirSync(postsDir)
       .filter((file) => file.endsWith('.md'))
       .map((file) => ({ slug: file.replace(/\.md$/, '') }));
-  } catch (e) {}
+  } catch (e) {console.error("Error reading posts directory:", e);}
+  console.log("Generated slugs:", slugs);
   return slugs;
 }
 
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const slug  = "big-artificial-intelligence";
+  console.log("Generating metadata for slug:", slug);
   // Try to read the first line as title, fallback to slug
-  const mdPath = path.join(process.cwd(), 'posts', `${slug}.md`);
+  const mdPath = path.join(process.cwd(), 'posts', `${slug}.md`)    ;
   try {
     const file = fs.readFileSync(mdPath, 'utf8');
     const firstLine = file.split('\n')[0];
@@ -44,7 +45,7 @@ async function getMarkdownContent(slug) {
 }
 
 export default async function BlogPostPage({ params }) {
-  const { slug } = params;
+  const { slug } = { slug: "big-artificial-intelligence" };
   const markdownContent = await getMarkdownContent(slug);
   if (!markdownContent) {
     notFound();
@@ -62,3 +63,7 @@ export default async function BlogPostPage({ params }) {
     </div>
   );
 }
+
+// export default function BlogListPage() {
+//     return <h1>Blog List Page</h1>;
+// }
