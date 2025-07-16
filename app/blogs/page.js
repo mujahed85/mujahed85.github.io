@@ -8,13 +8,13 @@ const blogsData = {
     {
       id: 1,
       title: "Artificial Intelligence",
-      slug: "big-artificial-intelligence",
+      slug: "ai",
       description: "Blogs on Artficial Intelligence",
     },
     {
       id: 2,
       title: "Big Data and Analytics",
-      slug: "Big-data",
+      slug: "bigdata",
       description: "Blogs on Big Data and Analytics",
     },
     {
@@ -26,7 +26,7 @@ const blogsData = {
     {
       id: 4,
       title: "Learning Cloud Computing",
-      slug: "learning-cloud-computing",
+      slug: "cloud",
       description: "Blogs on Learning Cloud Computing.",
     },
   ]
