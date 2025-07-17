@@ -1,3 +1,5 @@
+import Sidebar from '../../components/blog/Sidebar';
+import Footer from '../../components/footer';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -11,23 +13,35 @@ export default function BigDataBlogListPage() {
   );
 
   return (
-    <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
-      <a href="/blogs" className="btn btn-secondary mb-3">&larr; All Blog Categories</a>
-      <h1 className="mb-3">Big Data Blogs</h1>
-      <p>Here are the latest posts about Big Data and Analytics.</p>
-      <div className="row mt-4">
-        {bigDataPosts.map((post) => (
-          <div key={post.slug} className="col-md-6 mb-4">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title">{post.title}</h5>
-                <p className="card-text">{post.description}</p>
-                <Link href={`/blogs/bigdata/${post.slug}`} className="btn btn-primary">Read More</Link>
-              </div>
+    <>
+      <section className="container spacer">
+        <div className="row">
+          <div className="col-md-4 col-lg-3 mb-4">
+            <Sidebar blogsData={blogsData} activeCategory="bigdata" />
+          </div>
+          <div className="col-md-8 col-lg-9">
+            <div className="section-title">
+              <a href="/blogs" className="back-link">&larr; All Blog Categories</a>
+              <h1 className="mb-3 blog-title">Big Data Blogs</h1>
+              <p>Here are the latest posts about Big Data and Analytics.</p>
+            </div>
+            <div className="row blogs-card mt-4">
+              {bigDataPosts.map((post) => (
+                <div key={post.slug} className="col-md-6 mb-4">
+                  <div className="card h-100">
+                    <div className="card-body">
+                      <h5 className="card-title">{post.title}</h5>
+                      <p className="card-text">{post.description}</p>
+                      <Link href={`/blogs/bigdata/${post.slug}`} className="btn btn-primary">Read More</Link>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        ))}
-      </div>
-    </div>
+        </div>
+      </section>
+      <Footer />
+    </>
   );
 }
