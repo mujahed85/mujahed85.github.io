@@ -35,5 +35,10 @@
     "eslint-config-next": "14.1.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
+  }, 
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }
