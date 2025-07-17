@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import BlogCard from "../components/blog/BlogCard";
+import Footer from "../components/footer";
 
 const blogsData = {
   posts: [
@@ -61,7 +62,7 @@ export default function BlogListPage() {
   }, []);
 
   return (
-    <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
+    <>    <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
       <h1 className="mb-3">Our Blog</h1>
       <p>Here are the latest posts from our team.</p>
 
@@ -77,5 +78,8 @@ export default function BlogListPage() {
         ))}
       </div>
     </div>
+    <Footer />  
+    </>
+
   );
 }
