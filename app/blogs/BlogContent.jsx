@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { marked } from 'marked';
 import createDOMPurify from 'dompurify';
+import Header from '@/app/components/blog/header';
 
 export default function BlogContent({ content }) {
   const [markdown, setMarkdown] = useState(content);
@@ -26,6 +27,8 @@ export default function BlogContent({ content }) {
 
   return (
     <div className="blog-content-editor mt-4">
+      <Header />
+
       <div className="d-flex justify-content-end mb-2 gap-2">
         <button className="btn btn-sm btn-outline-primary" onClick={() => setEditMode(!editMode)}>
           {editMode ? 'Preview' : 'Edit Markdown'}
