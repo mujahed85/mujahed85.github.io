@@ -3,6 +3,8 @@ import Footer from '../../components/footer';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import Header from '@/app/components/blog/header';
+
 
 const blogsData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'posts/data/blogs.json'), 'utf8'));
 
@@ -14,6 +16,7 @@ export default function AiBlogListPage() {
 
   return (
     <>
+      <Header />
       <section className="container spacer">
         <div className="row">
           <div className="col-md-4 col-lg-3 mb-4">
@@ -41,7 +44,7 @@ export default function AiBlogListPage() {
           </div>
         </div>
       </section>
-      <Footer /> 
+      <Footer />
     </>
   );
 }
