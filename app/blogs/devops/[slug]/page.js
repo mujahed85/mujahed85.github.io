@@ -3,7 +3,7 @@ import Footer from "../../../components/footer";
 import path from "path";
 import fs from "fs";
 import { notFound } from "next/navigation";
-import BlogContent from "./BlogContent";
+import BlogContent from '../../BlogContent';
 
 const blogsData = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), "posts/data/blogs.json"), "utf8")
@@ -77,6 +77,7 @@ export default async function BlogPostPage({ params }) {
             >
               Edit on GitHub
             </a>
+
             <article>
               <BlogContent content={markdownContent} />
             </article>

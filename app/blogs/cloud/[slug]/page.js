@@ -3,7 +3,7 @@ import Footer from "../../../components/footer";
 import path from "path";
 import fs from "fs";
 import { notFound } from "next/navigation";
-import BlogContent from "./BlogContent";
+import BlogContent from '../../BlogContent';
 import Header from '@/app/components/blog/header';
 
 
