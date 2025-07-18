@@ -4,6 +4,8 @@ import path from "path";
 import fs from "fs";
 import { notFound } from "next/navigation";
 import BlogContent from "./BlogContent";
+import Header from '@/app/components/blog/header';
+
 
 const blogsData = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), "posts/data/blogs.json"), "utf8")
@@ -56,6 +58,8 @@ export default async function BlogPostPage({ params }) {
   const githubEditUrl = `https://github.com/mujahed85/mujahed85.github.io//edit/master/posts/${slug}.md`;
   return (
     <>
+      <Header />
+
       <section className="container spacer">
         <div className="row">
           <div className="col-md-4 col-lg-3 mb-4">
