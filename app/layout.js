@@ -58,6 +58,7 @@ export const metadata = {
   other: {
     viewport: "width=device-width, initial-scale=1.0",
     charset: "utf-8",
+    'google': 'notranslate',
   },
 };
 
