@@ -41,5 +41,17 @@
     "readingTime": "10 min read",
     "image": "assets/img/icons/AI-Gen.jpeg",
     "description": "Explore AI technologies, real-world applications, and ethical implications shaping the future of intelligent automation."
+  },
+  {
+    "id": 5,
+    "title": "Deploying a Scalable Web App on AWS (or Azure/GCP)",
+    "slug": "deploying-scalable-webapp-cloud",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-11",
+    "tags": ["Cloud", "DevOps", "AWS", "Azure", "GCP", "Scalability", "Infrastructure as Code"],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/cloud-deployment.png",
+    "description": "Learn how to deploy a scalable, resilient web application using cloud platforms like AWS, Azure, or Google Cloud, with DevOps best practices and automation."
   }
 ]
+
