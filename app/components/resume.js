@@ -252,6 +252,9 @@ export default function Resume() {
             </h3>
             <div className="resume-item">
               <ul>
+                <li>Azure Architecture - AZ-305</li>
+                <li>AWS Solution Architecture (SAA-C08)</li>
+                <li>Certified DataBricks Professional</li>
                 <li>Artificial Intelligence Certified from Google</li>
                 <li>Rockspace Cloud University</li>
                 <li>National Level Best in Programming</li>
