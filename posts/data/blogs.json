@@ -72,7 +72,18 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/infrastructure-as-code.png",
   "description": "Discover how Infrastructure as Code (IaC) transforms manual cloud setups into automated, version-controlled, and scalable deployments."
+},{
+  "id": 8,
+  "title": "CI/CD Pipelines: Automating Software Delivery for Faster, Safer Releases",
+  "slug": "ci-cd-pipelines-automation",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["CI/CD", "DevOps", "Automation", "Software Delivery"],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/ci-cd-pipeline.png",
+  "description": "Explore how CI/CD pipelines streamline software integration, testing, and deployment to enable faster and more reliable releases."
 }
+
 
 
 ]
