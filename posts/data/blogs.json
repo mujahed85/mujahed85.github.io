@@ -62,7 +62,18 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/devops-cloud-impact.png",
   "description": "A deep dive into the practices and mindset behind DevOps and cloud engineering, highlighting real-world lessons, automation strategies, and scalable infrastructure design."
+},{
+  "id": 7,
+  "title": "Infrastructure as Code: Why Manual Setup Is a Thing of the Past",
+  "slug": "infrastructure-as-code-devops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["Infrastructure as Code", "DevOps", "Terraform", "Cloud Automation"],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/infrastructure-as-code.png",
+  "description": "Discover how Infrastructure as Code (IaC) transforms manual cloud setups into automated, version-controlled, and scalable deployments."
 }
+
 
 ]
 
