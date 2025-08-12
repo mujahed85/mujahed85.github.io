@@ -102,7 +102,18 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/devsecops-security.png",
   "description": "Learn how integrating security into DevOps pipelines helps teams deliver safer software faster through automation and collaboration."
+},{
+  "id": 11,
+  "title": "Serverless Computing: Revolutionizing Cloud Infrastructure Management",
+  "slug": "serverless-computing-cloud",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["Serverless", "Cloud Computing", "DevOps", "AWS Lambda"],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/serverless-computing.png",
+  "description": "Discover how serverless computing enables scalable, cost-efficient cloud applications by abstracting server management."
 }
+
 
 
 
