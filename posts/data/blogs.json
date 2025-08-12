@@ -82,7 +82,18 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/ci-cd-pipeline.png",
   "description": "Explore how CI/CD pipelines streamline software integration, testing, and deployment to enable faster and more reliable releases."
+},{
+  "id": 9,
+  "title": "Monitoring and Observability: Keeping Cloud Systems Healthy and Resilient",
+  "slug": "monitoring-observability-devops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["Monitoring", "Observability", "DevOps", "Cloud"],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/monitoring-observability.png",
+  "description": "Learn how monitoring and observability empower teams to maintain reliable, performant cloud systems by detecting issues early and enabling deep insights."
 }
+
 
 
 
