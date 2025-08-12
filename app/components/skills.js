@@ -72,7 +72,7 @@ export default function Skills() {
                       </h4>
                     </a>
                     <p className="just-align">
-                      Completed over 188 badges in cloud computing and AI, and
+                      Completed over 200 badges in cloud computing and AI, and
                       35 Trophies and A deep understanding of Azure solutions to
                       drive innovative projects.
                     </p>
@@ -85,7 +85,7 @@ export default function Skills() {
                           src="assets/img/m_badge.JPG"
                           alt="Mujahed Hussaini"
                         />
-                        <h5>188+ Badges</h5>
+                        <h5>200+ Badges</h5>
                       </div>
                       <div className="col">
                         <img
