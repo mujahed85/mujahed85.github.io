@@ -92,7 +92,18 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/monitoring-observability.png",
   "description": "Learn how monitoring and observability empower teams to maintain reliable, performant cloud systems by detecting issues early and enabling deep insights."
+},{
+  "id": 10,
+  "title": "DevSecOps: Integrating Security into DevOps for Safer Software Delivery",
+  "slug": "devsecops-integrating-security-devops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["DevSecOps", "Security", "DevOps", "Automation"],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/devsecops-security.png",
+  "description": "Learn how integrating security into DevOps pipelines helps teams deliver safer software faster through automation and collaboration."
 }
+
 
 
 
