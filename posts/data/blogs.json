@@ -132,7 +132,18 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/observability.png",
   "description": "Learn how observability helps DevOps teams gain visibility into cloud systems using metrics, logs, and traces for faster troubleshooting and better reliability."
+},{
+  "id": 16,
+  "title": "Platform Engineering – Empowering Developer Productivity with Internal Developer Platforms (IDPs)",
+  "slug": "platform-engineering-idp",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["Platform Engineering", "DevOps", "IDP", "Developer Experience", "Cloud"],
+  "readingTime": "10 min read",
+  "image": "assets/img/icons/platform-engineering.png",
+  "description": "Explore how Platform Engineering empowers developers with Internal Developer Platforms (IDPs) that automate infrastructure and streamline cloud-native software delivery."
 }
+
 
 
 
