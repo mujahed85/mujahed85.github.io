@@ -122,7 +122,18 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/chaos-engineering.png",
   "description": "Learn how Chaos Engineering helps build fault-tolerant cloud systems by proactively injecting failures to test resilience."
-},
+},{
+  "id": 15,
+  "title": "Observability in Cloud Systems: Gaining Insights for Proactive Operations",
+  "slug": "observability-in-cloud-systems",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["Observability", "DevOps", "Monitoring", "Cloud", "Logging", "Tracing"],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/observability.png",
+  "description": "Learn how observability helps DevOps teams gain visibility into cloud systems using metrics, logs, and traces for faster troubleshooting and better reliability."
+}
+
 
 
 
