@@ -122,7 +122,7 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/chaos-engineering.png",
   "description": "Learn how Chaos Engineering helps build fault-tolerant cloud systems by proactively injecting failures to test resilience."
-}
+},
 
 
 
