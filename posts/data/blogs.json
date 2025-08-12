@@ -112,7 +112,18 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/serverless-computing.png",
   "description": "Discover how serverless computing enables scalable, cost-efficient cloud applications by abstracting server management."
+}'{
+  "id": 13,
+  "title": "Chaos Engineering: Building Resilient Cloud Systems by Embracing Failure",
+  "slug": "chaos-engineering-resilient-cloud",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["Chaos Engineering", "Resilience", "DevOps", "Cloud"],
+  "readingTime": "10 min read",
+  "image": "assets/img/icons/chaos-engineering.png",
+  "description": "Learn how Chaos Engineering helps build fault-tolerant cloud systems by proactively injecting failures to test resilience."
 }
+
 
 
 
