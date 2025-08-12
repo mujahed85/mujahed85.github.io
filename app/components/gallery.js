@@ -16,7 +16,6 @@ import "swiper/css/pagination";
 
 export default function Gallery() {
   const [index, setIndex] = useState(-1);
-
   const photos = [
     {
       src: "assets/img/Mujahed/SelectedImages/Gallery/FinishTraining.jpg",
@@ -37,58 +36,10 @@ export default function Gallery() {
       alt: "Event Image - Mujahed Hussaini",
     },
     {
-      src: "assets/gallery-assets/img/1.jpeg",
+      src: "assets/img/Mujahed/SelectedImages/Gallery/IMG_20200228_160535.jpg",
       width: 800,
       height: 600,
-      alt: "online 1",
-    },
-    {
-      src: "assets/gallery-assets/img/2.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 2",
-    },
-    {
-      src: "assets/gallery-assets/img/3.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 3",
-    },
-    {
-      src: "assets/gallery-assets/img/4.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 4",
-    },
-    {
-      src: "assets/gallery-assets/img/5.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 5",
-    },
-    {
-      src: "assets/gallery-assets/img/6.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 6",
-    },
-    {
-      src: "assets/gallery-assets/img/7.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 7",
-    },
-    {
-      src: "assets/gallery-assets/img/8.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 8",
-    },
-    {
-      src: "assets/gallery-assets/img/9.jpeg",
-      width: 800,
-      height: 600,
-      alt: "online 9",
+      alt: "Classroom Session",
     },
     {
       src: "assets/img/Mujahed/SelectedImages/Gallery/IMG_20200309_164930.jpg",
@@ -107,6 +58,102 @@ export default function Gallery() {
       width: 800,
       height: 600,
       alt: "Candid Shot - Mujahed Hussaini",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/Job-n-Shell.jpeg",
+      width: 800,
+      height: 600,
+      alt: "Job and Shell Scripting Session",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/Students2.jpeg",
+      width: 800,
+      height: 600,
+      alt: "Group of Students",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/StudentsGotSelected.jpg",
+      width: 800,
+      height: 600,
+      alt: "Students Got Selected",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/SunbeamPracticalGiven.jpg",
+      width: 800,
+      height: 600,
+      alt: "Sunbeam Practical Session",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/SunbeamTraining.jpg",
+      width: 800,
+      height: 600,
+      alt: "Sunbeam Training",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/TeamStudentMe.jpg",
+      width: 800,
+      height: 600,
+      alt: "Team and Student with Me",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2024-08-06 at 8.21.32 AM.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Shared Image - Aug 6, 2024",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (1).jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image 1 - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (2).jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image 2 - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (3).jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image 3 - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (4).jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image 4 - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (5).jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image 5 - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (6).jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image 6 - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (7).jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image 7 - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Main Image - Aug 12, 2025",
+    },
+    {
+      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.56.34.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Image - Aug 12, 2025 - 15:56",
     },
   ];
 
