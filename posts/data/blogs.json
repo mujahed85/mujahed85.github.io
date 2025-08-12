@@ -52,6 +52,17 @@
     "readingTime": "9 min read",
     "image": "assets/img/icons/cloud-deployment.png",
     "description": "Learn how to deploy a scalable, resilient web application using cloud platforms like AWS, Azure, or Google Cloud, with DevOps best practices and automation."
-  }
+  },{
+  "id": 6,
+  "title": "Beyond Deployments: The Real Impact of DevOps and Cloud Engineering",
+  "slug": "beyond-deployments-devops-cloud",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["DevOps", "Cloud Engineering", "Automation", "Infrastructure as Code"],
+  "readingTime": "10 min read",
+  "image": "assets/img/icons/devops-cloud-impact.png",
+  "description": "A deep dive into the practices and mindset behind DevOps and cloud engineering, highlighting real-world lessons, automation strategies, and scalable infrastructure design."
+}
+
 ]
 
