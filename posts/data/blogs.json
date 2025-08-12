@@ -152,7 +152,18 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/finops.png",
   "description": "Explore how FinOps helps teams take ownership of cloud usage and spending while balancing speed, performance, and financial accountability in modern cloud environments."
+},{
+  "id": 18,
+  "title": "Cloud-Native Security – Building Secure Systems in a Containerized World",
+  "slug": "cloud-native-security",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["Cloud Security", "DevSecOps", "Containers", "Kubernetes", "Cloud-Native"],
+  "readingTime": "10 min read",
+  "image": "assets/img/icons/cloud-native-security.png",
+  "description": "Discover how cloud-native security integrates protection into the fabric of containerized applications, with strategies for securing code, containers, and cloud infrastructure."
 }
+
 
 
 
