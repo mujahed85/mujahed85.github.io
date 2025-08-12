@@ -142,7 +142,18 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/platform-engineering.png",
   "description": "Explore how Platform Engineering empowers developers with Internal Developer Platforms (IDPs) that automate infrastructure and streamline cloud-native software delivery."
+},{
+  "id": 17,
+  "title": "FinOps – Optimizing Cloud Costs Without Slowing Down Innovation",
+  "slug": "finops-cloud-cost-optimization",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-12",
+  "tags": ["FinOps", "Cloud", "Cost Optimization", "DevOps", "Cloud Management"],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/finops.png",
+  "description": "Explore how FinOps helps teams take ownership of cloud usage and spending while balancing speed, performance, and financial accountability in modern cloud environments."
 }
+
 
 
 
