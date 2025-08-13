@@ -5,7 +5,12 @@
     "slug": "devops",
     "author": "Mujahid Hussaini",
     "date": "2025-07-11",
-    "tags": ["DevOps", "CI/CD", "Automation", "Cloud"],
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Automation",
+      "Cloud"
+    ],
     "readingTime": "8 min read",
     "image": "assets/img/icons/dev(fsd).png",
     "description": "Discover how DevOps aligns teams to streamline delivery, automate workflows, and improve collaboration for agile success."
@@ -16,7 +21,12 @@
     "slug": "learning-cloud-computing",
     "author": "Mujahid Hussaini",
     "date": "2023-10-27",
-    "tags": ["Cloud Computing", "AWS", "Azure", "Google Cloud"],
+    "tags": [
+      "Cloud Computing",
+      "AWS",
+      "Azure",
+      "Google Cloud"
+    ],
     "image": "assets/img/icons/aws-azure-google-1.webp",
     "description": "Learn the basics of cloud computing, including models, services, and how to use them efficiently in modern development."
   },
@@ -27,7 +37,12 @@
     "author": "Mujahid Hussaini",
     "date": "2023-10-28",
     "image": "assets/img/icons/bigData.png",
-    "tags": ["Big Data", "Data Lakes", "Analytics", "Machine Learning"],
+    "tags": [
+      "Big Data",
+      "Data Lakes",
+      "Analytics",
+      "Machine Learning"
+    ],
     "readingTime": "12 min read",
     "description": "Understand what Big Data is, the tools it uses, and how it’s applied across industries for deep insights and predictions."
   },
@@ -37,7 +52,12 @@
     "slug": "big-artificial-intelligence",
     "author": "Mujahid Hussaini",
     "date": "2025-07-14",
-    "tags": ["AI", "Machine Learning", "Deep Learning", "Generative AI"],
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Deep Learning",
+      "Generative AI"
+    ],
     "readingTime": "10 min read",
     "image": "assets/img/icons/AI-Gen.jpeg",
     "description": "Explore AI technologies, real-world applications, and ethical implications shaping the future of intelligent automation."
@@ -48,131 +68,198 @@
     "slug": "deploying-scalable-webapp-cloud",
     "author": "Mujahid Hussaini",
     "date": "2025-08-11",
-    "tags": ["Cloud", "DevOps", "AWS", "Azure", "GCP", "Scalability", "Infrastructure as Code"],
+    "tags": [
+      "Cloud",
+      "DevOps",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Scalability",
+      "Infrastructure as Code"
+    ],
     "readingTime": "9 min read",
     "image": "assets/img/icons/cloud-deployment.png",
     "description": "Learn how to deploy a scalable, resilient web application using cloud platforms like AWS, Azure, or Google Cloud, with DevOps best practices and automation."
-  },{
-  "id": 6,
-  "title": "Beyond Deployments: The Real Impact of DevOps and Cloud Engineering",
-  "slug": "beyond-deployments-devops-cloud",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["DevOps", "Cloud Engineering", "Automation", "Infrastructure as Code"],
-  "readingTime": "10 min read",
-  "image": "assets/img/icons/devops-cloud-impact.png",
-  "description": "A deep dive into the practices and mindset behind DevOps and cloud engineering, highlighting real-world lessons, automation strategies, and scalable infrastructure design."
-},{
-  "id": 7,
-  "title": "Infrastructure as Code: Why Manual Setup Is a Thing of the Past",
-  "slug": "infrastructure-as-code-devops",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["Infrastructure as Code", "DevOps", "Terraform", "Cloud Automation"],
-  "readingTime": "9 min read",
-  "image": "assets/img/icons/infrastructure-as-code.png",
-  "description": "Discover how Infrastructure as Code (IaC) transforms manual cloud setups into automated, version-controlled, and scalable deployments."
-},{
-  "id": 8,
-  "title": "CI/CD Pipelines: Automating Software Delivery for Faster, Safer Releases",
-  "slug": "ci-cd-pipelines-automation",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["CI/CD", "DevOps", "Automation", "Software Delivery"],
-  "readingTime": "9 min read",
-  "image": "assets/img/icons/ci-cd-pipeline.png",
-  "description": "Explore how CI/CD pipelines streamline software integration, testing, and deployment to enable faster and more reliable releases."
-},{
-  "id": 9,
-  "title": "Monitoring and Observability: Keeping Cloud Systems Healthy and Resilient",
-  "slug": "monitoring-observability-devops",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["Monitoring", "Observability", "DevOps", "Cloud"],
-  "readingTime": "9 min read",
-  "image": "assets/img/icons/monitoring-observability.png",
-  "description": "Learn how monitoring and observability empower teams to maintain reliable, performant cloud systems by detecting issues early and enabling deep insights."
-},{
-  "id": 10,
-  "title": "DevSecOps: Integrating Security into DevOps for Safer Software Delivery",
-  "slug": "devsecops-integrating-security-devops",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["DevSecOps", "Security", "DevOps", "Automation"],
-  "readingTime": "9 min read",
-  "image": "assets/img/icons/devsecops-security.png",
-  "description": "Learn how integrating security into DevOps pipelines helps teams deliver safer software faster through automation and collaboration."
-},{
-  "id": 11,
-  "title": "Serverless Computing: Revolutionizing Cloud Infrastructure Management",
-  "slug": "serverless-computing-cloud",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["Serverless", "Cloud Computing", "DevOps", "AWS Lambda"],
-  "readingTime": "9 min read",
-  "image": "assets/img/icons/serverless-computing.png",
-  "description": "Discover how serverless computing enables scalable, cost-efficient cloud applications by abstracting server management."
-}'{
-  "id": 13,
-  "title": "Chaos Engineering: Building Resilient Cloud Systems by Embracing Failure",
-  "slug": "chaos-engineering-resilient-cloud",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["Chaos Engineering", "Resilience", "DevOps", "Cloud"],
-  "readingTime": "10 min read",
-  "image": "assets/img/icons/chaos-engineering.png",
-  "description": "Learn how Chaos Engineering helps build fault-tolerant cloud systems by proactively injecting failures to test resilience."
-},{
-  "id": 15,
-  "title": "Observability in Cloud Systems: Gaining Insights for Proactive Operations",
-  "slug": "observability-in-cloud-systems",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["Observability", "DevOps", "Monitoring", "Cloud", "Logging", "Tracing"],
-  "readingTime": "9 min read",
-  "image": "assets/img/icons/observability.png",
-  "description": "Learn how observability helps DevOps teams gain visibility into cloud systems using metrics, logs, and traces for faster troubleshooting and better reliability."
-},{
-  "id": 16,
-  "title": "Platform Engineering – Empowering Developer Productivity with Internal Developer Platforms (IDPs)",
-  "slug": "platform-engineering-idp",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["Platform Engineering", "DevOps", "IDP", "Developer Experience", "Cloud"],
-  "readingTime": "10 min read",
-  "image": "assets/img/icons/platform-engineering.png",
-  "description": "Explore how Platform Engineering empowers developers with Internal Developer Platforms (IDPs) that automate infrastructure and streamline cloud-native software delivery."
-},{
-  "id": 17,
-  "title": "FinOps – Optimizing Cloud Costs Without Slowing Down Innovation",
-  "slug": "finops-cloud-cost-optimization",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["FinOps", "Cloud", "Cost Optimization", "DevOps", "Cloud Management"],
-  "readingTime": "9 min read",
-  "image": "assets/img/icons/finops.png",
-  "description": "Explore how FinOps helps teams take ownership of cloud usage and spending while balancing speed, performance, and financial accountability in modern cloud environments."
-},{
-  "id": 18,
-  "title": "Cloud-Native Security – Building Secure Systems in a Containerized World",
-  "slug": "cloud-native-security",
-  "author": "Mujahid Hussaini",
-  "date": "2025-08-12",
-  "tags": ["Cloud Security", "DevSecOps", "Containers", "Kubernetes", "Cloud-Native"],
-  "readingTime": "10 min read",
-  "image": "assets/img/icons/cloud-native-security.png",
-  "description": "Discover how cloud-native security integrates protection into the fabric of containerized applications, with strategies for securing code, containers, and cloud infrastructure."
-}
-
-
-
-
-
-
-
-
-
-
-
+  },
+  {
+    "id": 6,
+    "title": "Beyond Deployments: The Real Impact of DevOps and Cloud Engineering",
+    "slug": "beyond-deployments-devops-cloud",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "DevOps",
+      "Cloud Engineering",
+      "Automation",
+      "Infrastructure as Code"
+    ],
+    "readingTime": "10 min read",
+    "image": "assets/img/icons/devops-cloud-impact.png",
+    "description": "A deep dive into the practices and mindset behind DevOps and cloud engineering, highlighting real-world lessons, automation strategies, and scalable infrastructure design."
+  },
+  {
+    "id": 7,
+    "title": "Infrastructure as Code: Why Manual Setup Is a Thing of the Past",
+    "slug": "infrastructure-as-code-devops",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "Infrastructure as Code",
+      "DevOps",
+      "Terraform",
+      "Cloud Automation"
+    ],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/infrastructure-as-code.png",
+    "description": "Discover how Infrastructure as Code (IaC) transforms manual cloud setups into automated, version-controlled, and scalable deployments."
+  },
+  {
+    "id": 8,
+    "title": "CI/CD Pipelines: Automating Software Delivery for Faster, Safer Releases",
+    "slug": "ci-cd-pipelines-automation",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "CI/CD",
+      "DevOps",
+      "Automation",
+      "Software Delivery"
+    ],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/ci-cd-pipeline.png",
+    "description": "Explore how CI/CD pipelines streamline software integration, testing, and deployment to enable faster and more reliable releases."
+  },
+  {
+    "id": 9,
+    "title": "Monitoring and Observability: Keeping Cloud Systems Healthy and Resilient",
+    "slug": "monitoring-observability-devops",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "Monitoring",
+      "Observability",
+      "DevOps",
+      "Cloud"
+    ],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/monitoring-observability.png",
+    "description": "Learn how monitoring and observability empower teams to maintain reliable, performant cloud systems by detecting issues early and enabling deep insights."
+  },
+  {
+    "id": 10,
+    "title": "DevSecOps: Integrating Security into DevOps for Safer Software Delivery",
+    "slug": "devsecops-integrating-security-devops",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "DevSecOps",
+      "Security",
+      "DevOps",
+      "Automation"
+    ],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/devsecops-security.png",
+    "description": "Learn how integrating security into DevOps pipelines helps teams deliver safer software faster through automation and collaboration."
+  },
+  {
+    "id": 11,
+    "title": "Serverless Computing: Revolutionizing Cloud Infrastructure Management",
+    "slug": "serverless-computing-cloud",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "Serverless",
+      "Cloud Computing",
+      "DevOps",
+      "AWS Lambda"
+    ],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/serverless-computing.png",
+    "description": "Discover how serverless computing enables scalable, cost-efficient cloud applications by abstracting server management."
+  },
+  {
+    "id": 13,
+    "title": "Chaos Engineering: Building Resilient Cloud Systems by Embracing Failure",
+    "slug": "chaos-engineering-resilient-cloud",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "Chaos Engineering",
+      "Resilience",
+      "DevOps",
+      "Cloud"
+    ],
+    "readingTime": "10 min read",
+    "image": "assets/img/icons/chaos-engineering.png",
+    "description": "Learn how Chaos Engineering helps build fault-tolerant cloud systems by proactively injecting failures to test resilience."
+  },
+  {
+    "id": 15,
+    "title": "Observability in Cloud Systems: Gaining Insights for Proactive Operations",
+    "slug": "observability-in-cloud-systems",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "Observability",
+      "DevOps",
+      "Monitoring",
+      "Cloud",
+      "Logging",
+      "Tracing"
+    ],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/observability.png",
+    "description": "Learn how observability helps DevOps teams gain visibility into cloud systems using metrics, logs, and traces for faster troubleshooting and better reliability."
+  },
+  {
+    "id": 16,
+    "title": "Platform Engineering – Empowering Developer Productivity with Internal Developer Platforms (IDPs)",
+    "slug": "platform-engineering-idp",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "Platform Engineering",
+      "DevOps",
+      "IDP",
+      "Developer Experience",
+      "Cloud"
+    ],
+    "readingTime": "10 min read",
+    "image": "assets/img/icons/platform-engineering.png",
+    "description": "Explore how Platform Engineering empowers developers with Internal Developer Platforms (IDPs) that automate infrastructure and streamline cloud-native software delivery."
+  },
+  {
+    "id": 17,
+    "title": "FinOps – Optimizing Cloud Costs Without Slowing Down Innovation",
+    "slug": "finops-cloud-cost-optimization",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "FinOps",
+      "Cloud",
+      "Cost Optimization",
+      "DevOps",
+      "Cloud Management"
+    ],
+    "readingTime": "9 min read",
+    "image": "assets/img/icons/finops.png",
+    "description": "Explore how FinOps helps teams take ownership of cloud usage and spending while balancing speed, performance, and financial accountability in modern cloud environments."
+  },
+  {
+    "id": 18,
+    "title": "Cloud-Native Security – Building Secure Systems in a Containerized World",
+    "slug": "cloud-native-security",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-12",
+    "tags": [
+      "Cloud Security",
+      "DevSecOps",
+      "Containers",
+      "Kubernetes",
+      "Cloud-Native"
+    ],
+    "readingTime": "10 min read",
+    "image": "assets/img/icons/cloud-native-security.png",
+    "description": "Discover how cloud-native security integrates protection into the fabric of containerized applications, with strategies for securing code, containers, and cloud infrastructure."
+  }
 ]
-
