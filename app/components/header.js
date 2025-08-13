@@ -1,7 +1,9 @@
 // Header.js
-import React from "react";
+import { useState } from "react";
 
-export default function Header({ activeSection }) {
+export default function Header() {
+  const [activeSection, setActiveSection] = useState("hero");
+
   const getActiveClass = (id) => (activeSection === id ? "active" : "");
 
   return (
@@ -12,6 +14,7 @@ export default function Header({ activeSection }) {
             <a
               href="#hero"
               className={`nav-link scrollto ${getActiveClass("hero")}`}
+              onClick={() => setActiveSection("hero")}
             >
               <i className="bx bx-home"></i> <span>Home</span>
             </a>
@@ -20,6 +23,7 @@ export default function Header({ activeSection }) {
             <a
               href="#about"
               className={`nav-link scrollto ${getActiveClass("about")}`}
+              onClick={() => setActiveSection("about")}
             >
               <i className="bx bx-user"></i> <span>About</span>
             </a>
@@ -28,6 +32,7 @@ export default function Header({ activeSection }) {
             <a
               href="#resume"
               className={`nav-link scrollto ${getActiveClass("resume")}`}
+              onClick={() => setActiveSection("resume")}
             >
               <i className="bx bx-book-content"></i> <span>Profile</span>
             </a>
@@ -36,6 +41,7 @@ export default function Header({ activeSection }) {
             <a
               href="#Skill"
               className={`nav-link scrollto ${getActiveClass("Skill")}`}
+              onClick={() => setActiveSection("Skill")}
             >
               <i className="bx bx-shield-quarter"></i> <span>Skill's</span>
             </a>
@@ -44,6 +50,7 @@ export default function Header({ activeSection }) {
             <a
               href="#gallery"
               className={`nav-link scrollto ${getActiveClass("gallery")}`}
+              onClick={() => setActiveSection("gallery")}
             >
               <i className="bx bx-image-add"></i> <span>Gallery</span>
             </a>
@@ -52,6 +59,7 @@ export default function Header({ activeSection }) {
             <a
               href="#blog"
               className={`nav-link scrollto ${getActiveClass("blog")}`}
+              onClick={() => setActiveSection("blog")}
             >
               <i className="bx bxl-blogger"></i> <span>Blog's</span>
             </a>
@@ -60,6 +68,7 @@ export default function Header({ activeSection }) {
             <a
               href="#services"
               className={`nav-link scrollto ${getActiveClass("services")}`}
+              onClick={() => setActiveSection("services")}
             >
               <i className="bx bx-server"></i> <span>Services</span>
             </a>
@@ -68,6 +77,7 @@ export default function Header({ activeSection }) {
             <a
               href="#contact"
               className={`nav-link scrollto ${getActiveClass("contact")}`}
+              onClick={() => setActiveSection("contact")}
             >
               <i className="bx bx-envelope"></i> <span>Contact</span>
             </a>

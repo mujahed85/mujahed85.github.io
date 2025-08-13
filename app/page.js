@@ -35,7 +35,6 @@ const sectionIds = [
 ];
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState("");
   const [isInitialLoaded, setIsInitialLoaded] = useState(false);
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -59,7 +58,6 @@ export default function Home() {
         const navLink = document.querySelector(`.nav-menu a[href="#${id}"]`);
 
         if (entry.isIntersecting) {
-          setActiveSection(id || "");
           document.querySelectorAll(".nav-menu a").forEach((link) => {
             link.classList.remove("active");
           });
@@ -102,13 +100,13 @@ export default function Home() {
         onClick={handleToggle}
       ></i>
 
-      <Header activeSection={activeSection} />
+      <Header />
       <Hero />
 
       {isInitialLoaded && (
         <>
           <main id="main">
-            <About />
+            <About  />
             <Skills />
             <Resume />
             <Skill />
