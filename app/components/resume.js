@@ -71,7 +71,7 @@ export default function Resume() {
                     "mced.png",
                     "sfk-logo.png",
                   ],
-                  ["goldman.png","johnhancock.png","wellsfargo.png","pimco.png"], 
+                  ["goldman.png", "johnhancock.png", "wellsfargo.png", "pimco.png"],
                 ].map((row, idx) => (
                   <li key={`industrial-${idx}`}>
                     {row.map((file, i) => (
@@ -103,59 +103,30 @@ export default function Resume() {
             <div className="resume-item">
               <ul className="disc">
                 {[
-                  [
-                    "healthcare-pharmaceuticals-1646306545[1].png",
-                    "BMW.png",
-                    "IBM.png",
-                    "nuvepro.png",
-                  ],
-                  [
-                    "Cloudadda.png",
-                    "pepkor.png",
-                    "Cognizant.png",
-                    "Capgemini.png",
-                  ],
-                  ["ITC.png", "Incedo.png", "johnDeere.avif", "ltiM.png"],
-                  [
-                    "Nokia-Logo.wine.png",
-                    "nse.png",
-                    "shell.png",
-                    "tataPower.jpg",
-                  ],
-                  [
-                    "Vodafone_Logo.png",
-                    "ZenSar.jpg",
-                    "EdgeVerve_Infosys_Logo.jpg",
-                    "disney.png",
-                  ],
-                  [
-                    "Telstra_logo.webp",
-                    "GreatLearning.png",
-                    "edureka.png",
-                    "cgi.jpg",
-                  ],
-                  [
-                    "VTEST-LOGO-PNG.png",
-                    "Nobleprog_0.png",
-                    "rexor-logo.jpeg",
-                    "sonicbolt.png",
-                  ],
-                  ["cyforislogo-.png", "PDO.png"],
-                ].map((row, idx) => (
-                  <li key={`corporate-${idx}`}>
-                    {row.map((file, i) => (
-                      <img
-                        key={i}
-                        className="client-logo"
-                        src={`assets/img/client-logo/${file}`}
-                        alt={file
-                          .replace(/\.[^/.]+$/, "")
-                          .replace(/-/g, " ")
-                          .replace(/\b\w/g, (char) => char.toUpperCase())}
-                      />
-                    ))}
-                  </li>
-                ))}
+                  ["shell.png", "BMW.png", "disney.png", "IBM.png"],
+                  ["johnDeere.avif", "Vodafone_Logo.png", "Capgemini.png", "Cognizant.png"],
+                  ["Techm.png", "Telstra_logo.webp", "tataPower.jpg", "ITC.png"],
+                  ["Nokia-Logo.wine.png", "cgi.jpg", "nse.png", "Incedo.png"],
+                  ["ltiM.png", "ZenSar.jpg", "EdgeVerve_Infosys_Logo.jpg", "PDO.png"],
+                  ["GreatLearning.png", "edureka.png", "Reventure.png", "Cloudadda.png"],
+                  ["pepkor.png", "nuvepro.png", "cyforislogo-.png", "sonicbolt.png"],
+                  ["VTEST-LOGO-PNG.png", "Nobleprog_0.png", "rexor-logo.jpeg", "healthcare-pharmaceuticals-1646306545[1].png"]
+                ]
+                  .map((row, idx) => (
+                    <li key={`corporate-${idx}`}>
+                      {row.map((file, i) => (
+                        <img
+                          key={i}
+                          className="client-logo"
+                          src={`assets/img/client-logo/${file}`}
+                          alt={file
+                            .replace(/\.[^/.]+$/, "")
+                            .replace(/-/g, " ")
+                            .replace(/\b\w/g, (char) => char.toUpperCase())}
+                        />
+                      ))}
+                    </li>
+                  ))}
               </ul>
             </div>
 
