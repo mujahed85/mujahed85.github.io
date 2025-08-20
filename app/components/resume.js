@@ -228,6 +228,7 @@ export default function Resume() {
                   [
                     "AZ-305.png",
                     "SAA-C08.png",
+                    "DE-professional.png",
                   ],
                 ].map((row, idx) => (
                   <li key={`corporate-${idx}`}>
