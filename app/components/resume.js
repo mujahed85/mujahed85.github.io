@@ -251,7 +251,31 @@ export default function Resume() {
               Certification
             </h3>
             <div className="resume-item">
+
+              <ul className="disc">
+                {[
+                  [
+                    "AZ-305.png",
+                    "SAA-C08.png",
+                  ],
+                ].map((row, idx) => (
+                  <li key={`corporate-${idx}`}>
+                    {row.map((file, i) => (
+                      <img
+                        key={i}
+                        className="certificate-logo"
+                        src={`assets/img/certificate/${file}`}
+                        alt={file
+                          .replace(/\.[^/.]+$/, "")
+                          .replace(/-/g, " ")
+                          .replace(/\b\w/g, (char) => char.toUpperCase())}
+                      />
+                    ))}
+                  </li>
+                ))}
+              </ul>
               <ul>
+                
                 <li>Azure Architecture - AZ-305</li>
                 <li>AWS Solution Architecture (SAA-C08)</li>
                 <li>Certified DataBricks Professional</li>
@@ -265,7 +289,6 @@ export default function Resume() {
                 <li>MCAD-SCJP International</li>
               </ul>
             </div>
-
             {/* ACADEMIC KNOWLEDGE */}
             <h3 className="resume-title">
               <div className="icon-size">
