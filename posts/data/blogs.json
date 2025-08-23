@@ -261,5 +261,23 @@
     "readingTime": "10 min read",
     "image": "assets/img/icons/cloud-native-security.png",
     "description": "Discover how cloud-native security integrates protection into the fabric of containerized applications, with strategies for securing code, containers, and cloud infrastructure."
-  }
-]
+  },
+  {
+    "id": 19,
+    "title": "DevOps 101: Key Principles and Practices You Should Know",
+    "slug": "devops-101-key-principles",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-23",
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Automation",
+      "Infrastructure as Code",
+      "Collaboration",
+      "Security"
+    ],
+    "readingTime": "8 min read",
+    "image": "assets/img/icons/devops-101.png",
+    "description": "Learn about the key principles and practices of DevOps, including CI/CD, Infrastructure as Code, and the importance of collaboration, automation, and security."
+}
+]  
