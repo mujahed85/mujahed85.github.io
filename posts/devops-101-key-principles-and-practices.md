@@ -1,6 +1,6 @@
 # DevOps 101: Key Principles and Practices You Should Know
 
-![DevOps Principles](https://link-to-your-image.com)
+![DevOps Principles]([https://link-to-your-image.com](https://cyberpanel.net/wp-content/uploads/2024/03/image-130.png))
 
 DevOps is transforming the way organizations approach software development and IT operations. By fostering collaboration, automation, and continuous improvement, DevOps enables businesses to deliver software faster, with higher quality, and greater reliability. 
 
