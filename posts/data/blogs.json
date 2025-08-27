@@ -296,6 +296,24 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/jenkins-gitlab-github-ci.png",
   "description": "Compare Jenkins, GitLab CI, and GitHub Actions to find out which CI/CD tool fits your workflow best in terms of flexibility, ease of use, and integration."
+}{
+  "id": 21,
+  "title": "Automating Infrastructure Deployments with Terraform and GitOps",
+  "slug": "terraform-gitops-infrastructure-automation",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-27",
+  "tags": [
+    "Infrastructure as Code",
+    "Terraform",
+    "GitOps",
+    "DevOps",
+    "Automation",
+    "Cloud"
+  ],
+  "readingTime": "10 min read",
+  "image": "assets/img/icons/terraform-gitops.png",
+  "description": "Learn how combining Terraform and GitOps enables teams to automate infrastructure deployments at scale, with reliability, traceability, and version control."
 }
+
 
 ]  
