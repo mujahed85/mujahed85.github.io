@@ -313,7 +313,25 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/terraform-gitops.png",
   "description": "Learn how combining Terraform and GitOps enables teams to automate infrastructure deployments at scale, with reliability, traceability, and version control."
+}{
+  "id": 22,
+  "title": "CI/CD Pipelines and Software Delivery",
+  "slug": "ci-cd-pipelines-software-delivery",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-27",
+  "tags": [
+    "CI/CD",
+    "DevOps",
+    "Software Delivery",
+    "Automation",
+    "Continuous Integration",
+    "Continuous Deployment"
+  ],
+  "readingTime": "9 min read",
+  "image": "assets/img/icons/ci-cd-software-delivery.png",
+  "description": "Discover how CI/CD pipelines streamline the software delivery lifecycle by automating code integration, testing, and deployment for faster, more reliable releases."
 }
+
 
 
 ]  
