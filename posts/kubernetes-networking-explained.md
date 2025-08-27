@@ -1,4 +1,4 @@
-![Kubernetes Networking](https://your-image-url.com/k8s-networking.jpg)
+![Kubernetes Networking](https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8959216/og_image/optimized/what-is-kubernetes-02516750b825c872fa32c7005355a22e.png)
 
 # Kubernetes Networking Explained (with Diagrams)
 
