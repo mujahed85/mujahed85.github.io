@@ -363,6 +363,22 @@
   "readingTime": "8 min read",
   "image": "assets/img/icons/kubernetes-networking.png",
   "description": "A detailed explanation of Kubernetes networking concepts including pod communication, services, network policies, DNS, and ingress for scalable cloud-native applications."
+}{
+  "id": 25,
+  "title": "Edge Computing and DevOps: A Perfect Pairing",
+  "slug": "edge-computing-and-devops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-27",
+  "tags": [
+    "Edge Computing",
+    "DevOps",
+    "IoT",
+    "Automation"
+  ],
+  "readingTime": "7 min read",
+  "image": "assets/img/icons/edge-computing-devops.png",
+  "description": "Explore how Edge Computing and DevOps combine to deliver fast, scalable, and secure applications by automating deployments and managing distributed environments."
 }
+
 
 ]  
