@@ -279,5 +279,23 @@
     "readingTime": "8 min read",
     "image": "assets/img/icons/devops-101.png",
     "description": "Learn about the key principles and practices of DevOps, including CI/CD, Infrastructure as Code, and the importance of collaboration, automation, and security."
+}{
+  "id": 20,
+  "title": "Jenkins vs GitLab CI vs GitHub Actions: Which One Should You Use?",
+  "slug": "jenkins-vs-gitlab-vs-github-actions",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-27",
+  "tags": [
+    "CI/CD",
+    "DevOps",
+    "Jenkins",
+    "GitLab",
+    "GitHub Actions",
+    "Automation"
+  ],
+  "readingTime": "10 min read",
+  "image": "assets/img/icons/jenkins-gitlab-github-ci.png",
+  "description": "Compare Jenkins, GitLab CI, and GitHub Actions to find out which CI/CD tool fits your workflow best in terms of flexibility, ease of use, and integration."
 }
+
 ]  
