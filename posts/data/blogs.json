@@ -332,6 +332,31 @@
   "description": "Discover how CI/CD pipelines streamline the software delivery lifecycle by automating code integration, testing, and deployment for faster, more reliable releases."
 }
 
+---
+
+### 📦 JSON blog entry (for your portfolio blog list)
+
+```json
+{
+  "id": 23,
+  "title": "Docker for DevOps: Practical Examples Beyond Hello World",
+  "slug": "docker-for-devops-practical-examples",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-27",
+  "tags": [
+    "Docker",
+    "DevOps",
+    "Containers",
+    "CI/CD",
+    "Automation",
+    "Infrastructure"
+  ],
+  "readingTime": "10 min read",
+  "image": "assets/img/icons/docker-devops.png",
+  "description": "Explore practical DevOps use cases for Docker beyond 'Hello World' — including CI/CD pipelines, integration testing, local development, and production deployment best practices."
+}
+
+
 
 
 ]  
