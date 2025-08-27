@@ -331,12 +331,6 @@
   "image": "assets/img/icons/ci-cd-software-delivery.png",
   "description": "Discover how CI/CD pipelines streamline the software delivery lifecycle by automating code integration, testing, and deployment for faster, more reliable releases."
 }
-
----
-
-### 📦 JSON blog entry (for your portfolio blog list)
-
-```json
 {
   "id": 23,
   "title": "Docker for DevOps: Practical Examples Beyond Hello World",
@@ -370,9 +364,5 @@
   "image": "assets/img/icons/kubernetes-networking.png",
   "description": "A detailed explanation of Kubernetes networking concepts including pod communication, services, network policies, DNS, and ingress for scalable cloud-native applications."
 }
-
-
-
-
 
 ]  
