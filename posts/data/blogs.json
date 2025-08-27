@@ -354,7 +354,23 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/docker-devops.png",
   "description": "Explore practical DevOps use cases for Docker beyond 'Hello World' — including CI/CD pipelines, integration testing, local development, and production deployment best practices."
+}{
+  "id": 24,
+  "title": "Kubernetes Networking Explained (with Diagrams)",
+  "slug": "kubernetes-networking-explained",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-27",
+  "tags": [
+    "Kubernetes",
+    "Networking",
+    "Cloud Native",
+    "DevOps"
+  ],
+  "readingTime": "8 min read",
+  "image": "assets/img/icons/kubernetes-networking.png",
+  "description": "A detailed explanation of Kubernetes networking concepts including pod communication, services, network policies, DNS, and ingress for scalable cloud-native applications."
 }
+
 
 
 
