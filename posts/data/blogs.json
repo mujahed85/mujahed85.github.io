@@ -424,7 +424,23 @@
   "readingTime": "7 min read",
   "image": "assets/img/icons/gitops-declarative-deployments.png",
   "description": "Learn how GitOps and declarative deployments simplify infrastructure management by using Git as the source of truth and automating environment synchronization."
+}{
+  "id": 29,
+  "title": "Platform Engineering & DevEx Improvement",
+  "slug": "platform-engineering-devex-improvement",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-31",
+  "tags": [
+    "Platform Engineering",
+    "Developer Experience",
+    "DevEx",
+    "Automation"
+  ],
+  "readingTime": "7 min read",
+  "image": "assets/img/icons/platform-engineering-devex.png",
+  "description": "Explore how platform engineering builds internal developer platforms to improve developer experience, streamline workflows, and accelerate software delivery."
 }
+
 
 
 
