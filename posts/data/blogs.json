@@ -409,6 +409,22 @@
   "image": "assets/img/icons/devsecops-security-first.png",
   "description": "Understand how DevSecOps embeds security directly into development pipelines using automation, enabling faster and more secure software delivery from code to production."
 }
+{
+  "id": 28,
+  "title": "GitOps & Declarative Deployments",
+  "slug": "gitops-declarative-deployments",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-31",
+  "tags": [
+    "GitOps",
+    "Declarative",
+    "Kubernetes",
+    "Automation"
+  ],
+  "readingTime": "7 min read",
+  "image": "assets/img/icons/gitops-declarative-deployments.png",
+  "description": "Learn how GitOps and declarative deployments simplify infrastructure management by using Git as the source of truth and automating environment synchronization."
+}
 
 
 
