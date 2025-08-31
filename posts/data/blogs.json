@@ -440,6 +440,22 @@
   "image": "assets/img/icons/platform-engineering-devex.png",
   "description": "Explore how platform engineering builds internal developer platforms to improve developer experience, streamline workflows, and accelerate software delivery."
 }
+{
+  "id": 30,
+  "title": "Observability, AIOps & Proactive Monitoring",
+  "slug": "observability-aiops-proactive-monitoring",
+  "author": "Mujahid Hussaini",
+  "date": "2025-08-31",
+  "tags": [
+    "Observability",
+    "AIOps",
+    "Monitoring",
+    "DevOps"
+  ],
+  "readingTime": "7 min read",
+  "image": "assets/img/icons/observability-aiops-monitoring.png",
+  "description": "A deep dive into how observability, AIOps, and proactive monitoring help modern teams troubleshoot faster, reduce noise, and stay ahead of complex system failures."
+}
 
 
 
