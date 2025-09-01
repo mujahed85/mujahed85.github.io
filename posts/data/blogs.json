@@ -493,6 +493,31 @@
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
+---
+
+### 3) **Updated JSON entry:**
+
+```json
+{
+  "id": 33,
+  "title": "Setting Up a Personal Website on AWS S3 + CloudFront (Step-by-Step)",
+  "slug": "setting-up-personal-website-aws-s3-cloudfront-step-by-step",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "AWS",
+    "S3",
+    "CloudFront",
+    "Personal Website",
+    "Tutorial",
+    "Cloud Computing"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/06/17/23/28/amazon-3480058_960_720.jpg",
+  "description": "A simple, step-by-step guide to hosting your personal website on AWS using S3 and CloudFront for fast, secure, and scalable delivery.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
+
 
 
 
