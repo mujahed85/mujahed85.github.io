@@ -724,6 +724,25 @@
   "description": "Step-by-step guide to how I built my first image classifier using TensorFlow and Keras — covering dataset prep, model building, training, and evaluation.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 45,
+  "title": "Best Free Datasets for AI Projects & Where to Find Them",
+  "slug": "best-free-datasets-for-ai-projects-where-to-find-them",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "Datasets",
+    "AI",
+    "Data Science",
+    "Machine Learning",
+    "Resources",
+    "Data"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/09/01/15/29/artificial-intelligence-5530376_960_720.jpg",
+  "description": "A curated list of the best free datasets available for AI and machine learning projects, along with tips on how to choose the right ones.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
