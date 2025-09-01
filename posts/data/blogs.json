@@ -762,6 +762,24 @@
   "description": "How I integrated ChatGPT into my app using LangChain — covering prompt templates, memory, Flask API integration, and lessons learned.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
-
+{
+  "id": 47,
+  "title": "MLOps in Practice: Deploying a Model with MLflow and FastAPI",
+  "slug": "mlops-in-practice-deploying-a-model-with-mlflow-and-fastapi",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "MLOps",
+    "MLflow",
+    "FastAPI",
+    "Machine Learning",
+    "Model Deployment",
+    "API"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2022/10/12/13/01/artificial-intelligence-7515597_960_720.jpg",
+  "description": "A step-by-step walkthrough of how I deployed a machine learning model using MLflow for tracking and FastAPI for serving — real-world MLOps in action.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
