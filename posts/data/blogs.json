@@ -553,6 +553,24 @@
   "description": "A candid reflection on the top mistakes I made during my first cloud project deployment and the lessons I learned.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 36,
+  "title": "Building a Scalable Serverless App with AWS Lambda + API Gateway + DynamoDB",
+  "slug": "building-scalable-serverless-app-aws-lambda-api-gateway-dynamodb",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "AWS Lambda",
+    "API Gateway",
+    "DynamoDB",
+    "Serverless",
+    "Cloud Computing"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2019/06/25/07/54/cloud-4291146_960_720.jpg",
+  "description": "A step-by-step experience of building a scalable serverless application using AWS Lambda, API Gateway, and DynamoDB.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
