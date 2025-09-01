@@ -800,5 +800,24 @@
   "description": "How I used YOLOv8 with OpenCV to build a real-time object detection system from scratch, using just a webcam and a few lines of Python.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 50,
+  "title": "From Notebook to Production: Lessons Learned in ML Deployment",
+  "slug": "from-notebook-to-production-lessons-learned-in-ml-deployment",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "ML Deployment",
+    "MLOps",
+    "Production",
+    "Machine Learning",
+    "Engineering",
+    "Real-World ML"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/05/19/19/28/artificial-intelligence-5199943_960_720.jpg",
+  "description": "What I learned while taking machine learning models from Jupyter notebooks into real production systems — the surprises, challenges, and mindset shifts.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
