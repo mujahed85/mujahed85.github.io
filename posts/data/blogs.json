@@ -666,6 +666,25 @@
   "description": "A beginner-friendly guide to core machine learning algorithms, explained visually with real-world intuition instead of heavy math.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 42,
+  "title": "My First AI Project: Predicting Housing Prices with Scikit-Learn",
+  "slug": "my-first-ai-project-predicting-housing-prices-with-scikit-learn",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Scikit-Learn",
+    "Regression",
+    "Beginner Project",
+    "Data Science"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/04/02/17/01/artificial-intelligence-4993123_960_720.jpg",
+  "description": "How I built my first machine learning project using Scikit-Learn to predict housing prices — from dataset to evaluation and everything in between.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
