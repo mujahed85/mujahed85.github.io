@@ -743,7 +743,25 @@
   "description": "A curated list of the best free datasets available for AI and machine learning projects, along with tips on how to choose the right ones.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
-
+{
+  "id": 46,
+  "title": "Using LLMs in Real Life: Integrating ChatGPT into My App with LangChain",
+  "slug": "using-llms-in-real-life-integrating-chatgpt-into-my-app-with-langchain",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "LLM",
+    "LangChain",
+    "ChatGPT",
+    "AI Integration",
+    "OpenAI",
+    "App Development"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/03/07/20/28/artificial-intelligence-7835766_960_720.jpg",
+  "description": "How I integrated ChatGPT into my app using LangChain — covering prompt templates, memory, Flask API integration, and lessons learned.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 ]  
