@@ -705,7 +705,25 @@
   "description": "Step-by-step guide on how I fine-tuned a GPT model using the OpenAI API for a real-world use case — from dataset prep to deployment.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
-
+{
+  "id": 44,
+  "title": "How I Built an Image Classifier with TensorFlow/Keras",
+  "slug": "how-i-built-an-image-classifier-with-tensorflow-keras",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "TensorFlow",
+    "Keras",
+    "CNN",
+    "Image Classification",
+    "Deep Learning",
+    "AI Projects"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2021/06/15/18/44/artificial-intelligence-6338471_960_720.jpg",
+  "description": "Step-by-step guide to how I built my first image classifier using TensorFlow and Keras — covering dataset prep, model building, training, and evaluation.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
