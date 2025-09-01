@@ -819,5 +819,24 @@
   "description": "What I learned while taking machine learning models from Jupyter notebooks into real production systems — the surprises, challenges, and mindset shifts.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 51,
+  "title": "Ethics in AI: What I Learned from Building a Sentiment Analysis Bot",
+  "slug": "ethics-in-ai-what-i-learned-from-building-a-sentiment-analysis-bot",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "AI Ethics",
+    "Sentiment Analysis",
+    "Machine Learning",
+    "Responsible AI",
+    "Bias",
+    "Privacy"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2019/05/23/13/17/artificial-intelligence-4222372_960_720.jpg",
+  "description": "Reflections on the ethical challenges and lessons learned while building a sentiment analysis bot, including bias, transparency, and privacy.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
