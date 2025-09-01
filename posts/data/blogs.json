@@ -648,6 +648,24 @@
   "description": "A breakdown of how I monitor and log cloud applications using tools like AWS CloudWatch, Prometheus, Grafana, and centralized logging solutions.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 41,
+  "title": "Understanding Machine Learning Algorithms: My Illustrated Guide",
+  "slug": "understanding-machine-learning-algorithms-my-illustrated-guide",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "Machine Learning",
+    "AI",
+    "ML Algorithms",
+    "Learning Guide",
+    "Data Science"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/04/14/17/49/artificial-intelligence-5044163_960_720.jpg",
+  "description": "A beginner-friendly guide to core machine learning algorithms, explained visually with real-world intuition instead of heavy math.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
