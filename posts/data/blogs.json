@@ -628,6 +628,26 @@
   "description": "Practical cloud cost-saving tips I learned from managing my personal project on AWS and GCP — including mistakes, fixes, and long-term wins.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 40,
+  "title": "Monitoring and Logging in Cloud Apps: CloudWatch, Prometheus & Beyond",
+  "slug": "monitoring-and-logging-in-cloud-apps-cloudwatch-prometheus-and-beyond",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "Monitoring",
+    "Logging",
+    "CloudWatch",
+    "Prometheus",
+    "Observability",
+    "DevOps",
+    "Cloud Computing"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2016/11/29/03/53/blur-1869391_960_720.jpg",
+  "description": "A breakdown of how I monitor and log cloud applications using tools like AWS CloudWatch, Prometheus, Grafana, and centralized logging solutions.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
