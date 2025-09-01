@@ -571,7 +571,25 @@
   "description": "A step-by-step experience of building a scalable serverless application using AWS Lambda, API Gateway, and DynamoDB.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
-
+{
+  "id": 37,
+  "title": "CI/CD Pipeline for Cloud Deployments using GitHub Actions and AWS",
+  "slug": "ci-cd-pipeline-cloud-deployments-github-actions-aws",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "CI/CD",
+    "GitHub Actions",
+    "AWS",
+    "DevOps",
+    "Cloud Deployment",
+    "Automation"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2015/01/08/18/26/cloud-593232_960_720.jpg",
+  "description": "A walkthrough of how I built a CI/CD pipeline for my AWS cloud deployments using GitHub Actions for automation and testing.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
