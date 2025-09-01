@@ -590,6 +590,25 @@
   "description": "A walkthrough of how I built a CI/CD pipeline for my AWS cloud deployments using GitHub Actions for automation and testing.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 38,
+  "title": "Using Kubernetes on GCP (GKE): My Experience Deploying a Microservices App",
+  "slug": "using-kubernetes-on-gcp-gke-my-experience-deploying-microservices-app",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "Kubernetes",
+    "GKE",
+    "Microservices",
+    "GCP",
+    "DevOps",
+    "Cloud Deployment"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/05/21/03/16/google-5198081_960_720.jpg",
+  "description": "A real-world walkthrough of deploying a microservices architecture using Kubernetes on Google Cloud (GKE), with insights and lessons learned.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
