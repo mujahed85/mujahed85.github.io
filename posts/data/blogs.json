@@ -517,6 +517,25 @@
   "description": "A simple, step-by-step guide to hosting your personal website on AWS using S3 and CloudFront for fast, secure, and scalable delivery.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 34,
+  "title": "How I Used Terraform to Automate Cloud Infrastructure",
+  "slug": "how-i-used-terraform-to-automate-cloud-infrastructure",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "Terraform",
+    "Infrastructure as Code",
+    "Cloud Automation",
+    "DevOps",
+    "AWS",
+    "IaC"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/01/23/15/35/server-4788837_960_720.jpg",
+  "description": "An overview of using Terraform to automate cloud infrastructure, highlighting the benefits, workflow, and lessons learned.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 
 
