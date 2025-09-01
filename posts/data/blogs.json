@@ -781,5 +781,24 @@
   "description": "A step-by-step walkthrough of how I deployed a machine learning model using MLflow for tracking and FastAPI for serving — real-world MLOps in action.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 49,
+  "title": "Real-Time Object Detection Using YOLOv8 and OpenCV – Explained",
+  "slug": "real-time-object-detection-using-yolov8-and-opencv-explained",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-01",
+  "tags": [
+    "Computer Vision",
+    "YOLOv8",
+    "OpenCV",
+    "Object Detection",
+    "Real-Time AI",
+    "AI Projects"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2021/06/28/16/38/ai-6370972_960_720.jpg",
+  "description": "How I used YOLOv8 with OpenCV to build a real-time object detection system from scratch, using just a webcam and a few lines of Python.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
