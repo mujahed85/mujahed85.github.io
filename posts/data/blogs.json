@@ -895,5 +895,24 @@
   "description": "A look into the growing importance of data sovereignty and how sovereign cloud architectures are reshaping compliance, trust, and control in the cloud era.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 55,
+  "title": "Green Cloud & Sustainable Infrastructure",
+  "slug": "green-cloud-sustainable-infrastructure",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-02",
+  "tags": [
+    "Green Cloud",
+    "Sustainability",
+    "Data Centers",
+    "Energy Efficiency",
+    "Cloud Infrastructure",
+    "Environmental Impact"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80",
+  "description": "A deep dive into green cloud computing and sustainable infrastructure practices that help reduce the environmental footprint of modern data centers and cloud operations.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
