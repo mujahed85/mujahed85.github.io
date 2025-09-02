@@ -857,5 +857,24 @@
   "description": "Exploring the intersection of vibe coding and AI‑assisted DevOps — how flow, automation, and intuitive tooling are reshaping the developer experience.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 53,
+  "title": "AI Agents in the Cloud: Emerging Toolkits & Infrastructure",
+  "slug": "ai-agents-in-the-cloud-emerging-toolkits-and-infrastructure",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-02",
+  "tags": [
+    "AI Agents",
+    "Cloud Computing",
+    "Developer Tools",
+    "LangChain",
+    "Infrastructure",
+    "Automation"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
+  "description": "Exploring the rise of autonomous AI agents in the cloud, the emerging toolkits that support them, and how infrastructure is evolving to meet this new paradigm.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
