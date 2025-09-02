@@ -914,5 +914,24 @@
   "description": "A deep dive into green cloud computing and sustainable infrastructure practices that help reduce the environmental footprint of modern data centers and cloud operations.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 56,
+  "title": "Edge-to-Cloud Integration & DevEdgeOps",
+  "slug": "edge-to-cloud-integration-devedgeops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-02",
+  "tags": [
+    "Edge Computing",
+    "Cloud Integration",
+    "DevEdgeOps",
+    "IoT",
+    "CI/CD",
+    "Distributed Systems"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1350&q=80",
+  "description": "A comprehensive look at how edge-to-cloud integration and DevEdgeOps practices enable scalable, secure, and efficient distributed applications in modern environments.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
