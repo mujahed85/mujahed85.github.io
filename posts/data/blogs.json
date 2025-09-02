@@ -838,5 +838,24 @@
   "description": "Reflections on the ethical challenges and lessons learned while building a sentiment analysis bot, including bias, transparency, and privacy.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 52,
+  "title": "Vibe Coding & AI‑Assisted DevOps",
+  "slug": "vibe-coding-ai-assisted-devops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-02",
+  "tags": [
+    "AI DevOps",
+    "Vibe Coding",
+    "Developer Experience",
+    "Automation",
+    "Flow State",
+    "Modern Development"
+  ],
+  "readingTime": "5 min read",
+  "image": "https://images.unsplash.com/photo-1581090700227-1e8d92dcdcd3?auto=format&fit=crop&w=1350&q=80",
+  "description": "Exploring the intersection of vibe coding and AI‑assisted DevOps — how flow, automation, and intuitive tooling are reshaping the developer experience.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
