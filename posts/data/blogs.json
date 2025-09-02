@@ -876,5 +876,24 @@
   "description": "Exploring the rise of autonomous AI agents in the cloud, the emerging toolkits that support them, and how infrastructure is evolving to meet this new paradigm.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+{
+  "id": 54,
+  "title": "Data Sovereignty & Sovereign Cloud Architectures",
+  "slug": "data-sovereignty-sovereign-cloud-architectures",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-02",
+  "tags": [
+    "Cloud Architecture",
+    "Data Sovereignty",
+    "Sovereign Cloud",
+    "Compliance",
+    "Hybrid Cloud",
+    "Data Privacy"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=1350&q=80",
+  "description": "A look into the growing importance of data sovereignty and how sovereign cloud architectures are reshaping compliance, trust, and control in the cloud era.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 
 ]  
