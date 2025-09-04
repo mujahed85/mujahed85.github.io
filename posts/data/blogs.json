@@ -279,7 +279,7 @@
     "readingTime": "8 min read",
     "image": "assets/img/icons/devops-101.png",
     "description": "Learn about the key principles and practices of DevOps, including CI/CD, Infrastructure as Code, and the importance of collaboration, automation, and security."
-}{
+},{
   "id": 20,
   "title": "Jenkins vs GitLab CI vs GitHub Actions: Which One Should You Use?",
   "slug": "jenkins-vs-gitlab-vs-github-actions",
@@ -296,7 +296,7 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/jenkins-gitlab-github-ci.png",
   "description": "Compare Jenkins, GitLab CI, and GitHub Actions to find out which CI/CD tool fits your workflow best in terms of flexibility, ease of use, and integration."
-}{
+},{
   "id": 21,
   "title": "Automating Infrastructure Deployments with Terraform and GitOps",
   "slug": "terraform-gitops-infrastructure-automation",
@@ -313,7 +313,7 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/terraform-gitops.png",
   "description": "Learn how combining Terraform and GitOps enables teams to automate infrastructure deployments at scale, with reliability, traceability, and version control."
-}{
+},{
   "id": 22,
   "title": "CI/CD Pipelines and Software Delivery",
   "slug": "ci-cd-pipelines-software-delivery",
@@ -330,7 +330,7 @@
   "readingTime": "9 min read",
   "image": "assets/img/icons/ci-cd-software-delivery.png",
   "description": "Discover how CI/CD pipelines streamline the software delivery lifecycle by automating code integration, testing, and deployment for faster, more reliable releases."
-}
+},
 {
   "id": 23,
   "title": "Docker for DevOps: Practical Examples Beyond Hello World",
@@ -348,7 +348,7 @@
   "readingTime": "10 min read",
   "image": "assets/img/icons/docker-devops.png",
   "description": "Explore practical DevOps use cases for Docker beyond 'Hello World' — including CI/CD pipelines, integration testing, local development, and production deployment best practices."
-}{
+},{
   "id": 24,
   "title": "Kubernetes Networking Explained (with Diagrams)",
   "slug": "kubernetes-networking-explained",
@@ -363,7 +363,7 @@
   "readingTime": "8 min read",
   "image": "assets/img/icons/kubernetes-networking.png",
   "description": "A detailed explanation of Kubernetes networking concepts including pod communication, services, network policies, DNS, and ingress for scalable cloud-native applications."
-}{
+},{
   "id": 25,
   "title": "Edge Computing and DevOps: A Perfect Pairing",
   "slug": "edge-computing-and-devops",
@@ -378,7 +378,7 @@
   "readingTime": "7 min read",
   "image": "assets/img/icons/edge-computing-devops.png",
   "description": "Explore how Edge Computing and DevOps combine to deliver fast, scalable, and secure applications by automating deployments and managing distributed environments."
-}{
+},{
   "id": 26,
   "title": "AI‑Enhanced DevOps & Intelligent Pipelines",
   "slug": "ai-enhanced-devops-intelligent-pipelines",
@@ -393,7 +393,7 @@
   "readingTime": "8 min read",
   "image": "assets/img/icons/ai-devops-intelligent-pipelines.jpg",
   "description": "Discover how AI is transforming DevOps with intelligent pipelines that predict failures, optimize CI/CD, and adapt in real time for faster, smarter software delivery."
-}{
+},{
   "id": 27,
   "title": "DevSecOps & Security‑First Automation",
   "slug": "devsecops-security-first-automation",
@@ -408,7 +408,7 @@
   "readingTime": "8 min read",
   "image": "assets/img/icons/devsecops-security-first.png",
   "description": "Understand how DevSecOps embeds security directly into development pipelines using automation, enabling faster and more secure software delivery from code to production."
-}
+},
 {
   "id": 28,
   "title": "GitOps & Declarative Deployments",
@@ -424,7 +424,7 @@
   "readingTime": "7 min read",
   "image": "assets/img/icons/gitops-declarative-deployments.png",
   "description": "Learn how GitOps and declarative deployments simplify infrastructure management by using Git as the source of truth and automating environment synchronization."
-}{
+},{
   "id": 29,
   "title": "Platform Engineering & DevEx Improvement",
   "slug": "platform-engineering-devex-improvement",
@@ -439,7 +439,7 @@
   "readingTime": "7 min read",
   "image": "assets/img/icons/platform-engineering-devex.png",
   "description": "Explore how platform engineering builds internal developer platforms to improve developer experience, streamline workflows, and accelerate software delivery."
-}
+},
 {
   "id": 30,
   "title": "Observability, AIOps & Proactive Monitoring",
@@ -455,7 +455,7 @@
   "readingTime": "7 min read",
   "image": "assets/img/icons/observability-aiops-monitoring.png",
   "description": "A deep dive into how observability, AIOps, and proactive monitoring help modern teams troubleshoot faster, reduce noise, and stay ahead of complex system failures."
-}
+},
 {
   "id": 31,
   "title": "What is Cloud Computing? My Simple Explanation with Real-World Analogies",
@@ -472,7 +472,7 @@
   "image": "https://cdn.pixabay.com/photo/2021/08/03/07/05/cloud-network-6515064_960_720.png",
   "description": "A clear and straightforward explanation of cloud computing using everyday analogies to help beginners understand the concept easily.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 32,
   "title": "AWS vs Azure vs GCP: Choosing the Right Cloud Provider in 2025",
@@ -510,7 +510,7 @@
   "image": "https://cdn.pixabay.com/photo/2018/06/17/23/28/amazon-3480058_960_720.jpg",
   "description": "A simple, step-by-step guide to hosting your personal website on AWS using S3 and CloudFront for fast, secure, and scalable delivery.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 34,
   "title": "How I Used Terraform to Automate Cloud Infrastructure",
@@ -529,7 +529,7 @@
   "image": "https://cdn.pixabay.com/photo/2020/01/23/15/35/server-4788837_960_720.jpg",
   "description": "An overview of using Terraform to automate cloud infrastructure, highlighting the benefits, workflow, and lessons learned.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}{
+},{
   "id": 35,
   "title": "Top 5 Mistakes I Made When Deploying My First Cloud Project",
   "slug": "top-5-mistakes-i-made-when-deploying-my-first-cloud-project",
@@ -546,7 +546,7 @@
   "image": "https://cdn.pixabay.com/photo/2017/08/10/03/06/cloud-2618855_960_720.jpg",
   "description": "A candid reflection on the top mistakes I made during my first cloud project deployment and the lessons I learned.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 36,
   "title": "Building a Scalable Serverless App with AWS Lambda + API Gateway + DynamoDB",
@@ -564,7 +564,7 @@
   "image": "https://cdn.pixabay.com/photo/2019/06/25/07/54/cloud-4291146_960_720.jpg",
   "description": "A step-by-step experience of building a scalable serverless application using AWS Lambda, API Gateway, and DynamoDB.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 37,
   "title": "CI/CD Pipeline for Cloud Deployments using GitHub Actions and AWS",
@@ -583,7 +583,7 @@
   "image": "https://cdn.pixabay.com/photo/2015/01/08/18/26/cloud-593232_960_720.jpg",
   "description": "A walkthrough of how I built a CI/CD pipeline for my AWS cloud deployments using GitHub Actions for automation and testing.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 38,
   "title": "Using Kubernetes on GCP (GKE): My Experience Deploying a Microservices App",
@@ -602,7 +602,7 @@
   "image": "https://cdn.pixabay.com/photo/2020/05/21/03/16/google-5198081_960_720.jpg",
   "description": "A real-world walkthrough of deploying a microservices architecture using Kubernetes on Google Cloud (GKE), with insights and lessons learned.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 39,
   "title": "Cloud Cost Optimization Tips from My Personal Project",
@@ -621,7 +621,7 @@
   "image": "https://cdn.pixabay.com/photo/2017/01/18/17/14/money-1991864_960_720.jpg",
   "description": "Practical cloud cost-saving tips I learned from managing my personal project on AWS and GCP — including mistakes, fixes, and long-term wins.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 40,
   "title": "Monitoring and Logging in Cloud Apps: CloudWatch, Prometheus & Beyond",
@@ -641,7 +641,7 @@
   "image": "https://cdn.pixabay.com/photo/2016/11/29/03/53/blur-1869391_960_720.jpg",
   "description": "A breakdown of how I monitor and log cloud applications using tools like AWS CloudWatch, Prometheus, Grafana, and centralized logging solutions.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 41,
   "title": "Understanding Machine Learning Algorithms: My Illustrated Guide",
@@ -659,7 +659,7 @@
   "image": "https://cdn.pixabay.com/photo/2020/04/14/17/49/artificial-intelligence-5044163_960_720.jpg",
   "description": "A beginner-friendly guide to core machine learning algorithms, explained visually with real-world intuition instead of heavy math.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 42,
   "title": "My First AI Project: Predicting Housing Prices with Scikit-Learn",
@@ -678,7 +678,7 @@
   "image": "https://cdn.pixabay.com/photo/2020/04/02/17/01/artificial-intelligence-4993123_960_720.jpg",
   "description": "How I built my first machine learning project using Scikit-Learn to predict housing prices — from dataset to evaluation and everything in between.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 43,
   "title": "Fine-Tuning GPT Models with OpenAI API – A Beginner's Tutorial",
@@ -698,7 +698,7 @@
   "image": "https://cdn.pixabay.com/photo/2021/10/28/10/55/artificial-intelligence-6740846_960_720.jpg",
   "description": "Step-by-step guide on how I fine-tuned a GPT model using the OpenAI API for a real-world use case — from dataset prep to deployment.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 44,
   "title": "How I Built an Image Classifier with TensorFlow/Keras",
@@ -717,7 +717,7 @@
   "image": "https://cdn.pixabay.com/photo/2021/06/15/18/44/artificial-intelligence-6338471_960_720.jpg",
   "description": "Step-by-step guide to how I built my first image classifier using TensorFlow and Keras — covering dataset prep, model building, training, and evaluation.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 45,
   "title": "Best Free Datasets for AI Projects & Where to Find Them",
@@ -736,7 +736,7 @@
   "image": "https://cdn.pixabay.com/photo/2020/09/01/15/29/artificial-intelligence-5530376_960_720.jpg",
   "description": "A curated list of the best free datasets available for AI and machine learning projects, along with tips on how to choose the right ones.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 46,
   "title": "Using LLMs in Real Life: Integrating ChatGPT into My App with LangChain",
@@ -755,7 +755,7 @@
   "image": "https://cdn.pixabay.com/photo/2023/03/07/20/28/artificial-intelligence-7835766_960_720.jpg",
   "description": "How I integrated ChatGPT into my app using LangChain — covering prompt templates, memory, Flask API integration, and lessons learned.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 47,
   "title": "MLOps in Practice: Deploying a Model with MLflow and FastAPI",
@@ -774,7 +774,7 @@
   "image": "https://cdn.pixabay.com/photo/2022/10/12/13/01/artificial-intelligence-7515597_960_720.jpg",
   "description": "A step-by-step walkthrough of how I deployed a machine learning model using MLflow for tracking and FastAPI for serving — real-world MLOps in action.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 49,
   "title": "Real-Time Object Detection Using YOLOv8 and OpenCV – Explained",
@@ -793,7 +793,7 @@
   "image": "https://cdn.pixabay.com/photo/2021/06/28/16/38/ai-6370972_960_720.jpg",
   "description": "How I used YOLOv8 with OpenCV to build a real-time object detection system from scratch, using just a webcam and a few lines of Python.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 50,
   "title": "From Notebook to Production: Lessons Learned in ML Deployment",
@@ -812,7 +812,7 @@
   "image": "https://cdn.pixabay.com/photo/2020/05/19/19/28/artificial-intelligence-5199943_960_720.jpg",
   "description": "What I learned while taking machine learning models from Jupyter notebooks into real production systems — the surprises, challenges, and mindset shifts.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 51,
   "title": "Ethics in AI: What I Learned from Building a Sentiment Analysis Bot",
@@ -831,7 +831,7 @@
   "image": "https://cdn.pixabay.com/photo/2019/05/23/13/17/artificial-intelligence-4222372_960_720.jpg",
   "description": "Reflections on the ethical challenges and lessons learned while building a sentiment analysis bot, including bias, transparency, and privacy.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 52,
   "title": "Vibe Coding & AI‑Assisted DevOps",
@@ -850,7 +850,7 @@
   "image": "https://images.unsplash.com/photo-1581090700227-1e8d92dcdcd3?auto=format&fit=crop&w=1350&q=80",
   "description": "Exploring the intersection of vibe coding and AI‑assisted DevOps — how flow, automation, and intuitive tooling are reshaping the developer experience.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 53,
   "title": "AI Agents in the Cloud: Emerging Toolkits & Infrastructure",
@@ -869,7 +869,7 @@
   "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
   "description": "Exploring the rise of autonomous AI agents in the cloud, the emerging toolkits that support them, and how infrastructure is evolving to meet this new paradigm.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 54,
   "title": "Data Sovereignty & Sovereign Cloud Architectures",
@@ -888,7 +888,7 @@
   "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=1350&q=80",
   "description": "A look into the growing importance of data sovereignty and how sovereign cloud architectures are reshaping compliance, trust, and control in the cloud era.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 55,
   "title": "Green Cloud & Sustainable Infrastructure",
@@ -907,7 +907,7 @@
   "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80",
   "description": "A deep dive into green cloud computing and sustainable infrastructure practices that help reduce the environmental footprint of modern data centers and cloud operations.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 56,
   "title": "Edge-to-Cloud Integration & DevEdgeOps",
@@ -926,7 +926,7 @@
   "image": "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1350&q=80",
   "description": "A comprehensive look at how edge-to-cloud integration and DevEdgeOps practices enable scalable, secure, and efficient distributed applications in modern environments.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 57,
   "title": "Serverless Evolution & Cloud‑Native Architectures",
@@ -945,7 +945,7 @@
   "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80",
   "description": "Exploring the ongoing evolution of serverless computing within cloud-native architectures, highlighting benefits, challenges, and future directions.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 58,
   "title": "Quantum Computing as a Service",
@@ -964,7 +964,7 @@
   "image": "./83e7c8ee-87ea-4d6b-b787-f0379532a648.png",
   "description": "An overview of Quantum Computing as a Service (QCaaS), explaining how cloud-based quantum access works, benefits, challenges, and what developers should know.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 59,
   "title": "AI‑Driven Cloud Operations (AIOps)",
@@ -983,7 +983,7 @@
   "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1350&q=80",
   "description": "Exploring AI-driven cloud operations (AIOps) and how artificial intelligence is revolutionizing cloud monitoring, automation, and reliability.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 {
   "id": 60,
   "title": "ML‑Powered Cloud‑Native Container Security",
