@@ -1119,5 +1119,24 @@
   "image": "https://www.verizon.com/business/content/dam/verizon-business/blogs/hero-images/5g-edge-hero.jpg",
   "description": "Explore how edge computing, combined with 5G networks, is enabling low-latency, real-time applications and reshaping modern cloud strategies for the IoT era.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 67,
+  "title": "Green Cloud & Sustainability",
+  "slug": "green-cloud-and-sustainability",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Sustainability",
+    "Green Cloud",
+    "Carbon-Aware Computing",
+    "Renewable Energy",
+    "Cloud Infrastructure",
+    "Environmental Impact"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://www.datacenterdynamics.com/media/48663/green-data-center.jpg",
+  "description": "Learn how cloud providers and enterprises are embracing sustainability through renewable-powered data centers, carbon-aware infrastructure, and green software practices.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 ]  
