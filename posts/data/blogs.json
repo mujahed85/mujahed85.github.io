@@ -1021,5 +1021,25 @@
   "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UXuLLq5yRvCN-4ieVsgGAw.jpeg",
   "description": "A deep dive into how AI and ML are revolutionizing observability and IT operations through predictive monitoring and real-time anomaly detection.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 62,
+  "title": "DevSecOps: Security Built Right In",
+  "slug": "devsecops-security-built-right-in",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "DevSecOps",
+    "Security Automation",
+    "CI/CD",
+    "Compliance-as-Code",
+    "Vulnerability Scanning",
+    "Shift Left"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://www.stackhawk.com/blog/content/images/2023/01/devsecops-1.png",
+  "description": "Explore how DevSecOps and the shift-left movement embed security directly into the CI/CD process with automated vulnerability scanning and compliance-as-code.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+
 ]  
