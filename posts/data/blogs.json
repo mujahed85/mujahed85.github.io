@@ -1040,6 +1040,26 @@
   "image": "https://www.stackhawk.com/blog/content/images/2023/01/devsecops-1.png",
   "description": "Explore how DevSecOps and the shift-left movement embed security directly into the CI/CD process with automated vulnerability scanning and compliance-as-code.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 63,
+  "title": "GitOps & Infrastructure as Code (IaC)",
+  "slug": "gitops-infrastructure-as-code",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "GitOps",
+    "Infrastructure as Code",
+    "Terraform",
+    "Pulumi",
+    "Crossplane",
+    "DevOps",
+    "Cloud Infrastructure"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://www.weave.works/assets/images/blog/gitops-gitops.png",
+  "description": "Discover how GitOps and IaC tools like Terraform, Pulumi, and Crossplane enable declarative infrastructure management with greater auditability and deployment control.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]  
