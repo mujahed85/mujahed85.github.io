@@ -1080,5 +1080,25 @@
   "image": "https://images.ctfassets.net/rz1oowkt5gyp/2U1nEgcOUhHBlGjhX0apj6/2e1fc6a73076e6c3534ce7fa91ee2b8d/2023_State_of_AI_Report_cover_2x.png",
   "description": "Explore how AI‑as‑a‑Service and specialized infrastructure—like GPUs, TPUs, and Inferentia—are powering scalable, intelligent cloud operations.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 65,
+  "title": "Multi‑Cloud & Hybrid Cloud Strategies",
+  "slug": "multi-cloud-hybrid-cloud-strategies",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Multi-Cloud",
+    "Hybrid Cloud",
+    "Cloud Strategy",
+    "Azure Arc",
+    "Google Anthos",
+    "Cloud Orchestration",
+    "Enterprise IT"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://media.globant.com/blogfotos/2023/01/Multi-Cloud_blog_01.jpg",
+  "description": "Discover how enterprises are adopting multi-cloud and hybrid cloud strategies—leveraging tools like Azure Arc and Anthos for unified control, flexibility, and reduced lock-in.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 ]  
