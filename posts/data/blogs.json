@@ -1060,6 +1060,25 @@
   "image": "https://www.weave.works/assets/images/blog/gitops-gitops.png",
   "description": "Discover how GitOps and IaC tools like Terraform, Pulumi, and Crossplane enable declarative infrastructure management with greater auditability and deployment control.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 64,
+  "title": "AI‑as‑a‑Service (AIaaS) & AI‑Optimized Infrastructure",
+  "slug": "ai-as-a-service-ai-optimized-infrastructure",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "AIaaS",
+    "Cloud Computing",
+    "Machine Learning",
+    "GPUs",
+    "TPUs",
+    "Inferentia",
+    "AI Infrastructure"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://images.ctfassets.net/rz1oowkt5gyp/2U1nEgcOUhHBlGjhX0apj6/2e1fc6a73076e6c3534ce7fa91ee2b8d/2023_State_of_AI_Report_cover_2x.png",
+  "description": "Explore how AI‑as‑a‑Service and specialized infrastructure—like GPUs, TPUs, and Inferentia—are powering scalable, intelligent cloud operations.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
-
 ]  
