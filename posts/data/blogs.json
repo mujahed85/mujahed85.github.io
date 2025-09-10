@@ -1309,5 +1309,25 @@
   "image": "https://www.snia.org/sites/default/files/images/Blog/3_Storage-in-the-Cloud.jpg",
   "description": "Explore how NVMe over Fabrics and distributed file systems are driving next-generation cloud-native storage solutions for demanding workloads.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
+{
+  "id": 77,
+  "title": "AI Cloud Infrastructure Partnerships",
+  "slug": "ai-cloud-infrastructure-partnerships",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "AI Infrastructure",
+    "Cloud Computing",
+    "GPU",
+    "Microsoft",
+    "Nebius",
+    "AI Partnerships"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://www.datacenterdynamics.com/media/49205/gpu-cloud-ai-data-center.jpg",
+  "description": "Microsoft’s $20B partnership with Nebius marks a growing trend in cloud AI infrastructure deals, as hyperscalers seek scalable GPU capacity to fuel the next wave of AI workloads.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+
 ]  
