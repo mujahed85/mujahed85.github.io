@@ -1348,5 +1348,24 @@
   "description": "Explore how generative AI is being used in data workflows, from creating synthetic datasets and automating reports to assisting with predictive modeling and analytics.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 79,
+  "title": "Developer Experience (DevEx) Engineering: The New DevOps Frontier",
+  "slug": "developer-experience-devex-engineering-the-new-devops-frontier",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "DevEx",
+    "Developer Productivity",
+    "DevOps",
+    "Platform Engineering",
+    "Internal Tools",
+    "Software Engineering"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://d3mxt5v3yxgcsr.cloudfront.net/courses/7397/course_7397_image.jpg",
+  "description": "How companies are building internal tools and platforms to boost developer productivity, reduce friction, and create happier engineering teams.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]  
