@@ -1253,5 +1253,23 @@
   "description": "Explore how composable cloud architectures use microservices to build modular, flexible infrastructure designed for agility and scalability.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-
+{
+  "id": 74,
+  "title": "Cloud-Native AI Workflows: Tools and Frameworks to Know",
+  "slug": "cloud-native-ai-workflows-tools-and-frameworks-to-know",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Cloud Native",
+    "AI Workflows",
+    "Kubeflow",
+    "MLflow",
+    "Kubernetes",
+    "Model Deployment"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://miro.medium.com/max/1400/1*6WfhLgk9Q-SVhl6_ZGPb2Q.png",
+  "description": "An overview of cloud-native AI pipelines from data ingestion to model deployment, highlighting key tools and frameworks shaping modern AI workflows.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 ]  
