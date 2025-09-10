@@ -1002,6 +1002,24 @@
   "image": "https://scalegrid.io/wp-content/uploads/blog-inline-img_ai-in-cloud-computing-scalegrid_05-1-1024x585.png",
   "description": "An exploration of how machine learning enhances security in cloud-native container environments, addressing challenges and future trends.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 61,
+  "title": "AI‑Powered Observability & AIOps",
+  "slug": "ai-powered-observability-aiops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Observability",
+    "AIOps",
+    "DevOps",
+    "Monitoring"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UXuLLq5yRvCN-4ieVsgGAw.jpeg",
+  "description": "A deep dive into how AI and ML are revolutionizing observability and IT operations through predictive monitoring and real-time anomaly detection.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
-
 ]  
