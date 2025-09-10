@@ -1176,5 +1176,24 @@
   "image": "https://cloudscene-production.s3.amazonaws.com/media/article-images/Cloud%20Data%20Transfer%20and%20Pricing.jpg",
   "description": "Explore how regulatory initiatives like the EU Data Act are influencing cloud pricing models, including moves toward free cross-cloud data transfers and enhanced transparency.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 70,
+  "title": "Cisco’s Data Fabric for AI Development",
+  "slug": "cisco-data-fabric-for-ai-development",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Cisco",
+    "Data Fabric",
+    "AI Development",
+    "Machine Data Management",
+    "Splunk",
+    "AI Deployment"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://newsroom.cisco.com/hs-fs/hubfs/07_Newsroom%20Assets/2021/graphics/Data-Fabric-Cisco.jpg?width=1200&height=675&name=Data-Fabric-Cisco.jpg",
+  "description": "A deep dive into Cisco’s Data Fabric platform powered by Splunk, designed to simplify machine data management and reduce complexity in AI deployment.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 ]  
