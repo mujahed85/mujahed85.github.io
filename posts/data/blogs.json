@@ -1233,6 +1233,6 @@
   "image": "https://www.databricks.com/wp-content/uploads/2020/12/What-is-columnar-storage-1024x576.png",
   "description": "A deep dive into how columnar storage formats like Parquet and ORC optimize data storage and accelerate analytics in modern data ecosystems.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
 
 ]  
