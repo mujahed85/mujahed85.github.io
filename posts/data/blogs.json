@@ -1234,5 +1234,24 @@
   "description": "A deep dive into how columnar storage formats like Parquet and ORC optimize data storage and accelerate analytics in modern data ecosystems.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 73,
+  "title": "Composable Cloud: Building Modular Infrastructure with Microservices",
+  "slug": "composable-cloud-building-modular-infrastructure-with-microservices",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Composable Cloud",
+    "Microservices",
+    "Cloud Native",
+    "Modular Infrastructure",
+    "Kubernetes",
+    "DevOps"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://www.redhat.com/cms/managed-files/styles/16_9_xl/public/2021-08/CloudNative-Cloud-Native-Architecture-Module.png",
+  "description": "Explore how composable cloud architectures use microservices to build modular, flexible infrastructure designed for agility and scalability.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]  
