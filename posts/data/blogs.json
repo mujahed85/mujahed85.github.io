@@ -1100,5 +1100,24 @@
   "image": "https://media.globant.com/blogfotos/2023/01/Multi-Cloud_blog_01.jpg",
   "description": "Discover how enterprises are adopting multi-cloud and hybrid cloud strategies—leveraging tools like Azure Arc and Anthos for unified control, flexibility, and reduced lock-in.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+  {
+  "id": 66,
+  "title": "Edge Computing & 5G Acceleration",
+  "slug": "edge-computing-5g-acceleration",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Edge Computing",
+    "5G",
+    "IoT",
+    "Low Latency",
+    "Cloud Strategy",
+    "Real-Time Applications"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://www.verizon.com/business/content/dam/verizon-business/blogs/hero-images/5g-edge-hero.jpg",
+  "description": "Explore how edge computing, combined with 5G networks, is enabling low-latency, real-time applications and reshaping modern cloud strategies for the IoT era.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 ]  
