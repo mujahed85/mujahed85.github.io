@@ -1329,5 +1329,24 @@
   "description": "Microsoft’s $20B partnership with Nebius marks a growing trend in cloud AI infrastructure deals, as hyperscalers seek scalable GPU capacity to fuel the next wave of AI workloads.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 78,
+  "title": "Generative AI for Data Workflows",
+  "slug": "generative-ai-for-data-workflows",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "Generative AI",
+    "Data Workflows",
+    "Synthetic Data",
+    "AI Reporting",
+    "Data Automation",
+    "Predictive Modeling"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://venturebeat.com/wp-content/uploads/2023/03/synthetic-data.jpg?fit=2160%2C1080&strip=all",
+  "description": "Explore how generative AI is being used in data workflows, from creating synthetic datasets and automating reports to assisting with predictive modeling and analytics.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]  
