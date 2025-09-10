@@ -1367,5 +1367,24 @@
   "description": "How companies are building internal tools and platforms to boost developer productivity, reduce friction, and create happier engineering teams.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 80,
+  "title": "DevOps Toolchain Unification: Is Platform Fatigue Real?",
+  "slug": "devops-toolchain-unification-is-platform-fatigue-real",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-10",
+  "tags": [
+    "DevOps",
+    "Platform Engineering",
+    "Developer Productivity",
+    "Toolchain Management",
+    "DevEx",
+    "Internal Platforms"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://www.stackrox.io/images/devops-toolchain-blog.jpg",
+  "description": "The growing problem of too many disconnected DevOps tools — and how platform engineering is helping unify workflows, reduce friction, and boost developer experience.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]  
