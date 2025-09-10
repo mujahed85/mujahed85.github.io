@@ -1271,5 +1271,6 @@
   "image": "https://miro.medium.com/max/1400/1*6WfhLgk9Q-SVhl6_ZGPb2Q.png",
   "description": "An overview of cloud-native AI pipelines from data ingestion to model deployment, highlighting key tools and frameworks shaping modern AI workflows.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
+
 ]  
