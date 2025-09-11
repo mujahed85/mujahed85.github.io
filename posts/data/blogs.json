@@ -1645,4 +1645,24 @@
   "description": "A look at how pruning, quantization, TinyML, and edge ML enable efficient on-device machine learning for latency-sensitive and privacy-aware applications.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+  {
+  "id": 94,
+  "title": "Observability & Data Reliability Engineering",
+  "slug": "observability-data-reliability-engineering",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Data Reliability",
+    "Data Observability",
+    "Data Lineage",
+    "Data Quality",
+    "Pipeline Monitoring",
+    "Schema Drift"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/08/30/01/05/analytics-2697949_1280.jpg",
+  "description": "An exploration of how observability and data reliability engineering ensure data lineage, quality, pipeline monitoring, and schema drift management for trustworthy data systems.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+
 ]  
