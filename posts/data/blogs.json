@@ -1545,5 +1545,27 @@
   "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Quantum_computer_diagram.svg",
   "description": "Discover how quantum-inspired algorithms are providing speedups and efficiency gains in big data analytics, bringing quantum benefits to classical systems today.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
+{
+  "id": 89,
+  "title": "Cloud Engineering: Serverless Containers—Bridging the Gap Between Serverless and Kubernetes",
+  "slug": "serverless-containers-bridging-serverless-kubernetes",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Cloud Engineering",
+    "Serverless",
+    "Containers",
+    "Kubernetes",
+    "Cloud Native",
+    "DevOps",
+    "Scalability",
+    "Application Modernization"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+  "description": "How serverless container platforms are simplifying cloud native deployments by combining the best of both worlds: serverless ease and container flexibility.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+  
 ]  
