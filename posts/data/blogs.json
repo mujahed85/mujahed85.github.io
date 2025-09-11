@@ -3584,4 +3584,23 @@
   "description": "Exploring how DevSecOps integrates shift-left security, automated compliance, code scans, and policy enforcement to embed security and compliance early in the CI/CD pipeline.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 107,
+  "title": "FinOps + Cloud Cost Optimization Strategies",
+  "slug": "finops-cloud-cost-optimization-strategies",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "FinOps",
+    "Cloud Cost Optimization",
+    "Rightsizing",
+    "Budget Automation",
+    "Idle Resource Management",
+    "Cloud Financial Operations"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2019/06/04/10/11/cloud-4257762_1280.jpg",
+  "description": "A guide to FinOps strategies for managing cloud costs through rightsizing, spotting idle resources, automating budgets, and balancing performance versus expense.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+}
 ]  
