@@ -3622,5 +3622,24 @@
   "description": "Analyzing Google's decision to eliminate intra-region data transfer fees in the EU and UK, promoting multi-cloud adoption, cost efficiency, and enhanced competition in the cloud market.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 109,
+  "title": "Platform Engineering: The Rise of Internal Developer Platforms (IDPs)",
+  "slug": "platform-engineering-internal-developer-platforms",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Platform Engineering",
+    "Internal Developer Platforms",
+    "IDP",
+    "Developer Experience",
+    "DevOps",
+    "Infrastructure Automation"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2019/09/23/08/39/technology-4492015_1280.jpg",
+  "description": "Exploring how platform engineering and internal developer platforms accelerate development while maintaining quality, security, and operational standards across teams.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]  
