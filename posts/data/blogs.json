@@ -3410,7 +3410,7 @@
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
 {
-  "id": 94,
+  "id": 98,
   "title": "Zero Trust Architecture in Multi-Cloud Deployments",
   "slug": "zero-trust-architecture-multi-cloud",
   "author": "Mujahid Hussaini",
@@ -3429,5 +3429,24 @@
   "description": "Best practices for implementing zero trust security models spanning multiple cloud providers and hybrid environments.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-
+{
+  "id": 99,
+  "title": "Edge Cloud Orchestration: Managing Distributed Infrastructure at Scale",
+  "slug": "edge-cloud-orchestration-managing-distributed-infrastructure",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Edge Computing",
+    "Cloud Orchestration",
+    "Distributed Infrastructure",
+    "Kubernetes",
+    "Networking",
+    "Security",
+    "Automation"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+  "description": "Techniques and tools for orchestrating edge nodes alongside centralized cloud environments for ultra-low latency apps.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
