@@ -1664,5 +1664,23 @@
   "description": "An exploration of how observability and data reliability engineering ensure data lineage, quality, pipeline monitoring, and schema drift management for trustworthy data systems.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-
+{
+  "id": 95,
+  "title": "Green DevOps & Sustainability in Cloud",
+  "slug": "green-devops-sustainability-cloud",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Green DevOps",
+    "Sustainability",
+    "Cloud Computing",
+    "CI/CD",
+    "Eco-efficient Infrastructure",
+    "Carbon Footprint"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/03/01/09/55/cloud-7821948_1280.jpg",
+  "description": "Exploring how Green DevOps integrates eco-efficient CI/CD pipelines, carbon footprint tracking, and sustainable cloud infrastructure design for a climate-conscious technology approach.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
