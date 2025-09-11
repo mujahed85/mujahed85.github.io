@@ -3546,4 +3546,23 @@
   "description": "Automating threat detection, vulnerability management, and compliance monitoring in AI model development.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 105,
+  "title": "GitOps & Declarative Infrastructure",
+  "slug": "gitops-declarative-infrastructure",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "GitOps",
+    "Declarative Infrastructure",
+    "Infrastructure as Code",
+    "Multi-Environment",
+    "DevOps Automation",
+    "Configuration Management"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/08/30/01/05/cloud-computing-2697945_1280.jpg",
+  "description": "An overview of how GitOps and declarative infrastructure enable version-controlled deployments, drift detection, and automated reconciliation for reliable, auditable, and efficient infrastructure management.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},    
 ]  
