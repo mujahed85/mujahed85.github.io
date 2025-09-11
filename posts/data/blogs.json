@@ -1424,5 +1424,23 @@
   "description": "An in-depth look at how multi-cloud strategies offer flexibility and resilience, the challenges they pose, and best practices to successfully implement them.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-
+{
+  "id": 82,
+  "title": "GreenOps: Sustainable DevOps Practices for the Cloud Era",
+  "slug": "greenops-sustainable-devops-practices-cloud-era",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "GreenOps",
+    "Sustainable DevOps",
+    "Cloud Optimization",
+    "Carbon Footprint",
+    "Cloud Strategy",
+    "FinOps"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Carbon-footprint.svg",
+  "description": "Explore how GreenOps integrates sustainability into DevOps, balancing performance and cost with environmental impact. Learn actionable practices to reduce your cloud carbon footprint.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
