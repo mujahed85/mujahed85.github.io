@@ -3565,4 +3565,23 @@
   "description": "An overview of how GitOps and declarative infrastructure enable version-controlled deployments, drift detection, and automated reconciliation for reliable, auditable, and efficient infrastructure management.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },    
+{
+  "id": 106,
+  "title": "DevSecOps – Shift-Left Security & Compliance as Code",
+  "slug": "devsecops-shift-left-security-compliance-as-code",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "DevSecOps",
+    "Shift-Left Security",
+    "Compliance as Code",
+    "CI/CD",
+    "Code Scans",
+    "Policy Enforcement"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/05/01/22/38/cyber-security-3368048_1280.jpg",
+  "description": "Exploring how DevSecOps integrates shift-left security, automated compliance, code scans, and policy enforcement to embed security and compliance early in the CI/CD pipeline.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
