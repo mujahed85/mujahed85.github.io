@@ -3409,4 +3409,25 @@
   "description": "Using declarative policy frameworks to enforce security, governance, and compliance automatically during CI/CD.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 94,
+  "title": "Zero Trust Architecture in Multi-Cloud Deployments",
+  "slug": "zero-trust-architecture-multi-cloud",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Zero Trust",
+    "Multi-Cloud",
+    "Cloud Security",
+    "Identity and Access Management",
+    "Microsegmentation",
+    "Cybersecurity",
+    "Hybrid Cloud"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+  "description": "Best practices for implementing zero trust security models spanning multiple cloud providers and hybrid environments.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+
 ]  
