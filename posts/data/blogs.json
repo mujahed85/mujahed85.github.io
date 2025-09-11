@@ -1567,5 +1567,25 @@
   "description": "How serverless container platforms are simplifying cloud native deployments by combining the best of both worlds: serverless ease and container flexibility.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-  
+ {
+  "id": 90,
+  "title": "Graph Neural Networks for Scalable Big Data Analytics",
+  "slug": "graph-neural-networks-scalable-big-data",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Graph Neural Networks",
+    "Big Data",
+    "Deep Learning",
+    "Scalable Analytics",
+    "Data Science",
+    "Machine Learning",
+    "Graph Processing",
+    "Distributed Computing"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+  "description": "Delve into graph neural networks (GNNs) and their role in processing and extracting insights from large-scale graph-structured big data.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
