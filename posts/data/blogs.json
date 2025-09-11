@@ -1589,7 +1589,7 @@
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
   {
-  "id": 90,
+  "id": 91,
   "title": "AI-Driven Cloud Security & Threat Detection",
   "slug": "ai-driven-cloud-security-threat-detection",
   "author": "Mujahid Hussaini",
@@ -1605,6 +1605,25 @@
   "readingTime": "7 min read",
   "image": "https://cdn.pixabay.com/photo/2018/05/08/08/55/artificial-intelligence-3382507_1280.jpg",
   "description": "Exploring how AI, machine learning, and natural language processing are revolutionizing cloud security through anomaly detection, behavior-based threat modeling, and automated incident escalation.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 92,
+  "title": "Federated Learning and Privacy-Preserving ML in Production",
+  "slug": "federated-learning-privacy-preserving-ml-in-production",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Federated Learning",
+    "Privacy-Preserving ML",
+    "Data Security",
+    "Machine Learning",
+    "Model Aggregation",
+    "Edge Computing"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/05/13/07/56/artificial-intelligence-5167079_1280.jpg",
+  "description": "An exploration of how federated learning and privacy-preserving machine learning enable organizations to handle regulation, protect data locality, and aggregate models without sharing raw data.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
 
