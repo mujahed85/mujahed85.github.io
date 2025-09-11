@@ -1588,4 +1588,24 @@
   "description": "Delve into graph neural networks (GNNs) and their role in processing and extracting insights from large-scale graph-structured big data.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+  {
+  "id": 90,
+  "title": "AI-Driven Cloud Security & Threat Detection",
+  "slug": "ai-driven-cloud-security-threat-detection",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "AI Security",
+    "Cloud Security",
+    "Threat Detection",
+    "Machine Learning",
+    "NLP",
+    "Cybersecurity"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/05/08/08/55/artificial-intelligence-3382507_1280.jpg",
+  "description": "Exploring how AI, machine learning, and natural language processing are revolutionizing cloud security through anomaly detection, behavior-based threat modeling, and automated incident escalation.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+
 ]  
