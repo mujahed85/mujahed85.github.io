@@ -3602,5 +3602,25 @@
   "image": "https://cdn.pixabay.com/photo/2019/06/04/10/11/cloud-4257762_1280.jpg",
   "description": "A guide to FinOps strategies for managing cloud costs through rightsizing, spotting idle resources, automating budgets, and balancing performance versus expense.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-}
+},
+{
+  "id": 108,
+  "title": "Google's Free Data Transfer Service in the EU & UK",
+  "slug": "google-free-data-transfer-eu-uk",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Google Cloud",
+    "Data Transfer",
+    "EU Cloud Market",
+    "UK Cloud Market",
+    "Multi-Cloud",
+    "Cloud Strategy"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/03/01/20/56/cloud-computing-3196326_1280.jpg",
+  "description": "Analyzing Google's decision to eliminate intra-region data transfer fees in the EU and UK, promoting multi-cloud adoption, cost efficiency, and enhanced competition in the cloud market.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+
 ]  
