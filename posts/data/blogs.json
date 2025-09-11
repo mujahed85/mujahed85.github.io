@@ -1443,4 +1443,25 @@
   "description": "Explore how GreenOps integrates sustainability into DevOps, balancing performance and cost with environmental impact. Learn actionable practices to reduce your cloud carbon footprint.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+  {
+  "id": 83,
+  "title": "AIOps & Autonomic Cloud Operations: How Large Language Models and Agents are Enabling Autonomous Incident Management, Anomaly Detection, and Self-Healing Infrastructure",
+  "slug": "aiops-autonomic-cloud-operations-llms-agents",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "AIOps",
+    "Autonomic Cloud Operations",
+    "Large Language Models",
+    "AI Agents",
+    "Incident Management",
+    "Anomaly Detection",
+    "Self-Healing Infrastructure",
+    "Cloud Engineering"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://miro.medium.com/v2/resize:fit:1200/format:webp/1*fTT5S7DDDeYbeGZRXoH0xw.png",
+  "description": "Exploring how AIOps, powered by large language models and intelligent agents, is transforming cloud operations through autonomous incident management, anomaly detection, and self-healing infrastructure.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
