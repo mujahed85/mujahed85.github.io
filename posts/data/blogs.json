@@ -3488,5 +3488,23 @@
   "description": "Exploring self-tuning data structures that adjust indexing and caching based on streaming workload patterns.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-  
+{
+  "id": 102,
+  "title": "Neuro-Symbolic AI: Combining Neural Networks with Symbolic Reasoning",
+  "slug": "neuro-symbolic-ai-combining-neural-networks-symbolic-reasoning",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Neuro-Symbolic AI",
+    "Deep Learning",
+    "Symbolic Reasoning",
+    "Explainability",
+    "AI Research",
+    "Generalization"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1581090700227-1e8f9c50dca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+  "description": "Bridging deep learning with logic-based AI for explainability and better generalization.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
