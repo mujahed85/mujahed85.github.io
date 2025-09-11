@@ -1386,5 +1386,24 @@
   "description": "The growing problem of too many disconnected DevOps tools — and how platform engineering is helping unify workflows, reduce friction, and boost developer experience.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 81,
+  "title": "How Kubernetes is Revolutionizing DevOps Pipelines",
+  "slug": "how-kubernetes-is-revolutionizing-devops-pipelines",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Kubernetes",
+    "DevOps",
+    "CI/CD",
+    "Automation",
+    "Microservices",
+    "DevSecOps"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
+  "description": "Exploring how Kubernetes transforms DevOps pipelines through automation, scalability, and enhanced collaboration between development and operations teams.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]  
