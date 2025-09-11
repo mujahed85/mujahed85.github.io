@@ -3449,4 +3449,24 @@
   "description": "Techniques and tools for orchestrating edge nodes alongside centralized cloud environments for ultra-low latency apps.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 100,
+  "title": "Adaptive Data Structures for Real-Time Streaming Analytics",
+  "slug": "adaptive-data-structures-real-time-streaming-analytics",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-11",
+  "tags": [
+    "Adaptive Data Structures",
+    "Streaming Analytics",
+    "Real-Time Data",
+    "Indexing",
+    "Caching",
+    "Machine Learning",
+    "Data Engineering"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+  "description": "Exploring self-tuning data structures that adjust indexing and caching based on streaming workload patterns.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 ]  
