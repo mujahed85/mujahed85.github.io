@@ -1683,23 +1683,6 @@
   "description": "Exploring how Green DevOps integrates eco-efficient CI/CD pipelines, carbon footprint tracking, and sustainable cloud infrastructure design for a climate-conscious technology approach.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-  [
-  {
-    "id": 1,
-    "title": "DevOps – Bridging Development & Operations for Agile Success",
-    "slug": "devops",
-    "author": "Mujahid Hussaini",
-    "date": "2025-07-11",
-    "tags": [
-      "DevOps",
-      "CI/CD",
-      "Automation",
-      "Cloud"
-    ],
-    "readingTime": "8 min read",
-    "image": "assets/img/icons/dev(fsd).png",
-    "description": "Discover how DevOps aligns teams to streamline delivery, automate workflows, and improve collaboration for agile success."
-  },
   {
     "id": 2,
     "title": "Learning Cloud Computing",
@@ -3657,8 +3640,7 @@
   ],
   "readingTime": "8 min read",
   "image": "https://cdn.pixabay.com/photo/2019/12/12/21/41/artificial-intelligence-4688726_1280.jpg",
-  "description": "Exploring how agentic AI tools like AWS Transform are revolutionizing cloud migration by automating workload discovery, dependency mapping, and reducing migration timelines from months to days.",
-  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
-},
-
-]  
+"description": "Exploring how agentic AI tools like AWS Transform are revolutionizing cloud migration by automating workload discovery, dependency mapping, and reducing migration timelines from months to days.",
+"spacing": "increase vertical spacing between paragraphs and sections for better readability
+}
+]
