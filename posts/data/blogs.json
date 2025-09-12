@@ -3933,5 +3933,24 @@
   "description": "An exploration of how Kafka, Flink, and Snowflake work together to build scalable, real-time data pipelines that enable advanced stream processing and analytics for modern enterprises.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 125,
+  "title": "Real-Time Analytics with Apache Iceberg, Delta Lake, and Hudi",
+  "slug": "real-time-analytics-iceberg-delta-hudi",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-12",
+  "tags": [
+    "Real-Time Analytics",
+    "Apache Iceberg",
+    "Delta Lake",
+    "Apache Hudi",
+    "Data Lakehouse",
+    "Streaming Data"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/03/08/21/29/analytics-3204065_1280.jpg",
+  "description": "An in-depth look at how Apache Iceberg, Delta Lake, and Apache Hudi are enabling real-time analytics through modern data lakehouse architectures that combine reliability, scalability, and speed.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]
