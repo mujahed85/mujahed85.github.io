@@ -3914,5 +3914,24 @@
   "description": "Exploring how TinyML and Edge AI are enabling machine learning on low-power devices, prioritizing privacy, low latency, and sustainability while bringing intelligence to the network edge.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
+{
+  "id": 124,
+  "title": "Streaming Data Pipelines with Kafka + Flink + Snowflake",
+  "slug": "streaming-data-pipelines-kafka-flink-snowflake",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-12",
+  "tags": [
+    "Streaming Data",
+    "Apache Kafka",
+    "Apache Flink",
+    "Snowflake",
+    "Real-Time Analytics",
+    "Data Pipelines"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/analysis-1837299_1280.jpg",
+  "description": "An exploration of how Kafka, Flink, and Snowflake work together to build scalable, real-time data pipelines that enable advanced stream processing and analytics for modern enterprises.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
 
 ]
