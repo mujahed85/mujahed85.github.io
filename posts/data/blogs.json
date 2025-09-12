@@ -3971,5 +3971,24 @@
   "description": "An in-depth comparison of Lakehouse Architecture and Data Mesh, analyzing which approach is gaining traction in 2025 and how hybrid models are evolving.",
   "spacing": "increase vertical spacing between sections and highlight comparison tables for clarity"
 },
+{
+  "id": 127,
+  "title": "Serverless 2.0: Beyond FaaS to Event-Driven Cloud Architectures",
+  "slug": "serverless-2-beyond-faas-event-driven-cloud-architectures",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-12",
+  "tags": [
+    "Serverless",
+    "Event-Driven",
+    "Cloud Architecture",
+    "FaaS",
+    "Kubernetes",
+    "Cloud-Native"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2021/03/11/18/24/cloud-computing-6087682_1280.png",
+  "description": "Exploring the evolution of serverless computing beyond FaaS, focusing on event-driven cloud architectures, real-time workflows, and the future of cloud-native development.",
+  "spacing": "increase vertical spacing between paragraphs for clarity and smooth readability"
+},
 
 ]
