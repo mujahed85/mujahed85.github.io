@@ -4009,5 +4009,24 @@
   "description": "An exploration of how vector databases are powering semantic search, personalization, and retrieval-augmented generation in the era of generative AI.",
   "spacing": "increase vertical spacing between paragraphs for readability and flow"
 },
+{
+  "id": 129,
+  "title": "Chaos Engineering 2.0: Testing Resilience in Multi-Cloud Environments",
+  "slug": "chaos-engineering-2-multi-cloud-resilience",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-12",
+  "tags": [
+    "Chaos Engineering",
+    "Multi-Cloud",
+    "Resilience Testing",
+    "Cloud Reliability",
+    "CI/CD",
+    "Observability"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2016/11/29/08/43/clouds-1869740_1280.jpg",
+  "description": "Exploring the evolution of chaos engineering into multi-cloud environments, focusing on resilience testing, automation, and compliance in distributed architectures.",
+  "spacing": "increase vertical spacing between paragraphs for readability and emphasis"
+},
 
 ]
