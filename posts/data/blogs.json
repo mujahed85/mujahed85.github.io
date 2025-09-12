@@ -3876,5 +3876,24 @@
   "description": "A detailed comparison of RAG and fine-tuning approaches in 2025, highlighting their best practices, strengths, limitations, and when to use each—or both together—for building future-proof AI systems.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 },
-  
+  {
+  "id": 122,
+  "title": "Multi-Modal AI Systems (Text, Image, Video, Speech) for Enterprise Applications",
+  "slug": "multi-modal-ai-enterprise-applications",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-12",
+  "tags": [
+    "Multi-Modal AI",
+    "Enterprise AI",
+    "Generative AI",
+    "AI Applications",
+    "AI in 2025",
+    "Transformer Models"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/03/20/08/28/ai-7861719_1280.jpg",
+  "description": "An exploration of how multi-modal AI systems that combine text, image, video, and speech are transforming enterprise applications by enabling richer insights, streamlined workflows, and adaptive, human-centric solutions.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+
 ]
