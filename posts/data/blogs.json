@@ -3990,5 +3990,24 @@
   "description": "Exploring the evolution of serverless computing beyond FaaS, focusing on event-driven cloud architectures, real-time workflows, and the future of cloud-native development.",
   "spacing": "increase vertical spacing between paragraphs for clarity and smooth readability"
 },
+{
+  "id": 128,
+  "title": "The Role of Vector Databases in the Age of Generative AI",
+  "slug": "role-of-vector-databases-in-generative-ai",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-12",
+  "tags": [
+    "Vector Databases",
+    "Generative AI",
+    "Embeddings",
+    "Semantic Search",
+    "RAG",
+    "AI Infrastructure"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/06/13/08/40/artificial-intelligence-8060289_1280.jpg",
+  "description": "An exploration of how vector databases are powering semantic search, personalization, and retrieval-augmented generation in the era of generative AI.",
+  "spacing": "increase vertical spacing between paragraphs for readability and flow"
+},
 
 ]
