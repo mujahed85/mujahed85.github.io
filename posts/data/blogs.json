@@ -4294,5 +4294,24 @@
   "description": "Exploring the applications, challenges, and growth areas of graph databases and knowledge graphs, and how they are reshaping industries by unlocking insights from connected data.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 144,
+  "title": "Federated Learning & Privacy-Preserving ML: Balancing Utility & Data Privacy",
+  "slug": "federated-learning-privacy-preserving-ml-balancing-utility-data-privacy",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Federated Learning",
+    "Privacy-Preserving ML",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Privacy",
+    "AI Ethics"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/08/01/00/23/artificial-intelligence-2568350_1280.jpg",
+  "description": "An exploration of federated learning and privacy-preserving ML, examining how they enable organizations to build powerful AI systems while protecting sensitive data and complying with privacy regulations.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
