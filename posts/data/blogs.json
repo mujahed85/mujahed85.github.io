@@ -4408,5 +4408,25 @@
   "image": "https://cdn.pixabay.com/photo/2019/06/20/10/32/artificial-intelligence-4283331_1280.jpg",
   "description": "An exploration of TinyML and on-device machine learning, discussing the opportunities and constraints of running ML models on microcontrollers and low-power IoT devices.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
-}
+},
+  {
+  "id": 150,
+  "title": "Synthetic Data Generation: Overcoming Data Scarcity and Bias",
+  "slug": "synthetic-data-generation-overcoming-data-scarcity-and-bias",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Synthetic Data",
+    "Machine Learning",
+    "AI Ethics",
+    "Data Scarcity",
+    "Bias Mitigation",
+    "Generative AI"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2021/04/15/18/33/artificial-intelligence-6174031_1280.jpg",
+  "description": "An exploration of synthetic data generation, highlighting how artificial datasets help overcome data scarcity, reduce bias, and enable safe experimentation in AI and machine learning.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  
 ]
