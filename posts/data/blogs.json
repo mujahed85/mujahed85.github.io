@@ -4104,5 +4104,24 @@
   "description": "Exploring how AIOps leverages machine learning to accelerate incident response, reduce downtime, and bring intelligence to modern DevOps operations.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 134,
+  "title": "Platform Engineering & Internal Developer Platforms (IDPs): Building Self-Service DevOps Tools",
+  "slug": "platform-engineering-internal-developer-platforms-idps-self-service-devops-tools",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Platform Engineering",
+    "Internal Developer Platforms",
+    "IDP",
+    "DevOps",
+    "Developer Experience",
+    "Automation"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2015/01/08/18/25/startup-593324_1280.jpg",
+  "description": "An exploration of how platform engineering and Internal Developer Platforms (IDPs) are transforming DevOps by enabling self-service, improving governance, and enhancing developer experience.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
