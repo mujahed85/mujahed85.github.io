@@ -4237,5 +4237,24 @@
   "description": "Exploring how low-code and no-code platforms are democratizing DevOps, enabling non-engineers to contribute to automation, deployments, and collaboration in modern software delivery.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 141,
+  "title": "Scalable Big Data Architecture: From Data Lakes to Lakehouses",
+  "slug": "scalable-big-data-architecture-from-data-lakes-to-lakehouses",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Big Data",
+    "Data Lakes",
+    "Lakehouses",
+    "Data Architecture",
+    "Cloud Data",
+    "Analytics"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg",
+  "description": "An exploration of scalable big data architectures, tracing the evolution from data lakes to lakehouses and how organizations are bridging flexibility with governance, performance, and reliability.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
