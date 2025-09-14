@@ -4066,5 +4066,24 @@
   "description": "Exploring the emergence of Internal Developer Platforms (IDPs) in large enterprises, focusing on improving developer experience, self-service, and governance for scalable software delivery.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 132,
+  "title": "Integrating DevSecOps: Security Automation from Code to Deployment",
+  "slug": "integrating-devsecops-security-automation-code-to-deployment",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "DevSecOps",
+    "Security Automation",
+    "Continuous Integration",
+    "Continuous Deployment",
+    "Software Security",
+    "DevOps"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/06/25/09/34/cyber-security-5331894_1280.jpg",
+  "description": "A deep dive into how DevSecOps integrates security automation across the entire software development lifecycle, ensuring protection from code to deployment without slowing down delivery.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
