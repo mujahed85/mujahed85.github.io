@@ -4218,5 +4218,24 @@
   "description": "Exploring how Infrastructure as Code (IaC) and Policy as Code work together to automate compliance, enforce governance, and align agility with security in cloud-native DevOps practices.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 140,
+  "title": "Low-Code / No-Code DevOps: Democratizing DevOps for Non-Engineers",
+  "slug": "low-code-no-code-devops-democratizing-devops-for-non-engineers",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Low-Code",
+    "No-Code",
+    "DevOps",
+    "Automation",
+    "Developer Experience",
+    "Collaboration"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://cdn.pixabay.com/photo/2015/05/31/10/55/technology-791029_1280.jpg",
+  "description": "Exploring how low-code and no-code platforms are democratizing DevOps, enabling non-engineers to contribute to automation, deployments, and collaboration in modern software delivery.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
