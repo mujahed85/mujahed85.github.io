@@ -4123,5 +4123,24 @@
   "description": "An exploration of how platform engineering and Internal Developer Platforms (IDPs) are transforming DevOps by enabling self-service, improving governance, and enhancing developer experience.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 135,
+  "title": "Serverless and Event-Driven Architectures in Cloud Native Environments",
+  "slug": "serverless-event-driven-architectures-cloud-native-environments",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Serverless",
+    "Event-Driven Architectures",
+    "Cloud Native",
+    "Scalability",
+    "DevOps",
+    "Modern Applications"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/01/18/17/14/cloud-1989656_1280.jpg",
+  "description": "An in-depth look at how serverless computing and event-driven architectures are shaping cloud native environments, enabling scalability, efficiency, and real-time responsiveness.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
