@@ -4199,5 +4199,24 @@
   "description": "A deep dive into FinOps as a framework for managing cloud costs while enabling innovation, aligning finance and engineering teams to drive accountability and efficiency in cloud operations.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 139,
+  "title": "Infrastructure as Code (IaC) + Policy as Code: Automating Compliance",
+  "slug": "infrastructure-as-code-iac-policy-as-code-automating-compliance",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Infrastructure as Code",
+    "Policy as Code",
+    "Compliance Automation",
+    "Cloud Governance",
+    "DevOps",
+    "Cloud Security"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/08/10/08/59/computer-2617662_1280.jpg",
+  "description": "Exploring how Infrastructure as Code (IaC) and Policy as Code work together to automate compliance, enforce governance, and align agility with security in cloud-native DevOps practices.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
