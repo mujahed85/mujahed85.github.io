@@ -4352,5 +4352,24 @@
   "description": "Exploring multimodal AI systems that combine text, images, audio, and more, highlighting their applications, benefits, technical challenges, and potential for richer, more contextual intelligence.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 147,
+  "title": "Diffusion Models, GANs, and the Next Wave of Generative AI",
+  "slug": "diffusion-models-gans-and-the-next-wave-of-generative-ai",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Generative AI",
+    "GANs",
+    "Diffusion Models",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/02/07/09/39/artificial-intelligence-7777330_1280.jpg",
+  "description": "Exploring the latest in generative AI, including GANs and diffusion models, their differences, applications, and the ethical considerations shaping the next wave of AI-generated content.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
