@@ -4047,5 +4047,24 @@
   "description": "Exploring the emergence of Internal Developer Platforms (IDPs) in large enterprises, focusing on improving developer experience, self-service, and governance for scalable software delivery.",
   "spacing": "increase vertical spacing between paragraphs for readability and flow"
 },
-
+{
+  "id": 131,
+  "title": "The Rise of Internal Developer Platforms (IDPs) in Large Enterprises",
+  "slug": "rise-of-internal-developer-platforms-idps-enterprises",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-12",
+  "tags": [
+    "Internal Developer Platforms",
+    "IDP",
+    "Platform Engineering",
+    "Enterprise Software",
+    "Developer Experience",
+    "DevOps"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/laptop-1839876_1280.jpg",
+  "description": "Exploring the emergence of Internal Developer Platforms (IDPs) in large enterprises, focusing on improving developer experience, self-service, and governance for scalable software delivery.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  
 ]
