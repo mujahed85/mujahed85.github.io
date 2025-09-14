@@ -4390,5 +4390,23 @@
   "description": "A comprehensive look at MLOps, covering tracking the ML model lifecycle, monitoring, versioning, and deployment to ensure reliability, reproducibility, and business alignment in AI initiatives.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
-  
+  {
+  "id": 149,
+  "title": "TinyML & On‑Device Machine Learning: Opportunities & Constraints",
+  "slug": "tinymL-on-device-machine-learning-opportunities-constraints",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "TinyML",
+    "On-Device Machine Learning",
+    "Edge Computing",
+    "IoT",
+    "Machine Learning",
+    "Low-Power AI"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2019/06/20/10/32/artificial-intelligence-4283331_1280.jpg",
+  "description": "An exploration of TinyML and on-device machine learning, discussing the opportunities and constraints of running ML models on microcontrollers and low-power IoT devices.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+}
 ]
