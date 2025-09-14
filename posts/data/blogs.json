@@ -4332,5 +4332,25 @@
   "description": "A deep dive into explainable AI (XAI), exploring techniques, tools, and ethical considerations that ensure transparency, trust, and accountability in AI systems deployed in production.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 146,
+  "title": "Multimodal AI Systems: Combining Text, Image, Audio, and More",
+  "slug": "multimodal-ai-systems-combining-text-image-audio-and-more",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Multimodal AI",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "NLP",
+    "Audio Processing"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/01/22/07/04/artificial-intelligence-7737161_1280.jpg",
+  "description": "Exploring multimodal AI systems that combine text, images, audio, and more, highlighting their applications, benefits, technical challenges, and potential for richer, more contextual intelligence.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
