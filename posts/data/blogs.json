@@ -4256,5 +4256,24 @@
   "description": "An exploration of scalable big data architectures, tracing the evolution from data lakes to lakehouses and how organizations are bridging flexibility with governance, performance, and reliability.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 142,
+  "title": "Streaming Data Pipelines: Kafka, Flink, Pulsar – What’s Right When?",
+  "slug": "streaming-data-pipelines-kafka-flink-pulsar-whats-right-when",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Streaming Data",
+    "Apache Kafka",
+    "Apache Flink",
+    "Apache Pulsar",
+    "Data Pipelines",
+    "Real-Time Analytics"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/03/01/09/25/big-data-3192204_1280.jpg",
+  "description": "A comparison of streaming data technologies Kafka, Flink, and Pulsar, exploring their strengths, trade-offs, and the scenarios where each is best suited for building real-time data pipelines.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
