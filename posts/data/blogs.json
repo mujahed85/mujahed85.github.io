@@ -4313,5 +4313,24 @@
   "description": "An exploration of federated learning and privacy-preserving ML, examining how they enable organizations to build powerful AI systems while protecting sensitive data and complying with privacy regulations.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 145,
+  "title": "Explainable AI (XAI) in Production: Techniques, Tools, and Ethics",
+  "slug": "explainable-ai-xai-in-production-techniques-tools-ethics",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "Explainable AI",
+    "XAI",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "AI Ethics",
+    "MLOps"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2019/12/17/20/15/artificial-intelligence-4706463_1280.jpg",
+  "description": "A deep dive into explainable AI (XAI), exploring techniques, tools, and ethical considerations that ensure transparency, trust, and accountability in AI systems deployed in production.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
