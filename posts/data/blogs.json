@@ -4789,5 +4789,25 @@
   "image": "https://cdn.pixabay.com/photo/2018/03/01/14/54/explosion-3195853_1280.jpg",
   "description": "An exploration of chaos engineering as a method to build resilience by introducing controlled failures, testing system behavior, and measuring robustness in distributed environments.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
-}
+},
+  {
+  "id": 170,
+  "title": "Low-Code / No-Code in DevOps: Bringing Automation and Pipeline Construction to Non-Experts; Democratization",
+  "slug": "low-code-no-code-devops-automation-pipeline-construction-non-experts-democratization",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Low-Code",
+    "No-Code",
+    "DevOps",
+    "Automation",
+    "CI/CD",
+    "Democratization"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/08/30/01/05/technology-2694259_1280.jpg",
+  "description": "An exploration of how low-code and no-code platforms are democratizing DevOps by enabling non-experts to build automation and pipelines, bridging the gap between technical and business teams.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  
 ]
