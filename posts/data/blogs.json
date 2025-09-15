@@ -4522,5 +4522,24 @@
   "image": "https://www.cdotrends.com/sites/default/files/styles/article_featured_retina/public/2023-03/data%20sovereignty.jpg",
   "description": "A deep dive into the complexities of data residency in the cloud era, exploring regulatory challenges, cross-border data flows, compliance requirements, and how businesses can adapt to global digital regulations.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  {
+  "id": 156,
+  "title": "Generative AI for Cloud Migration: Smarter Workload Assessment",
+  "slug": "generative-ai-for-cloud-migration-smarter-workload-assessment",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Generative AI",
+    "Cloud Migration",
+    "Workload Assessment",
+    "Automation",
+    "Multi-Cloud",
+    "Digital Transformation"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://www.analyticsinsight.net/wp-content/uploads/2023/07/AI-in-Cloud-Migration.jpg",
+  "description": "Exploring how generative AI transforms cloud migration by enabling smarter workload assessment, automating classification, forecasting costs, and optimizing placement across hybrid and multi-cloud environments.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 ]
