@@ -4846,6 +4846,24 @@
   "image": "https://miro.medium.com/v2/resize:fit:1200/1*QKq6bZ8q_Rj0d7Odt6Gf3Q.png",
   "description": "An exploration of Neural-Symbolic AI, highlighting how combining deep learning with symbolic reasoning enables AI systems that can learn from data, reason over knowledge, and provide explainable insights.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 73,
+  "title": "AI-Powered Cybersecurity: LLMs as Attackers and Defenders",
+  "slug": "ai-powered-cybersecurity-llms-as-attackers-and-defenders",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "AI Cybersecurity",
+    "LLMs",
+    "Threat Detection",
+    "Adversarial AI",
+    "Incident Response",
+    "Cyber Defense"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2022/08/11/17/25/cyber-security-7388711_1280.jpg",
+  "description": "An exploration of how large language models (LLMs) are transforming cybersecurity by acting as both defenders and potential attackers, highlighting AI-driven threat detection, incident response, and adversarial risks.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
-
 ]
