@@ -4827,6 +4827,25 @@
   "image": "https://miro.medium.com/v2/resize:fit:1200/1*1xKq7Cj0RkBvRjZJ6jG3wg.png",
   "description": "An exploration of Federated Learning 2.0, highlighting how it enables privacy-preserving AI at scale by training models across decentralized datasets while maintaining compliance, security, and performance.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 72,
+  "title": "Neural-Symbolic AI: Combining Reasoning with Deep Learning",
+  "slug": "neural-symbolic-ai-combining-reasoning-with-deep-learning",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Neural-Symbolic AI",
+    "Deep Learning",
+    "Symbolic AI",
+    "Explainable AI",
+    "Knowledge Representation",
+    "AI Reasoning"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://miro.medium.com/v2/resize:fit:1200/1*QKq6bZ8q_Rj0d7Odt6Gf3Q.png",
+  "description": "An exploration of Neural-Symbolic AI, highlighting how combining deep learning with symbolic reasoning enables AI systems that can learn from data, reason over knowledge, and provide explainable insights.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 
 ]
