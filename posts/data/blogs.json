@@ -4752,5 +4752,24 @@
   "description": "Exploring how serverless, edge computing, and event-driven architectures converge to enable near-user deployments, reduce cold starts, and optimize cost and latency in cloud-native applications.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+  {
+  "id": 168,
+  "title": "FinOps / Cloud Cost Optimization: Controlling Cloud Spend, Rightsizing, Forecasting Costs, Tagging, Avoiding Cloud Waste",
+  "slug": "finops-cloud-cost-optimization-controlling-spend-rightsizing-forecasting-tagging-avoiding-waste",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "FinOps",
+    "Cloud Cost Optimization",
+    "Cloud Governance",
+    "Cost Forecasting",
+    "Rightsizing",
+    "Cloud Waste"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/01/10/03/54/money-1966553_1280.jpg",
+  "description": "A practical exploration of FinOps and cloud cost optimization strategies, covering rightsizing, forecasting, tagging, and avoiding waste while maintaining innovation in cloud environments.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
