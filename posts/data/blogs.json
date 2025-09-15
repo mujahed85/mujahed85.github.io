@@ -4618,5 +4618,24 @@
   "description": "An in-depth exploration of autonomous AI agents, highlighting their evolution from research to enterprise applications, their impact on automation, decision-making, and the challenges of governance and ethical deployment.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
-
+{
+  "id": 161,
+  "title": "Merging DevOps and MLOps: Building a Unified Software + ML Supply Chain",
+  "slug": "merging-devops-mlops-unified-software-ml-supply-chain",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-14",
+  "tags": [
+    "DevOps",
+    "MLOps",
+    "Software Supply Chain",
+    "Machine Learning",
+    "Continuous Delivery",
+    "AI in Production"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/06/29/11/48/devops-2453892_1280.jpg",
+  "description": "An exploration of how merging DevOps and MLOps creates a unified software and ML supply chain, enabling consistency, reliability, and agility for AI-driven applications.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  
 ]
