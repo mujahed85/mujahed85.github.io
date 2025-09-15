@@ -4503,6 +4503,24 @@
   "image": "https://miro.medium.com/v2/resize:fit:1200/1*qYrW1JxO3F0cvFZtFZ1HBg.png",
   "description": "An exploration of how shift-left testing powered by generative AI accelerates release cycles, enhances test coverage, reduces human error, and transforms testing into a proactive enabler of high-quality software delivery.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 155,
+  "title": "Data Residency Challenges in the Era of Global Cloud Regulations",
+  "slug": "data-residency-challenges-in-the-era-of-global-cloud-regulations",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Data Residency",
+    "Cloud Regulations",
+    "Data Sovereignty",
+    "GDPR",
+    "Compliance",
+    "Multi-Cloud"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://www.cdotrends.com/sites/default/files/styles/article_featured_retina/public/2023-03/data%20sovereignty.jpg",
+  "description": "A deep dive into the complexities of data residency in the cloud era, exploring regulatory challenges, cross-border data flows, compliance requirements, and how businesses can adapt to global digital regulations.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
-
 ]
