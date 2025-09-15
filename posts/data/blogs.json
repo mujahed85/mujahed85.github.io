@@ -4560,6 +4560,25 @@
   "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2D4g5MiNmiRC6kAMPxQ7og.png",
   "description": "An exploration of how data contracts bring reliability and accountability to modern data engineering pipelines, solving issues like schema drift, unclear ownership, and poor data quality while fostering trust across teams.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 158,
+  "title": "LLMOps Meets Big Data: Running Generative AI on Terabytes of Data",
+  "slug": "llmops-meets-big-data-running-generative-ai-on-terabytes-of-data",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "LLMOps",
+    "Big Data",
+    "Generative AI",
+    "MLOps",
+    "AI at Scale",
+    "Data Engineering"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2023/07/LLMOps.jpg",
+  "description": "An in-depth exploration of how LLMOps enables enterprises to run generative AI models on terabytes of data, integrating Big Data pipelines, governance, cost optimization, and scalable AI operations.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 
 ]
