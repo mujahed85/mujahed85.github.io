@@ -4484,5 +4484,25 @@
   "image": "https://miro.medium.com/v2/resize:fit:1200/1*9zM90_XzGyF_Qp3XJZOwVg.png",
   "description": "An exploration of how MLOps bridges the gap between DevOps and AI development by standardizing machine learning workflows, enabling reliable deployment, and fostering collaboration between data science and operations.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  {
+  "id": 154,
+  "title": "Shift-Left Testing with Generative AI for Faster Releases",
+  "slug": "shift-left-testing-with-generative-ai-for-faster-releases",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Shift-Left Testing",
+    "Generative AI",
+    "Quality Assurance",
+    "DevOps",
+    "Continuous Testing",
+    "Faster Releases"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://miro.medium.com/v2/resize:fit:1200/1*qYrW1JxO3F0cvFZtFZ1HBg.png",
+  "description": "An exploration of how shift-left testing powered by generative AI accelerates release cycles, enhances test coverage, reduces human error, and transforms testing into a proactive enabler of high-quality software delivery.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
+
 ]
