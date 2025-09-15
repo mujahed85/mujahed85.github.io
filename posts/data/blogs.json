@@ -4771,5 +4771,23 @@
   "description": "A practical exploration of FinOps and cloud cost optimization strategies, covering rightsizing, forecasting, tagging, and avoiding waste while maintaining innovation in cloud environments.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
-  
+  {
+  "id": 169,
+  "title": "Chaos Engineering: How to Build Resilience by Intentionally Introducing Failures; Measuring System Robustness",
+  "slug": "chaos-engineering-building-resilience-introducing-failures-measuring-robustness",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Chaos Engineering",
+    "Resilience",
+    "System Robustness",
+    "Site Reliability Engineering",
+    "DevOps",
+    "Distributed Systems"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/03/01/14/54/explosion-3195853_1280.jpg",
+  "description": "An exploration of chaos engineering as a method to build resilience by introducing controlled failures, testing system behavior, and measuring robustness in distributed environments.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+}
 ]
