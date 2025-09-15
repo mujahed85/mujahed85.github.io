@@ -4732,5 +4732,25 @@
   "image": "https://cdn.pixabay.com/photo/2018/01/23/06/30/network-3108384_1280.jpg",
   "description": "Exploring observability and full-stack monitoring in microservices architectures, covering tracing, metrics, logs, and the importance of end-to-end observability for modern systems.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
-}
+},
+  {
+  "id": 167,
+  "title": "Serverless + Edge Computing + Event-Driven Architectures: Deploying Near the User, Minimizing Cold Starts, Managing Cost and Latency",
+  "slug": "serverless-edge-computing-event-driven-architectures-deploying-near-user",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Serverless",
+    "Edge Computing",
+    "Event-Driven Architectures",
+    "Cloud Native",
+    "Latency",
+    "Cost Optimization"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/05/07/07/52/cloud-3382507_1280.jpg",
+  "description": "Exploring how serverless, edge computing, and event-driven architectures converge to enable near-user deployments, reduce cold starts, and optimize cost and latency in cloud-native applications.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  
 ]
