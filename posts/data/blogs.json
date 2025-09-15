@@ -4941,5 +4941,24 @@
   "image": "https://cdn.pixabay.com/photo/2023/01/16/08/57/artificial-intelligence-7711384_1280.jpg",
   "description": "An exploration of how generative AI is transforming data engineering roles by automating repetitive tasks, enhancing data quality, and enabling faster and more efficient data pipeline development.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  {
+  "id": 78,
+  "title": "Self-Optimizing Cloud Infrastructure with Reinforcement Learning",
+  "slug": "self-optimizing-cloud-infrastructure-with-reinforcement-learning",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Reinforcement Learning",
+    "Cloud Infrastructure",
+    "Autonomous Systems",
+    "Resource Optimization",
+    "AI in Cloud",
+    "Intelligent Infrastructure"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2021/06/24/10/50/cloud-6360885_1280.jpg",
+  "description": "An exploration of how reinforcement learning enables self-optimizing cloud infrastructure by dynamically adjusting resources, optimizing workloads, and improving efficiency in autonomous IT environments.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 ]
