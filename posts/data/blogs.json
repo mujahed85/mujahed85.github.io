@@ -4656,5 +4656,23 @@
   "description": "An in-depth look at how AIOps leverages AI to predict failures, automate root cause analysis, and optimize CI/CD pipelines for faster, more reliable software delivery.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
-  
+  {
+  "id": 163,
+  "title": "Platform Engineering & Internal Developer Platforms (IDPs): Designing Self-Service Platforms to Boost Dev Productivity",
+  "slug": "platform-engineering-internal-developer-platforms-idps-designing-self-service-platforms",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Platform Engineering",
+    "Internal Developer Platforms",
+    "IDP",
+    "DevOps",
+    "Developer Experience",
+    "Self-Service"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/06/29/01/11/developer-2457295_1280.jpg",
+  "description": "Exploring how platform engineering and Internal Developer Platforms (IDPs) enable self-service, reduce complexity, and boost developer productivity in modern organizations.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+}
 ]
