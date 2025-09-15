@@ -4465,5 +4465,24 @@
   "image": "https://cdn.pixabay.com/photo/2017/08/06/10/44/artificial-intelligence-2598667_1280.jpg",
   "description": "An exploration of how Site Reliability Engineering is evolving in the era of autonomous operations, where AI-driven automation, predictive analytics, and self-healing systems redefine reliability, resilience, and the role of the SRE.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  {
+  "id": 153,
+  "title": "The Role of MLOps in Bridging DevOps and AI Development",
+  "slug": "the-role-of-mlops-in-bridging-devops-and-ai-development",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "MLOps",
+    "DevOps",
+    "AI Development",
+    "Machine Learning",
+    "Model Deployment",
+    "CI/CD"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://miro.medium.com/v2/resize:fit:1200/1*9zM90_XzGyF_Qp3XJZOwVg.png",
+  "description": "An exploration of how MLOps bridges the gap between DevOps and AI development by standardizing machine learning workflows, enabling reliable deployment, and fostering collaboration between data science and operations.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 ]
