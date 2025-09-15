@@ -4694,5 +4694,43 @@
   "description": "A deep dive into the evolution of GitOps and Infrastructure as Code, exploring best practices, common tools, and pitfalls to avoid for modern DevOps teams.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
-  
+  {
+  "id": 165,
+  "title": "Security as Code / DevSecOps 2.0: Embedding Security & Compliance from the Start; Automated Policy-Enforcement; Zero Trust Architectures",
+  "slug": "security-as-code-devsecops-2-embedding-security-compliance-automated-policy-zero-trust",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Security as Code",
+    "DevSecOps",
+    "Zero Trust",
+    "Automation",
+    "Compliance",
+    "Policy Enforcement"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2016/12/28/09/36/hacker-1931073_1280.jpg",
+  "description": "An exploration of Security as Code and DevSecOps 2.0, focusing on embedding security from the start, automated policy enforcement, and zero trust architectures for modern software delivery.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  {
+  "id": 166,
+  "title": "Observability & Full-Stack Monitoring in Distributed/Microservices Architectures: Tracing, Metrics, Logs, End-to-End Observability",
+  "slug": "observability-full-stack-monitoring-distributed-microservices-tracing-metrics-logs",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Observability",
+    "Full-Stack Monitoring",
+    "Distributed Systems",
+    "Microservices",
+    "Tracing",
+    "Metrics",
+    "Logs"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/01/23/06/30/network-3108384_1280.jpg",
+  "description": "Exploring observability and full-stack monitoring in microservices architectures, covering tracing, metrics, logs, and the importance of end-to-end observability for modern systems.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+}
 ]
