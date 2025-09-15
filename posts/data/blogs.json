@@ -4922,5 +4922,24 @@
   "image": "https://cdn.pixabay.com/photo/2018/02/01/17/26/cloud-3127167_1280.jpg",
   "description": "An exploration of the convergence of Cloud, AI, and Big Data, highlighting how integrated infrastructure enables scalable, adaptive, and intelligent systems for modern enterprises.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+  {
+  "id": 77,
+  "title": "How Generative AI is Reshaping Data Engineering Roles",
+  "slug": "how-generative-ai-is-reshaping-data-engineering-roles",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Generative AI",
+    "Data Engineering",
+    "ETL Automation",
+    "Data Pipelines",
+    "AI in Enterprise",
+    "Data Architecture"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/01/16/08/57/artificial-intelligence-7711384_1280.jpg",
+  "description": "An exploration of how generative AI is transforming data engineering roles by automating repetitive tasks, enhancing data quality, and enabling faster and more efficient data pipeline development.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 ]
