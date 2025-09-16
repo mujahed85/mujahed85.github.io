@@ -4998,6 +4998,24 @@
   "image": "https://cdn.pixabay.com/photo/2021/05/12/16/44/quantum-6240948_1280.jpg",
   "description": "An exploration of cloud-based quantum computing, highlighting how organizations can prepare for the next wave of innovation through hybrid solutions, workforce training, and strategic experimentation.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 81,
+  "title": "Foundation Models Beyond NLP: Vision, Speech, and Multi-Modal AI",
+  "slug": "foundation-models-beyond-nlp-vision-speech-and-multi-modal-ai",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Foundation Models",
+    "Multi-Modal AI",
+    "Computer Vision",
+    "Speech Recognition",
+    "Generative AI",
+    "AI Research"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/03/15/14/01/artificial-intelligence-7854530_1280.jpg",
+  "description": "An exploration of how foundation models are evolving beyond NLP to power advancements in vision, speech, and multi-modal AI, creating more context-aware and human-like interactions.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
-
 ]
