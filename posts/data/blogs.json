@@ -5052,6 +5052,24 @@
   ],
   "description": "Explores how DataOps and MLOps are converging to build reliable, automated, and scalable pipelines for big data and AI-driven decision-making.",
   "image": "https://cdn.pixabay.com/photo/2018/05/08/08/37/artificial-intelligence-3382507_1280.jpg"
+},
+  {
+  "id": 184,
+  "title": "Generative AI + Cloud Cost Optimization: Smarter Infrastructure Management",
+  "slug": "generative-ai-cloud-cost-optimization-smarter-infrastructure-management",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-16",
+  "tags": [
+    "Generative AI",
+    "Cloud Optimization",
+    "FinOps",
+    "Infrastructure Management",
+    "AI in Cloud"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2023/03/30/11/23/ai-7889399_1280.jpg",
+  "description": "Explores how generative AI is transforming cloud cost optimization by enabling predictive scaling, automated rightsizing, and self-optimizing infrastructure for smarter financial and operational efficiency.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 
 ]
