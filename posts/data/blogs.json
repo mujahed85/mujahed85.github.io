@@ -5146,5 +5146,25 @@
   "description": "Exploring how serverless architecture is reshaping DevOps by removing server management, improving scalability, and delivering benefits for both developers and businesses.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+{
+  "id": 185,
+  "title": "Monitoring and Observability in DevOps: Tools, Practices, and Metrics",
+  "slug": "monitoring-observability-devops-tools-practices-metrics",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Monitoring",
+    "Observability",
+    "DevOps",
+    "Prometheus",
+    "Grafana",
+    "Metrics",
+    "Tracing"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/05/08/08/37/technology-3389904_1280.jpg",
+  "description": "A review of modern monitoring and observability in DevOps, exploring tools like Prometheus and Grafana, best practices, and the importance of metrics in ensuring resilient systems.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
 
 ]
