@@ -5127,5 +5127,24 @@
   "description": "Exploring the growing importance of integrating security into DevOps pipelines and how to adopt practices that balance speed, agility, and resilience.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
-  
+  {
+  "id": 184,
+  "title": "Serverless DevOps: Building Scalable Systems Without Managing Servers",
+  "slug": "serverless-devops-building-scalable-systems-without-managing-servers",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Serverless",
+    "DevOps",
+    "Cloud Computing",
+    "Scalability",
+    "Event-Driven Architecture",
+    "Automation"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/laptop-1839876_1280.jpg",
+  "description": "Exploring how serverless architecture is reshaping DevOps by removing server management, improving scalability, and delivering benefits for both developers and businesses.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+
 ]
