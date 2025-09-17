@@ -5108,5 +5108,24 @@
   "description": "Exploring the evolution of DevOps beyond CI/CD pipelines, highlighting automated infrastructure management, continuous testing, intelligent monitoring, and cultural transformation.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+ {
+  "id": 172,
+  "title": "DevSecOps: Integrating Security into DevOps Practices",
+  "slug": "devsecops-integrating-security-into-devops-practices",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "DevSecOps",
+    "Security",
+    "DevOps",
+    "CI/CD",
+    "Automation",
+    "Compliance"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://cdn.pixabay.com/photo/2021/08/02/08/41/cybersecurity-6514864_1280.jpg",
+  "description": "Exploring the growing importance of integrating security into DevOps pipelines and how to adopt practices that balance speed, agility, and resilience.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
   
 ]
