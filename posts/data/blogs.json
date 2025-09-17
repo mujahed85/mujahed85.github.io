@@ -5346,6 +5346,22 @@
   ],
   "summary": "Exploring how eBPF enables deep observability in microservices by providing kernel-level insights into performance, security, and service communication with minimal overhead.",
   "image": "https://cdn.pixabay.com/photo/2018/05/08/08/42/network-3385076_1280.jpg"
+},
+  {
+  "id": 196,
+  "title": "Zero-Trust DevOps: Integrating Security at Every Pipeline Stage",
+  "slug": "zero-trust-devops-integrating-security-at-every-pipeline-stage",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-16",
+  "tags": [
+    "Zero Trust",
+    "DevOps",
+    "CI/CD Security",
+    "Cloud Security",
+    "Shift-Left Security"
+  ],
+  "summary": "This blog explores how Zero-Trust principles can be integrated into DevOps pipelines, ensuring continuous authentication, least privilege access, and automated security at every stage of development and deployment.",
+  "image": "https://cdn.pixabay.com/photo/2021/03/16/06/51/cyber-security-6093699_1280.jpg"
 }
 
 ]
