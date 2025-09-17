@@ -5410,6 +5410,23 @@
   ],
   "summary": "This blog explores privacy-enhancing data analytics techniques, including homomorphic encryption and differential privacy, enabling secure computations and insights without compromising sensitive information.",
   "image": "https://cdn.pixabay.com/photo/2020/07/10/09/09/privacy-5387733_1280.jpg"
+},
+  {
+  "id": 200,
+  "title": "Green Cloud Engineering: Carbon-Aware Workload Scheduling",
+  "slug": "green-cloud-engineering-carbon-aware-workload-scheduling",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-17",
+  "tags": [
+    "Green Cloud",
+    "Sustainability",
+    "Carbon-Aware",
+    "Cloud Engineering",
+    "Workload Scheduling",
+    "Energy Efficiency"
+  ],
+  "summary": "This blog explores green cloud engineering practices, focusing on carbon-aware workload scheduling to optimize energy use, reduce carbon emissions, and align cloud operations with sustainability goals.",
+  "image": "https://cdn.pixabay.com/photo/2021/06/10/18/30/green-6321004_1280.jpg"
 }
 
 ]
