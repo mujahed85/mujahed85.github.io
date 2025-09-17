@@ -5394,6 +5394,22 @@
   ],
   "summary": "Explores how streaming ETL enables real-time data processing, reducing batch overhead, and empowering organizations to act instantly on insights for analytics, fraud detection, and IoT monitoring.",
   "image": "https://cdn.pixabay.com/photo/2017/08/10/03/30/technology-2616601_1280.jpg"
+},
+  {
+  "id": 199,
+  "title": "Privacy-Enhancing Data Analytics (Homomorphic Encryption, Differential Privacy)",
+  "slug": "privacy-enhancing-data-analytics-homomorphic-encryption-differential-privacy",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-17",
+  "tags": [
+    "Privacy",
+    "Data Analytics",
+    "Homomorphic Encryption",
+    "Differential Privacy",
+    "Data Security"
+  ],
+  "summary": "This blog explores privacy-enhancing data analytics techniques, including homomorphic encryption and differential privacy, enabling secure computations and insights without compromising sensitive information.",
+  "image": "https://cdn.pixabay.com/photo/2020/07/10/09/09/privacy-5387733_1280.jpg"
 }
 
 ]
