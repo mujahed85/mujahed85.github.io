@@ -5329,6 +5329,23 @@
   ],
   "summary": "Exploring how the combination of edge computing and cloud infrastructure, powered by 5G, enables IoT scalability, real-time AI decision-making, and next-generation digital experiences.",
   "image": "https://cdn.pixabay.com/photo/2022/06/07/15/20/technology-7248900_1280.jpg"
+},
+  {
+  "id": 195,
+  "title": "Microservices Observability with eBPF",
+  "slug": "microservices-observability-with-ebpf",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-16",
+  "tags": [
+    "Microservices",
+    "Observability",
+    "eBPF",
+    "Cloud-Native",
+    "DevOps",
+    "SRE"
+  ],
+  "summary": "Exploring how eBPF enables deep observability in microservices by providing kernel-level insights into performance, security, and service communication with minimal overhead.",
+  "image": "https://cdn.pixabay.com/photo/2018/05/08/08/42/network-3385076_1280.jpg"
 }
 
 ]
