@@ -5185,5 +5185,24 @@
   "description": "A guide to building a strong DevOps culture by focusing on collaboration, automation, communication, leadership, and continuous improvement.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+{
+  "id": 187,
+  "title": "Edge Computing and the Cloud: What You Need to Know",
+  "slug": "edge-computing-and-the-cloud-what-you-need-to-know",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Edge Computing",
+    "Cloud Computing",
+    "Latency",
+    "Data Sovereignty",
+    "Hybrid Cloud",
+    "IoT"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://cdn.pixabay.com/photo/2018/05/08/08/38/cloud-3382507_1280.jpg",
+  "description": "An exploration of how edge computing and cloud services work together to improve performance, reduce latency, and address data sovereignty challenges.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
 
 ]
