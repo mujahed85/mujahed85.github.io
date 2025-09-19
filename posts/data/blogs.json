@@ -1,4 +1,4 @@
-[
+  [
   {
     "id": 1,
     "title": "DevOps – Bridging Development & Operations for Agile Success",
@@ -5483,6 +5483,25 @@
   "readingTime": "7 min read",
   "image": "https://cdn.pixabay.com/photo/2017/06/05/00/12/technology-2370645_1280.jpg",
   "description": "Delving into best practices, challenges, and tools that make CI/CD seamless in microservice architectures.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 204,
+  "title": "The Role of DevSecOps in Modern Software Development",
+  "slug": "role-of-devsecops-in-modern-software-development",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "DevSecOps",
+    "Software Development",
+    "Security",
+    "CI/CD",
+    "DevOps",
+    "Application Security"
+  ],
+  "readingTime": "6 min read",
+  "image": "https://cdn.pixabay.com/photo/2022/03/10/10/51/cyber-7059222_1280.jpg",
+  "description": "Explains how DevSecOps integrates security into the DevOps pipeline to ensure protection is built into the development lifecycle.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
 
