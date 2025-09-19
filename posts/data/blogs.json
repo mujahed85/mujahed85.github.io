@@ -5446,6 +5446,25 @@
   "image": "https://cdn.pixabay.com/photo/2017/05/31/23/22/artificial-intelligence-2368264_1280.jpg",
   "description": "Exploring how AI-driven tools are automating routine DevOps tasks, reducing downtime, and speeding up deployment cycles to shape the future of software delivery.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
-}
+},
+{
+  "id": 202,
+  "title": "GitOps: The New Frontier of Infrastructure Automation",
+  "slug": "gitops-the-new-frontier-of-infrastructure-automation",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "GitOps",
+    "Infrastructure Automation",
+    "Kubernetes",
+    "Continuous Delivery",
+    "Infrastructure as Code",
+    "DevOps"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/01/10/19/05/git-1966552_1280.png",
+  "description": "Exploring how GitOps is revolutionizing Kubernetes management and continuous delivery with version-controlled infrastructure as code.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
 
 ]
