@@ -5466,5 +5466,24 @@
   "description": "Exploring how GitOps is revolutionizing Kubernetes management and continuous delivery with version-controlled infrastructure as code.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
+{
+  "id": 203,
+  "title": "Continuous Integration and Continuous Delivery (CI/CD) in a Microservices World",
+  "slug": "ci-cd-in-a-microservices-world",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "CI/CD",
+    "Microservices",
+    "Continuous Integration",
+    "Continuous Delivery",
+    "DevOps",
+    "Kubernetes"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/06/05/00/12/technology-2370645_1280.jpg",
+  "description": "Delving into best practices, challenges, and tools that make CI/CD seamless in microservice architectures.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
 
 ]
