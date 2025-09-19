@@ -5427,6 +5427,25 @@
   ],
   "summary": "This blog explores green cloud engineering practices, focusing on carbon-aware workload scheduling to optimize energy use, reduce carbon emissions, and align cloud operations with sustainability goals.",
   "image": "https://cdn.pixabay.com/photo/2021/06/10/18/30/green-6321004_1280.jpg"
+},
+{
+  "id": 201,
+  "title": "The Future of DevOps: How AI and Automation are Shaping the DevOps Landscape",
+  "slug": "the-future-of-devops-how-ai-and-automation-are-shaping-the-devops-landscape",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "DevOps",
+    "AI",
+    "Automation",
+    "AIOps",
+    "CI/CD",
+    "Incident Response"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/05/31/23/22/artificial-intelligence-2368264_1280.jpg",
+  "description": "Exploring how AI-driven tools are automating routine DevOps tasks, reducing downtime, and speeding up deployment cycles to shape the future of software delivery.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 
 ]
