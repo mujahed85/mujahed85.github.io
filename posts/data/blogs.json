@@ -5776,6 +5776,25 @@
   "image": "https://cdn.pixabay.com/photo/2017/08/06/00/06/money-2589051_1280.jpg",
   "description": "Tips and strategies for managing cloud costs effectively, focusing on automation and predictive analytics.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 220,
+  "title": "Edge Computing and Its Impact on Cloud Engineering",
+  "slug": "edge-computing-impact-on-cloud-engineering",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Edge Computing",
+    "Cloud Engineering",
+    "Hybrid Cloud",
+    "IoT",
+    "Distributed Systems",
+    "Cloud-Native"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/12/10/14/47/network-3019129_1280.jpg",
+  "description": "Understanding the shift toward edge computing and how it’s transforming the cloud infrastructure landscape.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 
 ]
