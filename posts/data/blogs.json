@@ -5618,5 +5618,26 @@
   "image": "https://cdn.pixabay.com/photo/2016/11/29/02/00/technology-1869306_1280.jpg",
   "description": "Explores the evolution of DevOps from CI/CD pipelines to AIOps, highlighting how AI and machine learning are transforming automation, monitoring, and optimization.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 212,
+  "title": "DevSecOps: Integrating Security in the DevOps Pipeline",
+  "slug": "devsecops-integrating-security-in-devops-pipeline",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "DevSecOps",
+    "Security",
+    "DevOps",
+    "CI/CD",
+    "Automation",
+    "Cloud Security",
+    "Zero Trust"
+  ],
+  "readingTime": "7 min read",
+  "image": "https://cdn.pixabay.com/photo/2022/02/15/12/34/cybersecurity-7014296_1280.jpg",
+  "description": "Exploring the importance of integrating security at every stage of the DevOps lifecycle and best practices for embedding protection into the pipeline.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
+
 ]
