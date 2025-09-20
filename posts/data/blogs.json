@@ -5658,6 +5658,26 @@
   "image": "https://cdn.pixabay.com/photo/2021/02/26/09/40/kubernetes-6057996_1280.jpg",
   "description": "A deep dive into how Kubernetes is revolutionizing the deployment pipeline and making DevOps processes faster and more efficient.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+{
+  "id": 214,
+  "title": "The Role of Infrastructure as Code (IaC) in Modern DevOps",
+  "slug": "the-role-of-infrastructure-as-code-iac-in-modern-devops",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-15",
+  "tags": [
+    "Infrastructure as Code",
+    "IaC",
+    "DevOps",
+    "Terraform",
+    "Ansible",
+    "Automation",
+    "CI/CD"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://cdn.pixabay.com/photo/2017/08/06/05/36/internet-2587974_1280.jpg",
+  "description": "Understanding how IaC tools like Terraform and Ansible are enhancing automation and reliability in DevOps workflows.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
 
 ]
