@@ -5834,5 +5834,23 @@
   "description": "Learn how to design and deploy a secure, production-grade data pipeline using Kubernetes, Terraform, and Apache Kafka in 2025.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 },
-
+{
+  "id": 223,
+  "title": "Integrating ChatGPT-like Models into DevOps for Automated Incident Management and Resolution",
+  "slug": "integrating-chatgpt-like-models-into-devops-for-automated-incident-management-and-resolution",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-21",
+  "tags": [
+    "DevOps",
+    "AI in Operations",
+    "Incident Management",
+    "ChatGPT",
+    "Automation",
+    "Observability"
+  ],
+  "readingTime": "10 min read",
+  "image": "https://cdn.pixabay.com/photo/2021/10/17/16/54/ai-6715839_1280.jpg",
+  "description": "Discover how integrating ChatGPT-like models into DevOps pipelines is transforming automated incident detection, triage, and resolution workflows.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+}
 ]
