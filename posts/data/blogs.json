@@ -5814,5 +5814,25 @@
   "image": "https://www.example.com/ai-cloud-cost-optimization.jpg",
   "description": "Explore how AI and serverless computing are redefining cloud cost optimization strategies in 2025.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
-}
+},
+{
+  "id": 222,
+  "title": "Building a Secure, Scalable Data Pipeline with Kubernetes, Terraform, and Apache Kafka",
+  "slug": "building-a-secure-scalable-data-pipeline-with-kubernetes-terraform-and-apache-kafka",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-21",
+  "tags": [
+    "Data Engineering",
+    "Kubernetes",
+    "Terraform",
+    "Apache Kafka",
+    "DevSecOps",
+    "Scalable Systems"
+  ],
+  "readingTime": "10 min read",
+  "image": "https://cdn.pixabay.com/photo/2020/04/02/02/10/data-4991513_1280.jpg",
+  "description": "Learn how to design and deploy a secure, production-grade data pipeline using Kubernetes, Terraform, and Apache Kafka in 2025.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+},
+
 ]
