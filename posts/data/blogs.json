@@ -5853,4 +5853,23 @@
   "description": "Discover how integrating ChatGPT-like models into DevOps pipelines is transforming automated incident detection, triage, and resolution workflows.",
   "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
 }
+{
+  "id": 224,
+  "title": "The New Wave of Cloud-Native Data Warehouses: What’s Changed for Real-Time Analytics?",
+  "slug": "cloud-native-data-warehouses-whats-changed-for-real-time-analytics",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-23",
+  "tags": [
+    "Cloud-Native",
+    "Data Warehousing",
+    "Real-Time Analytics",
+    "Big Data",
+    "Streaming Data",
+    "Data Infrastructure"
+  ],
+  "readingTime": "12 min read",
+  "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+  "description": "Explore how the new generation of cloud-native data warehouses is redefining real-time analytics with streaming ingestion, elastic scaling, and AI-powered insights.",
+  "spacing": "extra vertical spacing between paragraphs for enhanced readability and smooth flow"
+}
 ]
