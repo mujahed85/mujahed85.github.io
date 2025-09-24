@@ -3761,6 +3761,26 @@
   "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1350&q=80",
   "description": "An in-depth look at leveraging Prometheus and OpenTelemetry to enable real-time monitoring and observability of AI models in production, ensuring reliability and performance.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 117,
+  "title": "Cost-Efficient Training of Custom LLMs in Hybrid Cloud Setups: Strategy, Tooling, and Case Studies",
+  "slug": "cost-efficient-training-of-custom-llms-in-hybrid-cloud-setups-strategy-tooling-and-case-studies",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "LLMs",
+    "Hybrid Cloud",
+    "Training",
+    "Cost Efficiency",
+    "Ray",
+    "Kubeflow",
+    "AI Infrastructure"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80",
+  "description": "Strategies and tooling for cost-efficient training of custom large language models in hybrid cloud environments, illustrated with real-world case studies and best practices.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
