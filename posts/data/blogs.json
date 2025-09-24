@@ -3662,6 +3662,26 @@
   "image": "https://images.unsplash.com/photo-1537432376769-00a3016d1558?auto=format&fit=crop&w=1350&q=80",
   "description": "Real-world lessons from enterprises deploying large language models using serverless infrastructure—exploring performance, observability, cost control, and scalability in modern LLMOps pipelines.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 112,
+  "title": "Fine-Tuning Foundation Models at Scale Using Ray on Kubernetes: Architecture Patterns and Cost Trade-Offs",
+  "slug": "fine-tuning-foundation-models-at-scale-using-ray-on-kubernetes",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "Foundation Models",
+    "Ray",
+    "Kubernetes",
+    "Distributed Training",
+    "MLOps",
+    "Cost Optimization",
+    "Architecture Patterns"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1618477388954-7852f32655e7?auto=format&fit=crop&w=1350&q=80",
+  "description": "How enterprise ML teams are fine-tuning foundation models at scale using Ray on Kubernetes—covering design patterns, autoscaling strategies, GPU orchestration, observability, and cost-performance trade-offs.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
