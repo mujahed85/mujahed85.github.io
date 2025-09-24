@@ -3781,6 +3781,25 @@
   "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80",
   "description": "Strategies and tooling for cost-efficient training of custom large language models in hybrid cloud environments, illustrated with real-world case studies and best practices.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 118,
+  "title": "Integrating ML Model Deployment into CI/CD for Streaming Data Systems with Kafka and Argo Workflows",
+  "slug": "integrating-ml-model-deployment-into-cicd-for-streaming-data-systems-with-kafka-and-argo-workflows",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "ML Deployment",
+    "CI/CD",
+    "Apache Kafka",
+    "Argo Workflows",
+    "Streaming Data",
+    "MLOps"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://images.unsplash.com/photo-1551836022-1b6b2f5c1b10?auto=format&fit=crop&w=1350&q=80",
+  "description": "Explore how Kafka and Argo Workflows enable seamless ML model deployment integrated into CI/CD pipelines for streaming data systems, ensuring continuous delivery and reliability.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
