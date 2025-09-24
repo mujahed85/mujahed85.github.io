@@ -3722,6 +3722,26 @@
   "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1350&q=80",
   "description": "Explore the emerging standards and blueprints for implementing Zero Trust Architecture to secure AI workloads across multi-cloud environments with identity-centric security and continuous monitoring.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 115,
+  "title": "Building Event-Driven AI Pipelines with Apache Pulsar and Vector Databases: A 2025 Deep Dive",
+  "slug": "building-event-driven-ai-pipelines-with-apache-pulsar-and-vector-databases-a-2025-deep-dive",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "Apache Pulsar",
+    "Event-Driven",
+    "Vector Databases",
+    "AI Pipelines",
+    "Real-Time",
+    "Streaming",
+    "MLOps"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80",
+  "description": "A comprehensive look at how Apache Pulsar and vector databases combine to power scalable, real-time event-driven AI pipelines that drive next-generation applications in 2025.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
