@@ -3642,5 +3642,26 @@
   "image": "https://cdn.pixabay.com/photo/2019/12/12/21/41/artificial-intelligence-4688726_1280.jpg",
 "description": "Exploring how agentic AI tools like AWS Transform are revolutionizing cloud migration by automating workload discovery, dependency mapping, and reducing migration timelines from months to days.",
 "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+  {
+  "id": 111,
+  "title": "Implementing LLMOps Pipelines on Serverless Architectures: Lessons from Real-World Enterprise Deployments",
+  "slug": "implementing-llmops-pipelines-on-serverless-architectures-lessons-from-real-world-enterprise-deployments",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "LLMOps",
+    "Serverless",
+    "Enterprise AI",
+    "Cloud Architecture",
+    "MLOps",
+    "Scalability",
+    "Cost Optimization"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://images.unsplash.com/photo-1537432376769-00a3016d1558?auto=format&fit=crop&w=1350&q=80",
+  "description": "Real-world lessons from enterprises deploying large language models using serverless infrastructure—exploring performance, observability, cost control, and scalability in modern LLMOps pipelines.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
+
 ]
