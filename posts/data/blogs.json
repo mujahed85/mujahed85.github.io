@@ -3742,6 +3742,25 @@
   "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80",
   "description": "A comprehensive look at how Apache Pulsar and vector databases combine to power scalable, real-time event-driven AI pipelines that drive next-generation applications in 2025.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 116,
+  "title": "Real-Time Model Monitoring with Prometheus and OpenTelemetry: MLOps Observability in Production Systems",
+  "slug": "real-time-model-monitoring-with-prometheus-and-opentelemetry-mlops-observability-in-production-systems",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "MLOps",
+    "Model Monitoring",
+    "Prometheus",
+    "OpenTelemetry",
+    "Observability",
+    "Production AI"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1350&q=80",
+  "description": "An in-depth look at leveraging Prometheus and OpenTelemetry to enable real-time monitoring and observability of AI models in production, ensuring reliability and performance.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
