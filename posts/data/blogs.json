@@ -3682,6 +3682,26 @@
   "image": "https://images.unsplash.com/photo-1618477388954-7852f32655e7?auto=format&fit=crop&w=1350&q=80",
   "description": "How enterprise ML teams are fine-tuning foundation models at scale using Ray on Kubernetes—covering design patterns, autoscaling strategies, GPU orchestration, observability, and cost-performance trade-offs.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 113,
+  "title": "GitOps-Driven Data Platform Automation: Integrating FluxCD with Lakehouse Orchestration in 2025",
+  "slug": "gitops-driven-data-platform-automation-integrating-fluxcd-with-lakehouse-orchestration-in-2025",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "GitOps",
+    "FluxCD",
+    "Lakehouse",
+    "Data Engineering",
+    "Automation",
+    "Kubernetes",
+    "Orchestration"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437f9?auto=format&fit=crop&w=1350&q=80",
+  "description": "Explore how GitOps workflows powered by FluxCD are reshaping data platform automation by integrating with lakehouse orchestration tools to improve reliability, cost-efficiency, and governance at scale.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
