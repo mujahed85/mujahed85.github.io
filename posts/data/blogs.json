@@ -3800,6 +3800,26 @@
   "image": "https://images.unsplash.com/photo-1551836022-1b6b2f5c1b10?auto=format&fit=crop&w=1350&q=80",
   "description": "Explore how Kafka and Argo Workflows enable seamless ML model deployment integrated into CI/CD pipelines for streaming data systems, ensuring continuous delivery and reliability.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 119,
+  "title": "Scaling Feature Stores Across Global Teams: Architecture, Access Control, and Governance in 2025",
+  "slug": "scaling-feature-stores-across-global-teams-architecture-access-control-and-governance-in-2025",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "Feature Stores",
+    "Global Teams",
+    "Architecture",
+    "Access Control",
+    "Governance",
+    "MLOps",
+    "Cloud Native"
+  ],
+  "readingTime": "8 min read",
+  "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1350&q=80",
+  "description": "Insights into building scalable, secure, and governed feature stores that support collaboration across global AI teams, ensuring low-latency access and compliance in 2025.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
