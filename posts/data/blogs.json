@@ -3839,6 +3839,25 @@
   "image": "https://images.unsplash.com/photo-1620144763502-6b0c5b5d8c98?auto=format&fit=crop&w=1350&q=80",
   "description": "Learn how optimized GPU scheduling on Kubernetes accelerates GenAI workloads, improves efficiency, and delivers benchmark-driven insights for scalable cloud-native AI operations.",
   "spacing": "increase vertical spacing between paragraphs and sections for better readability"
+},
+{
+  "id": 121,
+  "title": "Accelerating GenAI Workloads with GPU Scheduling on Kubernetes: Insights from Cloud-Native Benchmarks",
+  "slug": "accelerating-genai-workloads-with-gpu-scheduling-on-kubernetes-insights-from-cloud-native-benchmarks",
+  "author": "Mujahid Hussaini",
+  "date": "2025-09-24",
+  "tags": [
+    "GenAI",
+    "Kubernetes",
+    "GPU Scheduling",
+    "Cloud Native",
+    "MLOps",
+    "Benchmarking"
+  ],
+  "readingTime": "9 min read",
+  "image": "https://images.unsplash.com/photo-1620144763502-6b0c5b5d8c98?auto=format&fit=crop&w=1350&q=80",
+  "description": "Learn how optimized GPU scheduling on Kubernetes accelerates GenAI workloads, improves efficiency, and delivers benchmark-driven insights for scalable cloud-native AI operations.",
+  "spacing": "increase vertical spacing between paragraphs and sections for better readability"
 }
 
 ]
