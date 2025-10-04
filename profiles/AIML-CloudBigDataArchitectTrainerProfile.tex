@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage{ulem}
 \usepackage{soul} 
+\usepackage{changepage} % add this in your preamble
 \usepackage[a4paper, left=1in, right=1in, top=1in, bottom=1in]{geometry}
 % Ensure hyperlinks are blue
 \usepackage[
@@ -24,7 +25,7 @@
 \includegraphics[width=0.65064in,height=0.65064in]{media/image7.png}
 
 \begin{center}
-  \textbf{Mujahed H.}\\[0.2cm]
+  {\large \textbf{Mujahed H.}}\\[0.2cm]
 \end{center}
 \begin{center}
   \textbf{(Gen AI/Agentic AI Data Cloud Lateral Trainer)}
@@ -88,46 +89,57 @@ sessions that inspire and empower learners to achieve their goals.
 
 \textbf{Programming:}
 
+
 \begin{quote}
 \textbf{Python:}
 
+\begin{adjustwidth}{1.2cm}{} % <-- adds left indentation
 Language Specifications (Control Flows, Functions, Modules). List
 comprehensions, lambda, Generators, iterators, context manager, OOP
 (Multiple Inheritance and Method Resolution Order, Abstract Base Classes
 (ABCs) and Interfaces, Operator Overloading and Special Methods,
 Descriptors and Properties, Class Decorators and Meta classes, Mixin
 Classes and Composition, Dynamic Class Creation and Modification, Slots
-and Memory Optimization, Design Patterns and OOP Principles), Mockito,
-\hl{}
+and Memory Optimization, Design Patterns and OOP Principles), Mockito.
 
-\ul{Package NumPy}- Array creations, manipulation, universal functions,
+\ul{Package NumPy} — Array creations, manipulation, universal functions,
 operations, iteration, masking filtering, linear algebra operations,
 masked arrays, memory management, performance optimization like
-vectorization, indexing, slicing, broadcasting, mathematical functions,
+vectorization, indexing, slicing, broadcasting, mathematical functions.
 
-\ul{Package Pandas} - Series, data frames, indexing, selecting data,
+\ul{Package Pandas} — Series, data frames, indexing, selecting data,
 data cleaning, manipulation, grouping and aggregating, time series
-analysis, IO operations- csv, Json, parquet, performance optimization,
-handling categorical data, reshape \& pivotal table, combining data,
-time zone handling, panda's extensions, adv. Data manipulation, outliers
-\& anomalies parallel processing, debugging \& best practices.
+analysis, IO operations (csv, JSON, parquet), performance optimization,
+handling categorical data, reshape \& pivot tables, combining data,
+time zone handling, pandas extensions, advanced data manipulation,
+outliers \& anomalies, parallel processing, debugging \& best practices.
 
-\ul{Package Matplotlib \& Seaborn} \textbf{--} creating plots, charts,
-graphs.
+\ul{Package Matplotlib \& Seaborn} — Creating plots, charts, graphs.
 
-\ul{Scikit-learn Package} -- data handling, supervised learning
-algorithm, Clustering, PCA, Model Evaluation and Selection, cross
-validation, metrics for model evaluation, model hyperparameter tunning
-using grid and random search.
+\ul{Scikit-learn Package} — Data handling, supervised learning
+algorithms, clustering, PCA, model evaluation and selection,
+cross-validation, metrics for model evaluation, model hyperparameter
+tuning using grid and random search.
+\end{adjustwidth}
+
+\vspace{0.2cm}
 
 \textbf{Scala \& R:}
 
+\begin{adjustwidth}{1.2cm}{} % same indentation for consistency
 Classes \& Objects, Language Specifications, Closures, Collections,
 Traits, Patterns, RegEx, Extractors, File IO, Packages, OOPs, Params
 Types, Exceptions, Map, Annotations, Options, Evaluations, Streaming,
 Serializations, etc.
+\end{adjustwidth}
 
-Other Programming Languages: JSON, Markdown, YAML, XML.
+\vspace{0.2cm}
+
+\textbf{Other Programming Languages:}
+
+\begin{adjustwidth}{1.2cm}{} % indent again
+JSON, Markdown, YAML, XML.
+\end{adjustwidth}
 \end{quote}
 
 No Code Platform:
@@ -850,18 +862,19 @@ Learning (Pune)
   \rule{\textwidth}{0.4pt}  % Full width of the page
 \end{center}
 
-\textbf{Client:} Cyforis
-Inc\includegraphics[width=1.25in,height=0.44792in]{media/image22.png}
+\begin{minipage}[t]{\textwidth}
+  \textbf{Client:} Cyforis Inc
+  \hfill
+  \raisebox{-0.3\height}{\includegraphics[width=1.25in,height=0.45in]{media/image22.png}}
+\end{minipage}
+
+\vspace{0.2cm} % optional spacing before next section
 
 \textbf{Technologies:}
-
 \begin{itemize}
-\item
-  Hands On Lab
-\item
-  Use Case Preparations
-\item
-  Recorded Short Sessions on GenAI, Cloud, BigData \& DevOps
+  \item Hands On Lab
+  \item Use Case Preparations
+  \item Recorded Short Sessions on GenAI, Cloud, BigData \& DevOps
 \end{itemize}
 
 \begin{center}
@@ -887,40 +900,41 @@ Inc\includegraphics[width=1.25in,height=0.44792in]{media/image22.png}
 \end{center}
 
 \begin{itemize}
-  \item
-    Certified GenAI (Generative Artificial Intelligence)
-    \hfill  % Push the image to the rightmost corner
-    \begin{minipage}[t]{0.15\textwidth}
-      \includegraphics[width=\linewidth]{media/image23.png}
-    \end{minipage}
 
-    \begin{itemize}
+  \item
+  \begin{minipage}[t]{\textwidth}
+    \textbf{Certified GenAI (Generative Artificial Intelligence)}
+    \hfill
+    \raisebox{-0.3\height}{\includegraphics[width=1.5cm]{media/image23.png}}
+  \end{minipage}
+
+  \begin{itemize}
     \item Vendor: SAP, Score: 95.70\%, Attempt: First Attempt
     \item Verification Link: \href{https://open.sap.com/verify/xogaz-dimeh-rybiv-foser-teted}{\ul{Click here}}
-    \end{itemize}
-  
-  \item
-    Certified Professional OCI Gen AI
-    \hfill  % Push the image to the rightmost corner
-    \begin{minipage}[t]{0.15\textwidth}
-      \includegraphics[width=\linewidth]{media/image24.png}
-    \end{minipage}
+  \end{itemize}
 
-    \begin{itemize}
+  \item
+  \begin{minipage}[t]{\textwidth}
+    \textbf{Certified Professional OCI Gen AI}
+    \hfill
+    \raisebox{-0.3\height}{\includegraphics[width=1.5cm]{media/50_Oracle_Cloud_Infrastructure.png}}
+  \end{minipage}
+
+  \begin{itemize}
     \item Vendor: Oracle University, Status: In-Progress
-    \end{itemize}
+  \end{itemize}
   
   \item
     Certified AWS Code Whisper (AWS Q Developer)
-  
+
     \begin{itemize}
-    \item Vendor: Amazon Web Service (AWS), Status: Completed
-    \item
-      \hspace{0.5cm}  % Add horizontal space between text and image
-      \begin{minipage}[t]{0.1\textwidth}
-        \includegraphics[width=\linewidth]{media/image25.png}
-      \end{minipage}
-      Category: Generative AI Developer
+      \item Vendor: Amazon Web Service (AWS), Status: Completed
+      \item
+        \begin{minipage}[t]{\textwidth}
+          Category: Generative AI Developer
+          \hfill
+          \raisebox{-0.3\height}{\includegraphics[width=1.2cm]{media/image25.png}}
+        \end{minipage}
     \end{itemize}
   
   \item
