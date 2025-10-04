@@ -1,3 +1,5 @@
+<title>Big Data</title>
+
 <div style="color: #000000; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; max-width: 900px; margin: auto;">
 
   <h1 style="margin-bottom: 1em;">Big Data: Unlocking Insights from Massive Information Streams</h1>
