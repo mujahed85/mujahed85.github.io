@@ -1,4 +1,4 @@
-<title>Big Data</title>
+Big Data
 
 <div style="color: #000000; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; max-width: 900px; margin: auto;">
 
