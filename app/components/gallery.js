@@ -108,7 +108,7 @@ export default function Gallery() {
       alt: "Team and Student with Me",
     },
     {
-      src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2024-08-06 at 8.21.32 AM.jpeg",
+      src: "assets/img/Mujahed/SelectedImages/Gallery/TataPower2024-08-06-8.21AM.jpeg",
       width: 800,
       height: 600,
       alt: "WhatsApp Shared Image - Aug 6, 2024",
