@@ -18,6 +18,18 @@ export default function Gallery() {
   const [index, setIndex] = useState(-1);
   const photos = [
     {
+      src: "public/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31.jpeg",  // Path to the first image you uploaded
+      width: 800,
+      height: 600,
+      alt: "Group Photo 1",
+    },
+    {
+      src: "public/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31 (1).jpeg",  // Path to the second image you uploaded
+      width: 800,
+      height: 600,
+      alt: "Group Photo 2",
+    },
+    {
       src: "assets/img/Mujahed/SelectedImages/Gallery/FinishTraining.jpg",
       width: 800,
       height: 600,
@@ -101,60 +113,6 @@ export default function Gallery() {
       height: 600,
       alt: "WhatsApp Shared Image - Aug 6, 2024",
     },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (1).jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image 1 - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (2).jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image 2 - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (3).jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image 3 - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (4).jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image 4 - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (5).jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image 5 - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (6).jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image 6 - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27 (7).jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image 7 - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.51.27.jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Main Image - Aug 12, 2025",
-    // },
-    // {
-    //   src: "assets/img/Mujahed/SelectedImages/Gallery/WhatsApp Image 2025-08-12 at 15.56.34.jpeg",
-    //   width: 800,
-    //   height: 600,
-    //   alt: "WhatsApp Image - Aug 12, 2025 - 15:56",
-    // },
   ];
 
   const slides = photos.map((photo) => ({
@@ -219,38 +177,6 @@ export default function Gallery() {
                 </SwiperSlide>
               ))}
             </Swiper>
-          </div>
-
-          {/* Optional hidden text slider */}
-          <div style={{ display: "none" }} className="hero-text-slider">
-            <div className="text-item">
-              <h2>Nature</h2>
-              <p>Photography</p>
-            </div>
-            <div className="text-item">
-              <h2>Red Heartbeat</h2>
-              <p>Photography</p>
-            </div>
-            <div className="text-item">
-              <h2>Blue Dreem</h2>
-              <p>Photography</p>
-            </div>
-            <div className="text-item">
-              <h2>Christian Church</h2>
-              <p>Photography</p>
-            </div>
-            <div className="text-item">
-              <h2>Red Darkness</h2>
-              <p>Photography</p>
-            </div>
-            <div className="text-item">
-              <h2>Beauty with Brain</h2>
-              <p>Photography</p>
-            </div>
-            <div className="text-item">
-              <h2>Remarkable</h2>
-              <p>Photography</p>
-            </div>
           </div>
         </div>
       </section>
