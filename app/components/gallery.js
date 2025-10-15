@@ -24,6 +24,12 @@ export default function Gallery() {
       alt: "Group Photo 1",
     },
     {
+      src: "public/assets/img/gallary/Incedo-Gurgoan-2025-08-12-15.51.jpeg",  // Path to the first image you uploaded
+      width: 800,
+      height: 600,
+      alt: "Incedo Gurgoan Online Training",
+    },
+    {
       src: "public/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31 (1).jpeg",  // Path to the second image you uploaded
       width: 800,
       height: 600,
