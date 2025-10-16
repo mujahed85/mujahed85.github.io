@@ -119,6 +119,30 @@ export default function Gallery() {
       height: 600,
       alt: "WhatsApp Shared Image - Aug 6, 2024",
     },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/Ibis Maruti.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Shared Image - Aug 6, 2024",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/Oxy.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Shared Image - Aug 6, 2024",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/Az305 1st class.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Shared Image - Aug 6, 2024",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/Dubai business bay.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Shared Image - Aug 6, 2024",
+    },
   ];
 
   const slides = photos.map((photo) => ({
