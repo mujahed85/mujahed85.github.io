@@ -57,6 +57,7 @@ export default function Resume() {
                     "discovery-channel.png",
                     "mtdata.png",
                     "suez.png",
+                    "Oxy.png",
                   ],
                   [
                     "appatura.png",
@@ -250,7 +251,7 @@ export default function Resume() {
                 
                 <li>Azure Architecture - AZ-305</li>
                 <li>AWS Solution Architecture (SAA-C08)</li>
-                <li>Certified DataBricks Professional</li>
+                <li>Certified DataBricks Data Engineer Professional(Expert Level)</li>
                 <li>Artificial Intelligence Certified from Google</li>
                 <li>Rockspace Cloud University</li>
                 <li>National Level Best in Programming</li>
@@ -258,7 +259,6 @@ export default function Resume() {
                 <li>Adobe Master Certified</li>
                 <li>IBM Big Data Certified</li>
                 <li>RPA Architecture Certified</li>
-                <li>MCAD-SCJP International</li>
               </ul>
             </div>
             {/* ACADEMIC KNOWLEDGE */}
