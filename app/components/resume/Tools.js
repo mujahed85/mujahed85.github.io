@@ -13,7 +13,6 @@ const Tools = () => {
         <h4>AI</h4>
         <ul>
           <li>AI &amp; Data Science(ML,DL, NN, NLU, NLP, TensorFlow, OpenCV)</li>
-          <li>AI Data Engineering (Data Pipelines, Feature Engineering, Data Versioning, ETL Automation, Data Labeling, Data Quality, Big Data, Apache Spark, Kafka, DataOps)</li>
           <li>AI & AWS (SageMaker, Comprehend, Rekognition, Polly, Lex, Textract, Lambda, Glue, Kinesis, AWS AI/ML Services)</li>
           <li>AI & Azure (Azure ML, Cognitive Services, Bot Service, Azure Synapse, Azure Databricks, Azure Functions, Azure AI Studio, Azure Form Recognizer)</li>
           <li>AI & GCP (Vertex AI, AutoML, Cloud AI Platform, BigQuery ML, Dialogflow, Vision AI, Natural Language API, TensorFlow on GCP, Dataflow)</li>
