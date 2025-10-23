@@ -57,7 +57,6 @@ export default function Resume() {
                     "discovery-channel.png",
                     "mtdata.png",
                     "suez.png",
-                    "Oxy.png",
                   ],
                   [
                     "appatura.png",
@@ -111,23 +110,23 @@ export default function Resume() {
                   ["ltiM.png", "ZenSar.jpg", "EdgeVerve_Infosys_Logo.jpg", "PDO.png"],
                   ["GreatLearning.png", "edureka.png", "Reventure.png", "Cloudadda.png"],
                   ["pepkor.png", "nuvepro.png", "cyforislogo-.png", "sonicbolt.png"],
-                  ["VTEST-LOGO-PNG.png", "Nobleprog_0.png", "rexor-logo.jpeg", "healthcare-pharmaceuticals-1646306545[1].png"]
-                ]
-                  .map((row, idx) => (
-                    <li key={`corporate-${idx}`}>
-                      {row.map((file, i) => (
-                        <img
-                          key={i}
-                          className="client-logo"
-                          src={`assets/img/client-logo/${file}`}
-                          alt={file
-                            .replace(/\.[^/.]+$/, "")
-                            .replace(/-/g, " ")
-                            .replace(/\b\w/g, (char) => char.toUpperCase())}
-                        />
-                      ))}
-                    </li>
-                  ))}
+                  ["VTEST-LOGO-PNG.png", "Nobleprog_0.png", "rexor-logo.jpeg", "healthcare-pharmaceuticals-1646306545[1].png"],
+                  ["Oxy.png"], // New single logo row
+                ].map((row, idx) => (
+                  <li key={`corporate-${idx}`}>
+                    {row.map((file, i) => (
+                      <img
+                        key={i}
+                        className="client-logo"
+                        src={`assets/img/client-logo/${file}`}
+                        alt={file
+                          .replace(/\.[^/.]+$/, "")
+                          .replace(/-/g, " ")
+                          .replace(/\b\w/g, (char) => char.toUpperCase())}
+                      />
+                    ))}
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -144,18 +143,8 @@ export default function Resume() {
             <div className="resume-item">
               <ul className="disc">
                 {[
-                  [
-                    "starAgile.png",
-                    "big-class-logo.png",
-                    "sunBeam.png",
-                    "Apg.jpg",
-                  ],
-                  [
-                    "DurgaSoft.png",
-                    "sdbi.jpeg",
-                    "vpkbiet.webp",
-                    "KCT-Coimbatore-logo.jpeg",
-                  ],
+                  ["starAgile.png", "big-class-logo.png", "sunBeam.png", "Apg.jpg"],
+                  ["DurgaSoft.png", "sdbi.jpeg", "vpkbiet.webp", "KCT-Coimbatore-logo.jpeg"],
                   [
                     "SVR-logo.jpeg",
                     "bharati-vidyapeeth-deemed-university-pune.png",
@@ -163,18 +152,8 @@ export default function Resume() {
                     "bhartiy vidyapith pune.jpeg",
                   ],
                   ["cmr.jpeg", "KJCOE.jpeg", "BATU_logo.png", "ria-logo1.png"],
-                  [
-                    "maulana-logo.png",
-                    "DOEACC_Logo.jpg",
-                    "vidhydhan-logo.jpg",
-                    "deogiri-college-logo.jpeg",
-                  ],
-                  [
-                    "jayaam-logo.png",
-                    "shayajirao-logo.jpeg",
-                    "deccan-logo.jpeg",
-                    "deccan-college-logo.png",
-                  ],
+                  ["maulana-logo.png", "DOEACC_Logo.jpg", "vidhydhan-logo.jpg", "deogiri-college-logo.jpeg"],
+                  ["jayaam-logo.png", "shayajirao-logo.jpeg", "deccan-logo.jpeg", "deccan-college-logo.png"],
                 ].map((row, idx) => (
                   <li key={`retail-${idx}`}>
                     {row.map((file, i) => (
@@ -223,16 +202,11 @@ export default function Resume() {
               Certification
             </h3>
             <div className="resume-item">
-
               <ul className="disc">
                 {[
-                  [
-                    "AZ-305.png",
-                    "SAA-C08.png",
-                    "DE-professional.png",
-                  ],
+                  ["AZ-305.png", "SAA-C08.png", "DE-professional.png"],
                 ].map((row, idx) => (
-                  <li key={`corporate-${idx}`}>
+                  <li key={`certification-${idx}`}>
                     {row.map((file, i) => (
                       <img
                         key={i}
@@ -248,7 +222,6 @@ export default function Resume() {
                 ))}
               </ul>
               <ul>
-                
                 <li>Azure Architecture - AZ-305</li>
                 <li>AWS Solution Architecture (SAA-C08)</li>
                 <li>Certified DataBricks Data Engineer Professional(Expert Level)</li>
@@ -261,6 +234,7 @@ export default function Resume() {
                 <li>RPA Architecture Certified</li>
               </ul>
             </div>
+
             {/* ACADEMIC KNOWLEDGE */}
             <h3 className="resume-title">
               <div className="icon-size">
@@ -275,8 +249,7 @@ export default function Resume() {
               <ul>
                 <li>Data Structures & C, C++, Java, VB, C#, and Python</li>
                 <li>
-                  Machine Learning, Deep Learning, Artificial Intelligence &
-                  Data Science
+                  Machine Learning, Deep Learning, Artificial Intelligence & Data Science
                 </li>
                 <li>Numerical Methods (NM) & Discrete Mathematics (DM)</li>
                 <li>
