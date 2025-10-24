@@ -21,6 +21,7 @@
     "owl.carousel": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
     "react-owl-carousel": "^2.3.3",
     "react-photo-album": "^3.1.0",
     "swiper": "^11.0.5",
@@ -35,7 +36,7 @@
     "eslint-config-next": "14.1.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
-  }, 
+  },
   "browser": {
     "fs": false,
     "os": false,
