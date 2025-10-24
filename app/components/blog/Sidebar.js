@@ -14,14 +14,14 @@ const categories = [
     match: post => post.tags && post.tags.some(tag => tag.toLowerCase().includes('big data')),
   },
   {
-    name: 'DevOps',
-    slug: 'devops',
-    match: post => post.tags && post.tags.some(tag => tag.toLowerCase().includes('devops')),
-  },
-  {
     name: 'Cloud',
     slug: 'cloud',
     match: post => post.tags && post.tags.some(tag => tag.toLowerCase().includes('cloud')),
+  },
+  {
+    name: 'DevOps',
+    slug: 'devops',
+    match: post => post.tags && post.tags.some(tag => tag.toLowerCase().includes('devops')),
   },
 ];
 
@@ -73,4 +73,4 @@ export default function Sidebar({ blogsData, activeCategory, activeSlug }) {
       </div>
     </aside>
   );
-} 
+}
