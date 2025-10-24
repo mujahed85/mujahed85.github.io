@@ -1,5 +1,3 @@
-Absolutely! I can convert your entire lab into **Markdown format** (`.md`) so it’s easy to use in VS Code, GitHub, or any Markdown viewer. Here’s a ready-to-use version:
-
 ````markdown
 # JavaScript (ES6+) Lab
 
@@ -260,9 +258,6 @@ loadData();
 
 **Challenge:** Create a function that simulates fetching user data after 2 seconds using async/await.
 
----
-
-*This lab is designed to be hands-on and incremental. Students can progressively build their JavaScript skills while seeing immediate results in the console and DOM.*
 
 ```
 
