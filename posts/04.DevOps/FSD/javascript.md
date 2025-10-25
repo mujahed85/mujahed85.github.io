@@ -1,4 +1,3 @@
-````markdown
 # JavaScript (ES6+) Lab
 
 ## Lab Objectives
