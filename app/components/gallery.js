@@ -16,110 +16,117 @@ import "swiper/css/pagination";
 
 export default function Gallery() {
   const [index, setIndex] = useState(-1);
+
   const photos = [
     {
-    src: "/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31.jpeg",  // Path to the first image you uploaded
-    width: 800,
-    height: 600,
-    alt: "Group Photo 1",
-  },
-  {
-    src: "/assets/img/gallary/Incedo-Gurgoan-2025-08-12-15.51.jpeg",  // Path to the second image you uploaded
-    width: 800,
-    height: 600,
-    alt: "Incedo Gurgaon Online Training",
-  },
-  {
-    src: "/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31 (1).jpeg",  // Path to the third image you uploaded
-    width: 800,
-    height: 600,
-    alt: "Group Photo 2",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/FinishTraining.jpg",  // Path to the Finish Training image
-    width: 800,
-    height: 600,
-    alt: "Finish Training - Mujahed Hussaini",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/HappyFaces.jpg",  // Path to the Happy Faces image
-    width: 800,
-    height: 600,
-    alt: "Happy Faces - Mujahed Hussaini",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20191108_173632.jpg",  // Path to the Event Image
-    width: 800,
-    height: 600,
-    alt: "Event Image - Mujahed Hussaini",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200228_160535.jpg",  // Path to the Classroom Session image
-    width: 800,
-    height: 600,
-    alt: "Classroom Session",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200309_164930.jpg",  // Path to the Group Photo
-    width: 800,
-    height: 600,
-    alt: "Group Photo - Mujahed Hussaini",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200309_165021.jpg",  // Path to the Outdoor Event image
-    width: 800,
-    height: 600,
-    alt: "Outdoor Event - Mujahed Hussaini",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200311_152840.jpg",  // Path to the Candid Shot image
-    width: 800,
-    height: 600,
-    alt: "Candid Shot - Mujahed Hussaini",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/Job-n-Shell.jpeg",  // Path to the Job and Shell Scripting Session image
-    width: 800,
-    height: 600,
-    alt: "Job and Shell Scripting Session",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/Students2.jpeg",  // Path to the Group of Students image
-    width: 800,
-    height: 600,
-    alt: "Group of Students",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/StudentsGotSelected.jpg",  // Path to the Students Got Selected image
-    width: 800,
-    height: 600,
-    alt: "Students Got Selected",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/SunbeamPracticalGiven.jpg",  // Path to the Sunbeam Practical Session image
-    width: 800,
-    height: 600,
-    alt: "Sunbeam Practical Session",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/SunbeamTraining.jpg",  // Path to the Sunbeam Training image
-    width: 800,
-    height: 600,
-    alt: "Sunbeam Training",
-  },
-  {
-    src: "/assets/img/Mujahed/SelectedImages/Gallery/TeamStudentMe.jpg",  // Path to the Team and Student with Me image
-    width: 800,
-    height: 600,
-    alt: "Team and Student with Me",
-  },
-  {
-    src: "/assets/img/gallary/TataPower2024-08-06-8.21AM.jpeg",  // Path to the Tata Power image
-    width: 800,
-    height: 600,
-    alt: "WhatsApp Shared Image - Aug 6, 2024",
-  },
-];
+      src: "/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31.jpeg",
+      width: 800,
+      height: 600,
+      alt: "Group Photo 1",
+    },
+    {
+      src: "/assets/img/gallary/Incedo-Gurgoan-2025-08-12-15.51.jpeg",
+      width: 800,
+      height: 600,
+      alt: "Incedo Gurgaon Online Training",
+    },
+    {
+      src: "/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31 (1).jpeg",
+      width: 800,
+      height: 600,
+      alt: "Group Photo 2",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/FinishTraining.jpg",
+      width: 800,
+      height: 600,
+      alt: "Finish Training - Mujahed Hussaini",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/HappyFaces.jpg",
+      width: 800,
+      height: 600,
+      alt: "Happy Faces - Mujahed Hussaini",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20191108_173632.jpg",
+      width: 800,
+      height: 600,
+      alt: "Event Image - Mujahed Hussaini",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200228_160535.jpg",
+      width: 800,
+      height: 600,
+      alt: "Classroom Session",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200309_164930.jpg",
+      width: 800,
+      height: 600,
+      alt: "Group Photo - Mujahed Hussaini",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200309_165021.jpg",
+      width: 800,
+      height: 600,
+      alt: "Outdoor Event - Mujahed Hussaini",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/IMG_20200311_152840.jpg",
+      width: 800,
+      height: 600,
+      alt: "Candid Shot - Mujahed Hussaini",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/Job-n-Shell.jpeg",
+      width: 800,
+      height: 600,
+      alt: "Job and Shell Scripting Session",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/Students2.jpeg",
+      width: 800,
+      height: 600,
+      alt: "Group of Students",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/StudentsGotSelected.jpg",
+      width: 800,
+      height: 600,
+      alt: "Students Got Selected",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/SunbeamPracticalGiven.jpg",
+      width: 800,
+      height: 600,
+      alt: "Sunbeam Practical Session",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/SunbeamTraining.jpg",
+      width: 800,
+      height: 600,
+      alt: "Sunbeam Training",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/TeamStudentMe.jpg",
+      width: 800,
+      height: 600,
+      alt: "Team and Student with Me",
+    },
+    {
+      src: "/assets/img/gallary/TataPower2024-08-06-8.21AM.jpeg",
+      width: 800,
+      height: 600,
+      alt: "WhatsApp Shared Image - Aug 6, 2024",
+    },
+    {
+      src: "/assets/img/Mujahed/SelectedImages/Gallery/Hindalco Aditya birla Nirmaan Project Application Modernization.jpeg",
+      width: 800,
+      height: 600,
+      alt: "Hindalco Aditya Birla Nirmaan Project - Application Modernization",
+    },
+  ];
 
   const slides = photos.map((photo) => ({
     src: photo.src,
@@ -164,7 +171,7 @@ export default function Gallery() {
                     <div
                       style={{
                         width: "100%",
-                        height: "500px", // ✅ set uniform height
+                        height: "500px",
                         overflow: "hidden",
                       }}
                     >
@@ -174,7 +181,7 @@ export default function Gallery() {
                         style={{
                           width: "100%",
                           height: "100%",
-                          objectFit: "cover", // ✅ ensures same visual size
+                          objectFit: "cover",
                           display: "block",
                         }}
                       />
@@ -187,7 +194,6 @@ export default function Gallery() {
         </div>
       </section>
 
-      {/* Lightbox */}
       <Lightbox
         slides={slides}
         open={index >= 0}
