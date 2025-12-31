@@ -126,6 +126,12 @@ export default function Gallery() {
       height: 600,
       alt: "Hindalco Aditya Birla Nirmaan Project - Application Modernization",
     },
+    {
+      src: "/assets/img/gallary/adityaBirla.jpeg",
+      width: 800,
+      height: 600,
+      alt: "adityaBirla",
+    },
   ];
 
   const slides = photos.map((photo) => ({
