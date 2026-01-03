@@ -19,10 +19,21 @@ export async function generateStaticParams() {
   return devopsSlugs.map((slug) => ({ slug }));
 }
 
+function findMarkdownPath(category, slug) {
+  const candidates = [
+    path.join(process.cwd(), "posts", `${slug}.md`),
+    path.join(process.cwd(), "posts", category, `${slug}.md`),
+  ];
+  for (const p of candidates) {
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+}
+
 export async function generateMetadata({ params }) {
   const { slug } = params;
   if (!devopsSlugs.includes(slug)) return { title: "Post Not Found" };
-  const mdPath = path.join(process.cwd(), "posts", `${slug}.md`);
+  const mdPath = findMarkdownPath("devops", slug);
   try {
     const file = fs.readFileSync(mdPath, "utf8");
     const firstLine = file.split("\n")[0];
@@ -37,7 +48,7 @@ export async function generateMetadata({ params }) {
 }
 
 async function getMarkdownContent(slug) {
-  const mdPath = path.join(process.cwd(), "posts", `${slug}.md`);
+  const mdPath = findMarkdownPath("devops", slug);
   try {
     const file = fs.readFileSync(mdPath, "utf8");
     return file;
@@ -53,7 +64,9 @@ export default async function BlogPostPage({ params }) {
   if (!markdownContent) {
     notFound();
   }
-  const githubEditUrl = `https://github.com/mujahed85/mujahed85.github.io//edit/master/posts/${slug}.md`;
+  const mdPathForEdit = findMarkdownPath("devops", slug);
+  const relPath = mdPathForEdit ? path.relative(process.cwd(), mdPathForEdit) : `posts/${slug}.md`;
+  const githubEditUrl = `https://github.com/mujahed85/mujahed85.github.io/edit/master/${relPath}`;
   return (
     <>
       <section className="container spacer">
