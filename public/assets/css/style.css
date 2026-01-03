@@ -1188,10 +1188,47 @@ section {
   top: 10px;
 }
 
+/* Layout improvements: make testimonial items a vertical flex container so the quote stays at the bottom */
+.testimonials .testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 260px; /* ensures consistent heights */
+  text-align: center;
+}
+
+.testimonials .testimonial-item .testimonial-img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.testimonials .testimonial-item h3 {
+  margin: 12px 0 4px 0;
+  font-size: 18px;
+}
+
+.testimonials .testimonial-item h4 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.testimonials .testimonial-item .company-logo img {
+  width: 70px;
+  height: auto;
+  margin-top: 8px;
+}
+
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 auto 15px auto;
+  margin: 12px auto 0 auto;
+  /* push quote to bottom of card */
+  margin-top: auto;
 }
+
 
 .testimonials .swiper-pagination {
   margin-top: 20px;

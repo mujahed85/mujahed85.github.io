@@ -57,7 +57,7 @@ const testimonials = [
 
 export default function Testimonial() {
   return (
-    <section id="testimonial" className="services">
+    <section id="testimonial" className="testimonials services">
       <div className="container">
         <div className="section-header aos">
           <div className="section-sub-head feature-head text-center">
@@ -83,26 +83,20 @@ export default function Testimonial() {
           >
             {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
-                <div className="card-view">
-                  <div className="row align-items-center">
-                    <div style={{ width: 100, height: 100 }}>
-                      <img src={testimonial.image} alt={testimonial.name} />
-                    </div>
-                    <div className="col-6">
-                      <h4 style={{ paddingTop: 10 }}>{testimonial.name}</h4>
-                      <p>{testimonial.role}</p>
-                    </div>
-                    <div style={{ width: 70, height: 70 }}>
-                      <img src={testimonial.companyLogo} alt="Company Logo" />
-                    </div>
+                <div className="testimonial-item card-view">
+                  <div className="testimonial-img">
+                    <img src={testimonial.image} alt={testimonial.name} />
                   </div>
-                  <div className="row">
-                    <p>
-                      <i className="fas fa-quote-left pe-2" />
-                      {testimonial.quote}
-                      <i className="fas fa-quote-right pe-2" />
-                    </p>
+                  <h3>{testimonial.name}</h3>
+                  <h4>{testimonial.role}</h4>
+                  <div className="company-logo">
+                    <img src={testimonial.companyLogo} alt="Company Logo" />
                   </div>
+                  <p className="testimonial-quote">
+                    <i className="fas fa-quote-left pe-2" />
+                    {testimonial.quote}
+                    <i className="fas fa-quote-right ps-2" />
+                  </p>
                 </div>
               </SwiperSlide>
             ))}
