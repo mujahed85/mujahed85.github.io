@@ -84,7 +84,14 @@ export default function Resume() {
                   ["GreatLearning.png", "edureka.png", "Reventure.png", "Cloudadda.png"],
                   ["pepkor.png", "nuvepro.png", "cyforislogo-.png", "sonicbolt.png"],
                   ["VTEST-LOGO-PNG.png", "Nobleprog_0.png", "rexor-logo.jpeg", "healthcare-pharmaceuticals-1646306545[1].png"],
-                  ["Oxy.png", "aditya-birla.png"], // ✅ centered final row
+                  ["Oxy.png", "aditya-birla.png", "Techm.png", "shell.png"],
+
+                  // 🔽 Newly added missing images
+                  ["Capgemini.png","Cognizant.png", "DOEACC_Logo.jpg","IBM.png"],
+                  ["ITC.png", "Incedo.png","Nokia-Logo.wine.png","vodafone.jpg"],
+                  ["TCS.png", "Telstra_logo.webp", "Vodafone_Logo.png","nse.png"],
+                  ["discovery-channel.png", "disney.png", "goldman.png", "johnDeere.avif"],
+                  ["tataPower.jpg"]
                 ].map((row, idx) => (
                   <li
                     key={idx}
