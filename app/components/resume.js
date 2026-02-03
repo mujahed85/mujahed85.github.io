@@ -81,17 +81,15 @@ export default function Resume() {
               <ul className="disc">
                 {[
                   ["ltiM.png", "ZenSar.jpg", "EdgeVerve_Infosys_Logo.jpg", "PDO.png"],
-                  ["GreatLearning.png", "edureka.png", "Reventure.png", "Cloudadda.png"],
+                  ["GreatLearning.png", "Reventure.png", "Cloudadda.png","shell.png"],
                   ["pepkor.png", "nuvepro.png", "cyforislogo-.png", "sonicbolt.png"],
                   ["VTEST-LOGO-PNG.png", "Nobleprog_0.png", "rexor-logo.jpeg", "healthcare-pharmaceuticals-1646306545[1].png"],
-                  ["Oxy.png", "aditya-birla.png", "Techm.png", "shell.png"],
+                  ["Oxy.png", "aditya-birla.png", "Techm.png","tataPower.jpg"],
 
                   // 🔽 Newly added missing images
-                  ["Capgemini.png","Cognizant.png", "DOEACC_Logo.jpg","IBM.png"],
+                  ["Capgemini.png","Cognizant.png","IBM.png","johnDeere.avif"],
                   ["ITC.png", "Incedo.png","Nokia-Logo.wine.png","vodafone.jpg"],
-                  ["TCS.png", "Telstra_logo.webp", "Vodafone_Logo.png","nse.png"],
-                  ["discovery-channel.png", "disney.png", "goldman.png", "johnDeere.avif"],
-                  ["tataPower.jpg"]
+                  ["Telstra_logo.webp", "Vodafone_Logo.png","nse.png","Fujitsu-Logo.svg.png"],
                 ].map((row, idx) => (
                   <li
                     key={idx}
@@ -127,6 +125,7 @@ export default function Resume() {
                   ["DurgaSoft.png", "sdbi.jpeg", "vpkbiet.webp", "KCT-Coimbatore-logo.jpeg"],
                   ["SVR-logo.jpeg", "bharati-vidyapeeth-deemed-university-pune.png", "sakalmedia.jpeg", "bhartiy vidyapith pune.jpeg"],
                   ["cmr.jpeg", "KJCOE.jpeg", "BATU_logo.png", "ria-logo1.png"],
+                  ["DOEACC_Logo.jpg"],
                 ].map((row, idx) => (
                   <li key={idx}>
                     {row.map((file, i) => (
