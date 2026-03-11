@@ -90,6 +90,7 @@ export default function Resume() {
                   ["Capgemini.png","Cognizant.png","IBM.png","johnDeere.avif"],
                   ["ITC.png", "Incedo.png","Nokia-Logo.wine.png","vodafone.jpg"],
                   ["Telstra_logo.webp", "Vodafone_Logo.png","nse.png","Fujitsu-Logo.svg.png"],
+                  ["EXL.png"],
                 ].map((row, idx) => (
                   <li
                     key={idx}

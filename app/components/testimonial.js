@@ -53,6 +53,14 @@ const testimonials = [
     quote:
       "Completing the DevOps Certification program boosted my career prospects significantly. The staff is very supportive, and the real-time projects were very helpful.",
   },
+  {
+    name: "Emmanuel Kazi",
+    role: "Senior Database Administrator",
+    image: "assets/img/user/emmanuel-kazi-nobg.png",
+    companyLogo: "assets/img/client-logo/bank-of-tanzania-white.png",
+    quote:
+      "The training program provided exceptional insights into database management and cloud infrastructure. Highly recommended for professionals looking to upgrade their skills.",
+  },
 ];
 
 export default function Testimonial() {
