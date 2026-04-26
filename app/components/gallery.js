@@ -31,12 +31,6 @@ export default function Gallery() {
       alt: "Incedo Gurgaon Online Training",
     },
     {
-      src: "/assets/img/gallary/WhatsApp Image 2025-10-15 at 12.28.31 (1).jpeg",
-      width: 800,
-      height: 600,
-      alt: "Group Photo 2",
-    },
-    {
       src: "/assets/img/Mujahed/SelectedImages/Gallery/FinishTraining.jpg",
       width: 800,
       height: 600,
@@ -132,6 +126,102 @@ export default function Gallery() {
       height: 600,
       alt: "adityaBirla",
     },
+    {
+      src: "/assets/img/gallary/meeting_online_1.png",
+      width: 800,
+      height: 600,
+      alt: "Virtual Meeting with Participants",
+    },
+    {
+      src: "/assets/img/gallary/training_group_1.jpg",
+      width: 800,
+      height: 600,
+      alt: "Training Session Group",
+    },
+    {
+      src: "/assets/img/gallary/team_discussion_small.jpg",
+      width: 800,
+      height: 600,
+      alt: "Team Discussion",
+    },
+    {
+      src: "/assets/img/gallary/meeting_online_2.png",
+      width: 800,
+      height: 600,
+      alt: "Virtual Meeting Participants",
+    },
+    {
+      src: "/assets/img/gallary/presentation_podium.jpg",
+      width: 800,
+      height: 600,
+      alt: "Presenting at Podium",
+    },
+    {
+      src: "/assets/img/gallary/team_lobby_1.jpg",
+      width: 800,
+      height: 600,
+      alt: "Team Photo in Lobby",
+    },
+    {
+      src: "/assets/img/gallary/team_iamdata.jpg",
+      width: 800,
+      height: 600,
+      alt: "Team Photo with #IamData",
+    },
+    {
+      src: "/assets/img/gallary/team_working.jpg",
+      width: 800,
+      height: 600,
+      alt: "Team Working on Laptops",
+    },
+    {
+      src: "/assets/img/gallary/oman_trip_1.jpg",
+      width: 800,
+      height: 600,
+      alt: "Oman Business Trip",
+    },
+    {
+      src: "/assets/img/gallary/oman_trip_2.jpg",
+      width: 800,
+      height: 600,
+      alt: "Oman Training Session",
+    },
+    {
+      src: "/assets/img/gallary/pearls_award.jpg",
+      width: 800,
+      height: 600,
+      alt: "Award Ceremony at Pearls Academy",
+    },
+    {
+      src: "/assets/img/gallary/office_selfie_1.jpg",
+      width: 800,
+      height: 600,
+      alt: "Office Selfie",
+    },
+    {
+      src: "/assets/img/gallary/office_selfie_2.jpg",
+      width: 800,
+      height: 600,
+      alt: "Office Team Selfie",
+    },
+    {
+      src: "/assets/img/gallary/track_intelligence_team.jpg",
+      width: 800,
+      height: 600,
+      alt: "Track Intelligence Team",
+    },
+    {
+      src: "/assets/img/gallary/outdoor_group_campus.jpg",
+      width: 800,
+      height: 600,
+      alt: "Outdoor Group Photo",
+    },
+    {
+      src: "/assets/img/gallary/selfie_with_mentor.jpg",
+      width: 800,
+      height: 600,
+      alt: "Selfie with Mentor",
+    },
   ];
 
   const slides = photos.map((photo) => ({
@@ -158,6 +248,8 @@ export default function Gallery() {
               pagination={{ clickable: true }}
               autoplay={{ delay: 3000, disableOnInteraction: false }}
               loop={true}
+              speed={300}
+              autoHeight={true}
               className="mySwiper"
             >
               {photos.map((photo, i) => (
@@ -176,19 +268,42 @@ export default function Gallery() {
                   >
                     <div
                       style={{
+                        position: "relative",
                         width: "100%",
                         height: "500px",
                         overflow: "hidden",
+                        backgroundColor: "#1a1a1a",
+                        borderRadius: "12px",
+                        boxShadow: "0 10px 30px rgba(0,0,0,0.5)",
                       }}
                     >
+                      {/* Blurred Background to fill "black space" */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: 0,
+                          left: 0,
+                          width: "100%",
+                          height: "100%",
+                          backgroundImage: `url(${photo.src})`,
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          filter: "blur(20px) brightness(0.5)",
+                          transform: "scale(1.1)",
+                          zIndex: 1,
+                        }}
+                      />
+                      {/* Sharp foreground image */}
                       <img
                         src={photo.src}
                         alt={photo.alt}
                         style={{
+                          position: "relative",
                           width: "100%",
                           height: "100%",
-                          objectFit: "cover",
+                          objectFit: "contain",
                           display: "block",
+                          zIndex: 2,
                         }}
                       />
                     </div>
