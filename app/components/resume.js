@@ -80,17 +80,15 @@ export default function Resume() {
             <div className="resume-item">
               <ul className="disc">
                 {[
-                  ["ltiM.png", "ZenSar.jpg", "EdgeVerve_Infosys_Logo.jpg", "PDO.png"],
-                  ["GreatLearning.png", "Reventure.png", "Cloudadda.png","shell.png"],
-                  ["pepkor.png", "nuvepro.png", "cyforislogo-.png", "sonicbolt.png"],
-                  ["VTEST-LOGO-PNG.png", "Nobleprog_0.png", "rexor-logo.jpeg", "healthcare-pharmaceuticals-1646306545[1].png"],
-                  ["Oxy.png", "aditya-birla.png", "Techm.png","tataPower.jpg"],
-
-                  // 🔽 Newly added missing images
-                  ["Capgemini.png","Cognizant.png","IBM.png","johnDeere.avif"],
-                  ["ITC.png", "Incedo.png","Nokia-Logo.wine.png","vodafone.jpg"],
-                  ["Telstra_logo.webp", "Vodafone_Logo.png","nse.png","Fujitsu-Logo.svg.png"],
-                  ["EXL.png", "bank-of-tanzania-white.png"],
+                    ["IBM.png", "Capgemini.png", "Cognizant.png", "Nokia-Logo.wine.png"],
+                    ["vodafone.jpg", "Vodafone_Logo.png", "Telstra_logo.webp", "shell.png"],
+                    ["Techm.png", "aditya-birla.png", "tataPower.jpg", "ITC.png"],
+                    ["ltiM.png", "ZenSar.jpg", "EdgeVerve_Infosys_Logo.jpg", "Fujitsu-Logo.svg.png"],
+                    ["nse.png", "ujjivan.png", "bank-of-tanzania-white.png", "PDO.png"],
+                    ["EXL.png", "johnDeere.avif", "Oxy.png", "Incedo.png"],
+                    ["GreatLearning.png", "Cloudadda.png", "Nobleprog_0.png", "nuvepro.png"],
+                    ["Reventure.png", "cyforislogo-.png", "sonicbolt.png", "rexor-logo.jpeg"],
+                    ["pepkor.png", "VTEST-LOGO-PNG.png", "healthcare-pharmaceuticals-1646306545[1].png"],
                 ].map((row, idx) => (
                   <li
                     key={idx}
